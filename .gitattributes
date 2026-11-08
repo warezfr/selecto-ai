@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.sln text eol=crlf
+*.png binary
+*.ico binary
+*.bmp binary
+*.pfx binary
+*.msix* binary
+*.zip binary
+installer/*.txt text eol=crlf
