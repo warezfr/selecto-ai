@@ -11,6 +11,10 @@
 </p>
 
 <p align="center">
+  <b>English</b> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a>
+</p>
+
+<p align="center">
   <a href="https://selecto.span.observer/en/">Website</a> ·
   <a href="https://github.com/warezfr/selecto-ai/releases/latest">Download</a> ·
   <a href="#usage">Usage</a> ·
@@ -169,15 +173,3 @@ Selecto AI is designed and maintained by **EL MAHDI ZINEDDINE** ([@warezfr](http
 
 MIT, see [LICENSE](LICENSE). Copyright (c) 2026 EL MAHDI ZINEDDINE.
 
-## Résumé en français
-
-Selecto AI est une application Windows gratuite et libre (licence MIT) : quand on sélectionne du texte dans
-n'importe quelle application, une petite barre apparaît au-dessus du curseur. Elle permet de traduire,
-corriger, résumer avec une IA locale ou en ligne, rechercher, convertir ou lancer des actions de code.
-L'interface existe en français, anglais, espagnol et arabe (de droite à gauche). Le raccourci global par
-défaut est Ctrl+Maj+Espace. On l'installe depuis les Releases GitHub (installateur x64 ou ARM64, ou ZIP
-portable) ou depuis le Microsoft Store. Les installateurs GitHub ne sont pas signés : SmartScreen peut
-afficher un avertissement, et le SHA-256 est publié dans chaque release. Les extensions sont de simples
-fichiers `.js` à placer dans `%APPDATA%\SelectoAI\Extensions`. Le texte sélectionné ne quitte le PC que
-lorsqu'on déclenche une action en ligne. Pour compiler : SDK .NET 8, `dotnet build SelectBar.sln`, puis
-`dotnet test`. Site : https://selecto.span.observer
