@@ -1,21 +1,37 @@
-# Selecto AI
+<h1 align="center">Selecto AI</h1>
 
-A floating action bar for Windows: select text in any app and translate, fix, summarize, search or convert it with a local or online AI.
+<p align="center">
+  A floating action bar for Windows: select text in any app, then translate, fix, summarize, search or convert it with a local or online AI.
+</p>
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Latest release](https://img.shields.io/github/v/release/warezfr/selecto-ai)](https://github.com/warezfr/selecto-ai/releases/latest)
-[![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-get%20it-0078D4?logo=microsoft)](https://apps.microsoft.com/detail/9P6W748ZHCWR)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License: MIT"></a>
+  <a href="https://github.com/warezfr/selecto-ai/releases/latest"><img src="https://img.shields.io/github/v/release/warezfr/selecto-ai" alt="Latest release"></a>
+  <a href="https://apps.microsoft.com/detail/9P6W748ZHCWR"><img src="https://img.shields.io/badge/Microsoft%20Store-get%20it-0078D4?logo=microsoft" alt="Microsoft Store"></a>
+</p>
 
-Website: <https://selecto.span.observer> (English: <https://selecto.span.observer/en/>)
+<p align="center">
+  <a href="https://selecto.span.observer/en/">Website</a> ·
+  <a href="https://github.com/warezfr/selecto-ai/releases/latest">Download</a> ·
+  <a href="#usage">Usage</a> ·
+  <a href="#configuration">Configuration</a> ·
+  <a href="#extensions">Extensions</a> ·
+  <a href="#build-from-source">Build</a> ·
+  <a href="#privacy">Privacy</a>
+</p>
 
-![The Selecto AI bar above a text selection](docs/images/bar.png)
+<p align="center">
+  <img src="docs/images/bar.png" alt="The Selecto AI bar above a text selection" width="720">
+</p>
 
-<p>
+Selecto AI is for people who spend their day writing, reading or translating on Windows and want the usual text actions next to the selection instead of in another window. It works in any application, needs no account, and can run its AI on your own PC.
+
+<p align="center">
   <img src="docs/images/fr-flyout-400.png" alt="Notification area flyout" width="320">
   <img src="docs/images/fr-welcome-3-400.png" alt="Welcome window" width="420">
 </p>
 
-(The interface is shown in French. Selecto AI is available in French, English, Spanish and Arabic, with right-to-left layout for Arabic.)
+<p align="center"><sub>The interface is shown in French. Selecto AI is available in French, English, Spanish and Arabic, with right-to-left layout for Arabic.</sub></p>
 
 ## Features
 
@@ -45,6 +61,33 @@ Get-FileHash .\SelectoAI-Setup-x64-4.0.0.exe -Algorithm SHA256
 ```
 
 The Microsoft Store version is signed by the Store and does not show this warning.
+
+## Usage
+
+1. Start Selecto AI. Its icon appears in the notification area, and a welcome window walks you through the first settings.
+2. Select text in any application. The bar appears above the selection without taking focus.
+3. Click an action. Results that are not pasted back are shown in a small popup, from which you can copy them.
+
+After a keyboard selection, press `Ctrl+Shift+Space` to show the bar. The notification area icon pauses the bar, opens the settings and the extensions folder, or quits the app.
+
+## Configuration
+
+Open the settings from the notification area icon. They have four pages:
+
+| Page | What you set |
+| --- | --- |
+| General | Start with Windows, global shortcut, interface language (automatic, French, English, Spanish, Arabic), bar style (automatic, light, dark), size (80 to 140 %) and position (above or below the text), notification area icon, excluded apps and sites. |
+| Actions | Which actions appear and in what order, search engine (or a custom search URL), spell check language, extensions. |
+| AI | AI provider and model, API keys, translation target language, dictionary language, online actions on or off. |
+| About | Version, updates (Site edition), links, problem report. |
+
+**AI provider.** By default no AI is configured. Choose one of:
+
+- **Local AI**: Selecto AI installs the Ollama engine and the model you pick from the settings, without a terminal. The selected text does not leave your PC.
+- **Online service**: OpenAI, Anthropic, Google Gemini, Mistral, Groq, DeepSeek, xAI, Together AI or OpenRouter, with your own API key. Each key is stored encrypted with Windows DPAPI, never in clear text.
+- **Custom**: any OpenAI-compatible endpoint (base URL, model, key).
+
+Settings are saved in `%APPDATA%\SelectoAI\settings.json`.
 
 ## Extensions
 
@@ -117,6 +160,10 @@ Online actions (translate, dictionary) can be turned off in Settings > AI. Setti
 ## Contributing
 
 Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first. For security problems, see [SECURITY.md](SECURITY.md).
+
+## Author
+
+Selecto AI is designed and maintained by **EL MAHDI ZINEDDINE** ([@warezfr](https://github.com/warezfr)). Website: <https://selecto.span.observer>.
 
 ## License
 
