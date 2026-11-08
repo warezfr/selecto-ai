@@ -1,0 +1,30 @@
+{
+  "slug": "numeroter",
+  "family": "lignes",
+  "files": [
+    "numeroter.js"
+  ],
+  "icon": "1.",
+  "name": {
+    "fr": "Numéroter",
+    "en": "Number lines",
+    "es": "Numerar líneas",
+    "ar": "ترقيم الأسطر"
+  },
+  "tagline": {
+    "fr": "Numérote les lignes non vides.",
+    "en": "Number the non-empty lines.",
+    "es": "Numera las líneas no vacías.",
+    "ar": "رقّم الأسطر غير الفارغة."
+  },
+  "description": {
+    "fr": "Ajoute un numéro devant chaque ligne non vide, à partir de 1. Les lignes vides restent telles quelles, sans numéro. Pratique pour transformer une liste d'idées en étapes à suivre ou pour numéroter les questions d'un quiz.",
+    "en": "Adds a number in front of each non-empty line, starting at 1. Empty lines stay as they are, without a number. Handy for turning a list of ideas into steps to follow or numbering the questions of a quiz.",
+    "es": "Añade un número delante de cada línea no vacía, empezando por 1. Las líneas vacías se mantienen sin número. Útil para convertir una lista de ideas en pasos a seguir o para numerar las preguntas de un cuestionario.",
+    "ar": "يضيف رقمًا أمام كل سطر غير فارغ، ابتداءً من 1. تبقى الأسطر الفارغة كما هي دون رقم. مفيد لتحويل قائمة أفكار إلى خطوات متسلسلة أو ترقيم أسئلة اختبار."
+  },
+  "example": {
+    "before": "Préparer\n\nAppeler\nEnvoyer",
+    "after": "1. Préparer\n\n2. Appeler\n3. Envoyer"
+  }
+}

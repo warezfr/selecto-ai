@@ -1,0 +1,20 @@
+{
+  "slug": "video",
+  "family": "ailleurs",
+  "files": ["video.js"],
+  "icon": "▶",
+  "name": { "fr": "Vidéo", "en": "Video search", "es": "Buscar vídeo", "ar": "بحث عن فيديو" },
+  "tagline": {
+    "fr": "Cherchez une vidéo sur YouTube.",
+    "en": "Search YouTube for the selection.",
+    "es": "Busca la selección en YouTube.",
+    "ar": "ابحث عن التحديد في YouTube."
+  },
+  "description": {
+    "fr": "Ouvre les résultats YouTube pour le texte sélectionné : un titre de morceau, un sujet de tutoriel ou le nom d'un appareil. Utile pour retrouver rapidement une démonstration dont vous avez lu la description, sans passer par la recherche du site.",
+    "en": "Opens YouTube search results for the selected text, such as a song title, a tutorial topic or the name of a device. Useful for finding a demonstration you read about without going through the site search box.",
+    "es": "Abre los resultados de YouTube para el texto seleccionado, como el título de una canción, un tema de tutorial o el nombre de un aparato. Es útil para encontrar rápidamente una demostración de la que has leído sin usar el buscador de la web.",
+    "ar": "تفتح نتائج بحث YouTube للنص المحدد، مثل عنوان أغنية أو موضوع شرح أو اسم جهاز. مفيدة للعثور سريعاً على عرض تطبيقي قرأت عنه دون استخدام مربع البحث في الموقع."
+  },
+  "example": { "before": "tuto café", "after": "Opens https://www.youtube.com/results?search_query=tuto%20caf%C3%A9" }
+}

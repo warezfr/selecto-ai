@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Version>4.0.0</Version>
+    <FileVersion>4.0.0.0</FileVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <Description>Selecto AI : barre d'actions sur le texte sélectionné</Description>
+    <Copyright>© 2026 EL MAHDI ZINEDDINE</Copyright>
+    <RootNamespace>SelectBar</RootNamespace>
+    <AssemblyName>SelectoAI</AssemblyName>
+    <Company>EL MAHDI ZINEDDINE</Company>
+    <Authors>EL MAHDI ZINEDDINE</Authors>
+    <StartupObject>SelectBar.Program</StartupObject>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\SelectoAI.ico</ApplicationIcon>
+  </PropertyGroup>
+  <!-- Deux emballages depuis la même base de code, sans différence de fonctions : dotnet build SelectBar -c Release -p:Edition=Site (défaut : installateur Inno Setup, ZIP portable, mise à jour par latest.json) ou Store (MSIX du Microsoft Store, mises à jour par le Store). -->
+  <PropertyGroup>
+    <Edition Condition="'$(Edition)' == ''">Site</Edition>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\$(Configuration)\$(Edition)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\$(Edition)\</IntermediateOutputPath>
+    <InformationalVersion>$(Version)-$(Edition)</InformationalVersion>
+    <Product>Selecto AI</Product>
+    <AssemblyTitle>Selecto AI</AssemblyTitle>
+  </PropertyGroup>
+  <!-- Édition Store : seule à cibler un Windows 10 précis (projection WinRT de Windows.ApplicationModel : tâche de démarrage MSIX) ; Site garde net8.0-windows. -->
+  <PropertyGroup Condition="'$(Edition)' == 'Store'">
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <DefineConstants>$(DefineConstants);EDITION_STORE</DefineConstants>
+  </PropertyGroup>
+  <Target Name="CheckEdition" BeforeTargets="BeforeBuild;BeforeResolveReferences" Condition="'$(Edition)' != 'Site' And '$(Edition)' != 'Store'">
+    <Error Text="La propriété Edition doit valoir Site ou Store (reçu : $(Edition))." />
+  </Target>
+  <!-- Tâche de démarrage du MSIX (WinRT) : compilée dans l'édition Store seulement. -->
+  <ItemGroup Condition="'$(Edition)' != 'Store'">
+    <Compile Remove="Edition\Store\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Jint" Version="4.1.0" />
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+  <!-- Icônes embarquées (WPF Resource) dans les deux éditions : exe, zone de notification, fenêtres. -->
+  <ItemGroup>
+    <Resource Include="Assets\*.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BuiltInExtensions\*.js" CopyToOutputDirectory="PreserveNewest" LinkBase="BuiltInExtensions" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Selecto AI Setup : installateur WPF (Fluent) autonome. Un seul exécutable : installation, désinstallation (option uninstall), silencieux (/S).  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>SelectBar.Setup</RootNamespace>
+    <AssemblyName>SelectoAI-Setup</AssemblyName>
+    <StartupObject>SelectBar.Setup.Program</StartupObject>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\SelectBar\Assets\SelectoAI.ico</ApplicationIcon>
+    <Version>4.0.0</Version>
+    <FileVersion>4.0.0.0</FileVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <InformationalVersion>$(Version)</InformationalVersion>
+    <Description>Selecto AI : installateur et désinstallateur</Description>
+    <Copyright>© 2026 EL MAHDI ZINEDDINE</Copyright>
+    <Company>EL MAHDI ZINEDDINE</Company>
+    <Authors>EL MAHDI ZINEDDINE</Authors>
+    <Product>Selecto AI Setup</Product>
+    <AssemblyTitle>Selecto AI Setup</AssemblyTitle>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <!-- Paramètres passés par scripts\build-setup.ps1 : -p:Arch=x64|arm64 -p:Version=... (la charge utile est ajoutee apres la publication)  -->
+  <PropertyGroup>
+    <Arch Condition="'$(Arch)' == ''">x64</Arch>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\$(Configuration)\$(Arch)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\$(Arch)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <!-- Publication en fichier unique autonome (uniquement quand un RuntimeIdentifier est donné : dotnet publish -r win-x64|win-arm64).  -->
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' != ''">
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute"><_Parameter1>Arch</_Parameter1><_Parameter2>$(Arch)</_Parameter2></AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute"><_Parameter1>AppVersion</_Parameter1><_Parameter2>$(Version)</_Parameter2></AssemblyAttribute>
+  </ItemGroup>
+  <!-- Charge utile : PAS embarquee ici. build-setup.ps1 l'ajoute a la fin de l'exe publie (voir Logic/OverlayTrailer.cs) : Uninstall.exe = l'exe sans cette charge utile.  -->
+  <!-- Logique réutilisée telle quelle depuis l'application (fichiers purs, jamais modifiés ici).  -->
+  <ItemGroup>
+    <Compile Include="..\SelectBar\Settings\StartupEntries.cs" Link="Linked\StartupEntries.cs" />
+    <Compile Include="..\SelectBar\Settings\ThemePalette.cs" Link="Linked\ThemePalette.cs" />
+    <Compile Include="..\SelectBar\AppPaths.cs" Link="Linked\AppPaths.cs" />
+  </ItemGroup>
+</Project>

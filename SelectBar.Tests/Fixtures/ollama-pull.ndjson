@@ -1,0 +1,6 @@
+{"status":"pulling manifest"}
+{"status":"pulling 74701a8c35f6","digest":"sha256:74701a8c35f6","total":1321082688,"completed":0}
+{"status":"pulling 74701a8c35f6","digest":"sha256:74701a8c35f6","total":1321082688,"completed":660541344}
+{"status":"verifying sha256 digest"}
+{"status":"writing manifest"}
+{"status":"success"}

@@ -1,0 +1,20 @@
+{
+  "slug": "puces",
+  "family": "redaction",
+  "files": ["puces.js"],
+  "icon": "•",
+  "name": { "fr": "Puces", "en": "Bullets", "es": "Viñetas", "ar": "نقاط" },
+  "tagline": {
+    "fr": "Transformez vos lignes en liste à puces.",
+    "en": "Turn lines into a bulleted list.",
+    "es": "Convierte las líneas en una lista con viñetas.",
+    "ar": "حوّل الأسطر إلى قائمة نقطية."
+  },
+  "description": {
+    "fr": "Place un tiret et un espace devant chaque ligne non vide, pour préparer une liste de courses, un plan ou des notes de réunion. Relancée sur une liste déjà à puces, l'action retire les tirets et laisse les lignes vides telles quelles.",
+    "en": "Puts a dash and a space in front of each non-empty line, which suits a shopping list, an outline or meeting notes. Run it again on a list that is already bulleted to remove the dashes; empty lines are left as they are.",
+    "es": "Añade un guion y un espacio delante de cada línea no vacía, útil para una lista de la compra, un esquema o las notas de una reunión. Si la lista ya tiene viñetas, al aplicarla de nuevo se quitan los guiones y las líneas vacías se conservan.",
+    "ar": "تضع شرطة ومسافة أمام كل سطر غير فارغ، وهي مناسبة لقائمة تسوّق أو مخطط أو ملاحظات اجتماع. وإذا طبّقتها على قائمة نقطية أصلاً أزالت الشرطات، وتبقى الأسطر الفارغة كما هي."
+  },
+  "example": { "before": "eggs\nmilk", "after": "- eggs\n- milk" }
+}

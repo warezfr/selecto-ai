@@ -1,0 +1,30 @@
+{
+  "slug": "rassembler",
+  "family": "lignes",
+  "files": [
+    "rassembler.js"
+  ],
+  "icon": "a,b",
+  "name": {
+    "fr": "Rassembler",
+    "en": "Gather list",
+    "es": "Unir en lista",
+    "ar": "تجميع القائمة"
+  },
+  "tagline": {
+    "fr": "Réunit les lignes sur une seule ligne, séparées par des virgules.",
+    "en": "Join the lines into one comma-separated line.",
+    "es": "Une las líneas en una sola línea separada por comas.",
+    "ar": "اجمع الأسطر في سطر واحد مفصول بفواصل."
+  },
+  "description": {
+    "fr": "Transforme chaque ligne non vide en un élément, puis les réunit sur une seule ligne séparée par des virgules. C'est l'inverse d'Éclater : pratique pour saisir des mots-clés dans un champ ou des destinataires dans un e-mail.",
+    "en": "Turns each non-empty line into an item, then joins them on one line separated by commas. It is the reverse of Split list: handy for entering keywords in a field or recipients in an email.",
+    "es": "Convierte cada línea no vacía en un elemento y los une en una sola línea separada por comas. Es lo contrario de Separar lista: útil para escribir palabras clave en un campo o destinatarios en un correo.",
+    "ar": "يحوّل كل سطر غير فارغ إلى عنصر، ثم يجمعها في سطر واحد مفصول بفواصل. وهو عكس تفكيك القائمة، ومفيد لكتابة كلمات مفتاحية في حقل أو مستلمين في رسالة بريد."
+  },
+  "example": {
+    "before": "pommes\npoires\ncerises",
+    "after": "pommes, poires, cerises"
+  }
+}

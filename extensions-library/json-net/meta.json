@@ -1,0 +1,23 @@
+{
+  "slug": "json-net",
+  "family": "redaction",
+  "files": ["json-net.js"],
+  "icon": "{}",
+  "name": { "fr": "JSON net", "en": "Clean JSON", "es": "JSON limpio", "ar": "JSON منسّق" },
+  "tagline": {
+    "fr": "Rendez un JSON lisible en un clic.",
+    "en": "Turn messy JSON into readable JSON.",
+    "es": "Convierte un JSON desordenado en uno legible.",
+    "ar": "حوّل JSON غير المنظم إلى صيغة مقروءة."
+  },
+  "description": {
+    "fr": "Vérifie le JSON sélectionné et le réécrit avec une indentation de deux espaces, pour le relire ou le partager. Si le JSON est invalide, une notification le signale et rien n'est collé à sa place.",
+    "en": "Checks the selected JSON and rewrites it with two-space indentation, so it is easy to read or share. If the JSON is invalid, a short notice says so and nothing is replaced.",
+    "es": "Comprueba el JSON seleccionado y lo vuelve a escribir con una sangría de dos espacios, para leerlo o compartirlo con facilidad. Si el JSON no es válido, aparece un aviso breve y no se reemplaza nada.",
+    "ar": "تتحقق من JSON المحدد وتعيد كتابته مع إزاحة بمسافتين، لتسهل قراءته أو مشاركته. وإذا كان JSON غير صالح، يظهر تنبيه قصير ولا يُستبدل شيء."
+  },
+  "example": {
+    "before": "{\"name\":\"Ana\",\"tags\":[\"a\",\"b\"]}",
+    "after": "{\n  \"name\": \"Ana\",\n  \"tags\": [\n    \"a\",\n    \"b\"\n  ]\n}"
+  }
+}

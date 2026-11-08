@@ -1,0 +1,30 @@
+{
+  "slug": "melanger",
+  "family": "lignes",
+  "files": [
+    "melanger.js"
+  ],
+  "icon": "?",
+  "name": {
+    "fr": "Mélanger",
+    "en": "Shuffle lines",
+    "es": "Mezclar líneas",
+    "ar": "خلط الأسطر"
+  },
+  "tagline": {
+    "fr": "Mélange les lignes au hasard.",
+    "en": "Shuffle the lines at random.",
+    "es": "Mezcla las líneas al azar.",
+    "ar": "رتّب الأسطر عشوائيًا."
+  },
+  "description": {
+    "fr": "Mélange au hasard les lignes de la sélection, sans rien ajouter ni retirer. Pratique pour tirer au sort l'ordre de passage d'une équipe, répartir une liste de tâches ou faire un tirage équitable.",
+    "en": "Shuffles the lines of the selection at random, without adding or removing anything. Handy for drawing the speaking order of a team, spreading out a task list or running a fair draw.",
+    "es": "Mezcla al azar las líneas de la selección, sin añadir ni quitar nada. Útil para sortear el orden de intervención de un equipo, repartir una lista de tareas o hacer un sorteo justo.",
+    "ar": "يخلط أسطر التحديد عشوائيًا دون إضافة أو حذف. مفيد لتحديد ترتيب فريق في الحديث، أو توزيع قائمة مهام، أو إجراء قرعة عادلة."
+  },
+  "example": {
+    "before": "un\ndeux\ntrois",
+    "after": "deux\ntrois\nun"
+  }
+}

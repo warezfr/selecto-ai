@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest an idea or an improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem do you want to solve?
+      description: Describe the situation, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+  - type: dropdown
+    id: extension
+    attributes:
+      label: Could this be a JavaScript extension?
+      description: Many ideas fit in a single .js file (see the Extensions section of the README).
+      options:
+        - Not sure
+        - Yes, I could write it
+        - No, it needs a change in the app
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

@@ -1,0 +1,108 @@
+name: Release
+
+# 4.0.0 assets were built and checksummed outside Actions and uploaded by hand; automatic release on tag will be re-enabled once this workflow has run successfully once.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Read version
+        id: ver
+        shell: pwsh
+        run: |
+          $csproj = Get-Content -Raw SelectBar/SelectBar.csproj
+          if ($csproj -notmatch '<Version>\s*([0-9]+(\.[0-9]+){1,3})\s*</Version>') { throw 'Version not found in SelectBar.csproj' }
+          $version = $Matches[1]
+          if ($env:GITHUB_REF_TYPE -eq 'tag' -and $env:GITHUB_REF_NAME -ne "v$version") {
+            throw "Tag $env:GITHUB_REF_NAME does not match project version $version"
+          }
+          "version=$version" >> $env:GITHUB_OUTPUT
+
+      - name: Test
+        run: dotnet test SelectBar.sln -c Release
+
+      - name: Install Inno Setup
+        shell: pwsh
+        run: choco install innosetup -y --no-progress
+
+      # Self-contained Site publish (win-x64 and win-arm64), then ISCC on installer/SelectoAI.iss.
+      # The script runs: dotnet publish -c Release -p:Edition=Site -r win-<arch> --self-contained true,
+      # then ISCC.exe with /DArch /DVersion /DSourceDir /DOutputDir. Output: dist\installers.
+      - name: Build installers (x64 and arm64)
+        shell: pwsh
+        run: ./scripts/build-installer.ps1 -Arch Both
+
+      # Reuses the publish folders from the previous step.
+      - name: Build portable ZIPs
+        shell: pwsh
+        run: ./scripts/build-portable.ps1 -Arch Both -SkipPublish
+
+      - name: Collect assets and checksums
+        shell: pwsh
+        run: |
+          $v = '${{ steps.ver.outputs.version }}'
+          New-Item -ItemType Directory -Force -Path release | Out-Null
+          Copy-Item "dist/installers/SelectoAI-Setup-x64-$v.exe", "dist/installers/SelectoAI-Setup-arm64-$v.exe" release/
+          Copy-Item "dist/portable/SelectoAI-x64-portable-$v.zip", "dist/portable/SelectoAI-arm64-portable-$v.zip" release/
+          $lines = Get-ChildItem release -File | Sort-Object Name | ForEach-Object {
+            $h = (Get-FileHash -Algorithm SHA256 -Path $_.FullName).Hash.ToLowerInvariant()
+            "$h  $($_.Name)"
+          }
+          $utf8 = New-Object System.Text.UTF8Encoding($false)
+          [System.IO.File]::WriteAllText((Join-Path (Get-Location) 'release/SHA256SUMS.txt'), (($lines -join "`n") + "`n"), $utf8)
+          Get-Content release/SHA256SUMS.txt
+
+      # Takes the "### <version>" block of each language from docs/RELEASE-NOTES.md (English first).
+      - name: Extract release notes
+        shell: pwsh
+        run: |
+          $v = '${{ steps.ver.outputs.version }}'
+          $lines = Get-Content -Path docs/RELEASE-NOTES.md -Encoding UTF8
+          $pattern = '^###\s+' + [regex]::Escape($v) + '(\s|$)'
+          function Get-Block([string]$lang) {
+            $inLang = $false
+            $out = @()
+            $taking = $false
+            foreach ($l in $lines) {
+              if ($l -match '^##\s') { $inLang = ($l -eq "## $lang"); if ($taking) { break }; continue }
+              if (-not $inLang) { continue }
+              if ($taking -and $l -match '^###\s') { break }
+              if (-not $taking -and $l -match $pattern) { $taking = $true; continue }
+              if ($taking) { $out += $l }
+            }
+            return $out
+          }
+          $en = Get-Block 'English'
+          $fr = Get-Block 'Français'
+          if ($en.Count -eq 0 -and $fr.Count -eq 0) { throw "No section for version $v in docs/RELEASE-NOTES.md" }
+          $body = @()
+          if ($en.Count -gt 0) { $body += $en }
+          if ($fr.Count -gt 0) { $body += @('', '---', '', '**Français**') + $fr }
+          $body += @('', '## Verify your download', '', 'Installers are not code-signed, so Windows SmartScreen may warn. Compare the SHA-256 of your file with `SHA256SUMS.txt`.')
+          Set-Content -Path release-notes.md -Value $body -Encoding UTF8
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.ver.outputs.version }}
+          name: Selecto AI ${{ steps.ver.outputs.version }}
+          body_path: release-notes.md
+          draft: ${{ github.event_name == 'workflow_dispatch' }}
+          fail_on_unmatched_files: true
+          files: |
+            release/SelectoAI-Setup-x64-${{ steps.ver.outputs.version }}.exe
+            release/SelectoAI-Setup-arm64-${{ steps.ver.outputs.version }}.exe
+            release/SelectoAI-x64-portable-${{ steps.ver.outputs.version }}.zip
+            release/SelectoAI-arm64-portable-${{ steps.ver.outputs.version }}.zip
+            release/SHA256SUMS.txt

@@ -1,0 +1,30 @@
+{
+  "slug": "caviarder",
+  "family": "discretion",
+  "files": [
+    "caviarder.js"
+  ],
+  "icon": "##",
+  "name": {
+    "fr": "Caviarder",
+    "en": "Redact",
+    "es": "Censurar",
+    "ar": "حجب النص"
+  },
+  "tagline": {
+    "fr": "Masque chaque caractère par un point, en gardant la mise en page.",
+    "en": "Hide each character with a dot, keeping the layout.",
+    "es": "Oculta cada carácter con un punto, manteniendo el formato.",
+    "ar": "أخفِ كل حرف بنقطة مع الحفاظ على التنسيق."
+  },
+  "description": {
+    "fr": "Remplace chaque caractère de la sélection par un point (•), en gardant les espaces et les retours à la ligne. Utile pour montrer un document sans révéler un nom, un numéro ou une adresse avant de l'envoyer à quelqu'un.",
+    "en": "Replaces each character of the selection with a dot (•), keeping spaces and line breaks. Useful for showing a document without revealing a name, a number or an address before sending it to someone.",
+    "es": "Sustituye cada carácter de la selección por un punto (•), manteniendo los espacios y los saltos de línea. Útil para enseñar un documento sin revelar un nombre, un número o una dirección antes de enviarlo.",
+    "ar": "يستبدل كل حرف في التحديد بنقطة (•) مع الإبقاء على المسافات وأسطر النص. مفيد لعرض مستند دون كشف اسم أو رقم أو عنوان قبل إرساله إلى أحد."
+  },
+  "example": {
+    "before": "Nom : Dupont",
+    "after": "••• • ••••••"
+  }
+}

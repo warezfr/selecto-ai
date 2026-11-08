@@ -1,0 +1,30 @@
+{
+  "slug": "deplier",
+  "family": "redaction",
+  "files": [
+    "deplier.js"
+  ],
+  "icon": "¶",
+  "name": {
+    "fr": "Déplier",
+    "en": "Unwrap",
+    "es": "Desplegar",
+    "ar": "فك الفقرات"
+  },
+  "tagline": {
+    "fr": "Retire les retours à la ligne forcés dans les paragraphes.",
+    "en": "Remove forced line breaks inside paragraphs.",
+    "es": "Quita los saltos de línea forzados dentro de los párrafos.",
+    "ar": "أزل كسر الأسطر داخل الفقرات."
+  },
+  "description": {
+    "fr": "Recolle les lignes coupées à l'intérieur de chaque paragraphe, pour retrouver un texte fluide. Les paragraphes restent séparés par une ligne vide, et les espaces multiples deviennent un seul espace. Utile pour un texte copié depuis un PDF ou un e-mail.",
+    "en": "Joins the lines broken inside each paragraph, so the text reads smoothly again. Paragraphs stay separated by a blank line, and repeated spaces become a single space. Useful for text copied from a PDF or an email.",
+    "es": "Vuelve a unir las líneas cortadas dentro de cada párrafo para que el texto fluya de nuevo. Los párrafos siguen separados por una línea vacía y los espacios repetidos pasan a ser uno solo. Útil para texto copiado de un PDF o de un correo.",
+    "ar": "يعيد وصل الأسطر المقطوعة داخل كل فقرة ليعود النص متصلًا. تبقى الفقرات مفصولة بسطر فارغ، وتصبح المسافات المتكررة مسافة واحدة. مفيد للنص المنسوخ من ملف PDF أو من بريد إلكتروني."
+  },
+  "example": {
+    "before": "Bonjour à\ntous, ce matin\n\nMerci",
+    "after": "Bonjour à tous, ce matin\n\nMerci"
+  }
+}

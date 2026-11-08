@@ -1,0 +1,20 @@
+{
+  "slug": "monospace",
+  "family": "redaction",
+  "files": ["monospace.js", "monospace-ligne.js", "monospace-bloc.js"],
+  "icon": "</>",
+  "name": { "fr": "Monospace", "en": "Monospace", "es": "Monoespaciado", "ar": "خط ثابت العرض" },
+  "tagline": {
+    "fr": "Mettez votre texte en police à chasse fixe, pour Markdown.",
+    "en": "Wrap your text as inline code or a code block.",
+    "es": "Envuelve el texto como código en línea o en bloque.",
+    "ar": "ضع النص في سطر برمجي أو في كتلة كود."
+  },
+  "description": {
+    "fr": "Entoure le texte d'accents graves pour un court extrait de code dans une phrase, ou le place dans un bloc de code pour les extraits plus longs. Pratique pour documenter une commande, un chemin de fichier ou un morceau de configuration.",
+    "en": "Wraps the selection in backticks for a short piece of code inside a sentence, or places it in a fenced block for longer snippets. Useful for documenting a command, a file path or a configuration excerpt in Markdown.",
+    "es": "Rodea la selección con comillas invertidas para un fragmento corto dentro de una frase, o la coloca en un bloque de código para fragmentos más largos. Es útil para documentar un comando, una ruta de archivo o un extracto de configuración en Markdown.",
+    "ar": "تحيط التحديد بعلامات الاقتباس العكسي لمقتطف قصير داخل جملة، أو تضعه في كتلة كود لمقتطفات أطول. مفيدة لتوثيق أمر أو مسار ملف أو جزء من إعدادات بصيغة Markdown."
+  },
+  "example": { "before": "npm install", "after": "`npm install`" }
+}

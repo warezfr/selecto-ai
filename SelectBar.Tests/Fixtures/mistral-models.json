@@ -1,0 +1,8 @@
+{
+  "object": "list",
+  "data": [
+    {"id": "mistral-large-latest", "object": "model", "capabilities": {"completion_chat": true}},
+    {"id": "mistral-small-latest", "object": "model", "capabilities": {"completion_chat": true}},
+    {"id": "mistral-embed", "object": "model", "capabilities": {"completion_chat": false}}
+  ]
+}

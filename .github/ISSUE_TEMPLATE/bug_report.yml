@@ -1,0 +1,63 @@
+name: Bug report
+description: Something does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. For security problems, do not use this form: see SECURITY.md.
+        Remove anything private from logs and screenshots before posting.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Select text in ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Selecto AI version
+      description: Settings > About
+      placeholder: "4.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: How did you install it?
+      options:
+        - Installer (GitHub or website)
+        - Portable ZIP
+        - Microsoft Store
+        - Built from source
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version and architecture
+      placeholder: "Windows 11 23H2, x64"
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: App where you selected the text
+      placeholder: "Chrome, Word, Notepad, ..."
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log or screenshot
+      description: "The log is %APPDATA%\\SelectoAI\\selecto.log. Paste the relevant lines only."
+      render: text

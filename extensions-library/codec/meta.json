@@ -1,0 +1,28 @@
+{
+  "slug": "codec",
+  "family": "redaction",
+  "files": [
+    "codec.js",
+    "codec-b64-enc.js",
+    "codec-b64-dec.js",
+    "codec-url-enc.js",
+    "codec-url-dec.js",
+    "codec-html-enc.js",
+    "codec-html-dec.js"
+  ],
+  "icon": "64",
+  "name": { "fr": "Codec", "en": "Codec", "es": "Códec", "ar": "ترميز" },
+  "tagline": {
+    "fr": "Encodez et décodez Base64, URL et HTML.",
+    "en": "Encode and decode Base64, URL and HTML.",
+    "es": "Codifica y decodifica Base64, URL y HTML.",
+    "ar": "ترميز وفك ترميز Base64 وURL وHTML."
+  },
+  "description": {
+    "fr": "Six actions pour passer un texte d'un format à l'autre : Base64 en UTF-8 correct, accents et emoji compris, encodage d'URL et entités HTML. Utile pour lire un jeton, préparer un lien avec des caractères spéciaux ou déboguer une page web.",
+    "en": "Six actions to convert text between formats: Base64 with correct UTF-8 (accents and emoji included), URL percent-encoding and HTML entities. Handy for reading a token, building a link with special characters or debugging a web page.",
+    "es": "Seis acciones para convertir un texto entre formatos: Base64 con UTF-8 correcto (incluidos acentos y emoji), codificación de URL y entidades HTML. Son útiles para leer un token, crear un enlace con caracteres especiales o depurar una página web.",
+    "ar": "ست عمليات لتحويل النص بين الصيغ: Base64 بترميز UTF-8 صحيح يشمل الحروف الخاصة والرموز التعبيرية، وترميز الروابط، وكيانات HTML. مفيدة لقراءة رمز مميز أو بناء رابط يحوي أحرفاً خاصة أو تصحيح صفحة ويب."
+  },
+  "example": { "before": "Hello", "after": "SGVsbG8=" }
+}

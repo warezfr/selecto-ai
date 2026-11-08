@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Tray_BarOn" xml:space="preserve">
+    <value>Barre active</value>
+  </data>
+  <data name="Tray_Settings" xml:space="preserve">
+    <value>Réglages</value>
+  </data>
+  <data name="Tray_About" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Tray_ReportProblem" xml:space="preserve">
+    <value>Signaler un problème</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="Tray_UpdateAvailable" xml:space="preserve">
+    <value>Mise à jour {0} disponible</value>
+  </data>
+  <data name="Action_Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="Action_Replace" xml:space="preserve">
+    <value>Remplacer</value>
+  </data>
+  <data name="Action_Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Tray_ActionsOne" xml:space="preserve">
+    <value>{0} action</value>
+  </data>
+  <data name="Tray_ActionsOther" xml:space="preserve">
+    <value>{0} actions</value>
+  </data>
+  <data name="Action_OpenLink" xml:space="preserve">
+    <value>Ouvrir le lien</value>
+  </data>
+  <data name="Action_Reveal" xml:space="preserve">
+    <value>Afficher dans l'Explorateur</value>
+  </data>
+  <data name="Action_Mail" xml:space="preserve">
+    <value>Écrire à…</value>
+  </data>
+  <data name="Action_Spell" xml:space="preserve">
+    <value>Orthographe</value>
+  </data>
+  <data name="Action_Cut" xml:space="preserve">
+    <value>Couper</value>
+  </data>
+  <data name="Action_Paste" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="Action_Define" xml:space="preserve">
+    <value>Dictionnaire</value>
+  </data>
+  <data name="Action_Translate" xml:space="preserve">
+    <value>Traduire</value>
+  </data>
+  <data name="Action_Ai" xml:space="preserve">
+    <value>IA</value>
+  </data>
+  <data name="Action_Summarize" xml:space="preserve">
+    <value>Résumer</value>
+  </data>
+  <data name="Action_Explain" xml:space="preserve">
+    <value>Expliquer</value>
+  </data>
+  <data name="Action_Rephrase" xml:space="preserve">
+    <value>Reformuler</value>
+  </data>
+  <data name="Action_Correct" xml:space="preserve">
+    <value>Corriger</value>
+  </data>
+  <data name="Bar_Back" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="Bar_MoreChoices" xml:space="preserve">
+    <value>Plus de choix</value>
+  </data>
+  <data name="Popup_Searching" xml:space="preserve">
+    <value>Recherche…</value>
+  </data>
+  <data name="Popup_KindDefine" xml:space="preserve">
+    <value>Dictionnaire</value>
+  </data>
+  <data name="Popup_KindTranslate" xml:space="preserve">
+    <value>Traduction</value>
+  </data>
+  <data name="Popup_KindExplain" xml:space="preserve">
+    <value>Explication</value>
+  </data>
+  <data name="Popup_KindSummarize" xml:space="preserve">
+    <value>Résumé</value>
+  </data>
+  <data name="Popup_KindRephrase" xml:space="preserve">
+    <value>Reformulation</value>
+  </data>
+  <data name="Popup_KindCorrect" xml:space="preserve">
+    <value>Correction</value>
+  </data>
+  <data name="Popup_ErrorGeneric" xml:space="preserve">
+    <value>Une erreur est survenue. Réessaie.</value>
+  </data>
+  <data name="Popup_InstallAi" xml:space="preserve">
+    <value>Installer l'IA sur mon PC</value>
+  </data>
+  <data name="Popup_OnlineService" xml:space="preserve">
+    <value>Utiliser un service en ligne</value>
+  </data>
+  <data name="Popup_OpenInBrowser" xml:space="preserve">
+    <value>Ouvrir dans le navigateur</value>
+  </data>
+  <data name="Popup_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Popup_Copied" xml:space="preserve">
+    <value>Copié ✓</value>
+  </data>
+  <data name="Popup_Replace" xml:space="preserve">
+    <value>Remplacer</value>
+  </data>
+  <data name="Dialog_Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Dialog_No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Dialog_DontSave" xml:space="preserve">
+    <value>Ne pas enregistrer</value>
+  </data>
+  <data name="Dialog_Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Copilot_ClipboardNotice" xml:space="preserve">
+    <value>Prompt copié, colle-le (Ctrl+V)</value>
+  </data>
+  <data name="Flyout_Logo" xml:space="preserve">
+    <value>Logo Selecto AI</value>
+  </data>
+  <data name="Flyout_Settings" xml:space="preserve">
+    <value>Réglages…</value>
+  </data>
+  <data name="Flyout_OpenExtensions" xml:space="preserve">
+    <value>Ouvrir le dossier des extensions</value>
+  </data>
+  <!-- T5 -->
+  <data name="Feedback_AttachLogs" xml:space="preserve">
+    <value>Joindre les journaux de Selecto AI</value>
+  </data>
+  <data name="Feedback_AttachShot" xml:space="preserve">
+    <value>Joindre une capture de l'écran</value>
+  </data>
+  <data name="Feedback_AttachmentsHeader" xml:space="preserve">
+    <value>Pièces jointes</value>
+  </data>
+  <data name="Feedback_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Feedback_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Feedback_Consent" xml:space="preserve">
+    <value>J'accepte que ces informations soient envoyées à l'éditeur pour traiter ma demande.</value>
+  </data>
+  <data name="Feedback_DescribeHeader" xml:space="preserve">
+    <value>Décris le problème</value>
+  </data>
+  <data name="Feedback_EmailHeader" xml:space="preserve">
+    <value>Adresse e-mail (facultatif)</value>
+  </data>
+  <data name="Feedback_EmailName" xml:space="preserve">
+    <value>Adresse e-mail</value>
+  </data>
+  <data name="Feedback_EmailPlaceholder" xml:space="preserve">
+    <value>ton@adresse.fr</value>
+  </data>
+  <data name="Feedback_Err_400" xml:space="preserve">
+    <value>Le formulaire a été refusé : un champ n'est pas valide. Vérifie-le, puis réessaie.</value>
+  </data>
+  <data name="Feedback_Err_403" xml:space="preserve">
+    <value>Le service de support a refusé cet envoi. Mets Selecto AI à jour, puis réessaie, ou écris directement à l'éditeur.</value>
+  </data>
+  <data name="Feedback_Err_413" xml:space="preserve">
+    <value>Les pièces jointes sont trop lourdes. Retire la capture ou les journaux, puis réessaie.</value>
+  </data>
+  <data name="Feedback_Err_429" xml:space="preserve">
+    <value>Trop de demandes depuis cette connexion. Réessaie plus tard.</value>
+  </data>
+  <data name="Feedback_Err_5xx" xml:space="preserve">
+    <value>Le service de support est momentanément indisponible. Réessaie dans quelques minutes.</value>
+  </data>
+  <data name="Feedback_Err_Consent" xml:space="preserve">
+    <value>Coche la case de consentement pour envoyer ta demande.</value>
+  </data>
+  <data name="Feedback_Err_Email" xml:space="preserve">
+    <value>L'adresse e-mail n'est pas valide (ou laisse le champ vide).</value>
+  </data>
+  <data name="Feedback_Err_LogSize" xml:space="preserve">
+    <value>Le journal dépasse 1 Mo.</value>
+  </data>
+  <data name="Feedback_Err_Other" xml:space="preserve">
+    <value>Envoi impossible (erreur {0}). Réessaie plus tard.</value>
+  </data>
+  <data name="Feedback_Err_ShotSize" xml:space="preserve">
+    <value>Une capture dépasse 5 Mo.</value>
+  </data>
+  <data name="Feedback_Err_Shots" xml:space="preserve">
+    <value>Au maximum 3 captures par envoi.</value>
+  </data>
+  <data name="Feedback_Err_TooLong" xml:space="preserve">
+    <value>La description dépasse 5000 caractères.</value>
+  </data>
+  <data name="Feedback_Err_TooShort" xml:space="preserve">
+    <value>Décris le problème en au moins 10 caractères.</value>
+  </data>
+  <data name="Feedback_Err_TotalSize" xml:space="preserve">
+    <value>Les pièces jointes dépassent 12 Mo.</value>
+  </data>
+  <data name="Feedback_Err_Type" xml:space="preserve">
+    <value>Choisis le type de problème.</value>
+  </data>
+  <data name="Feedback_Interrupted" xml:space="preserve">
+    <value>Envoi interrompu. Rien n'a été confirmé : réessaie si besoin.</value>
+  </data>
+  <data name="Feedback_Intro" xml:space="preserve">
+    <value>Un problème ou une idée ? Le ticket est envoyé à l'éditeur. Si tu laisses ton adresse, il te répond par e-mail.</value>
+  </data>
+  <data name="Feedback_LogIntro" xml:space="preserve">
+    <value>Journal de Selecto AI nettoyé. Il n'est joint que si la case est cochée.</value>
+  </data>
+  <data name="Feedback_LogTitle" xml:space="preserve">
+    <value>Ce qui sera envoyé</value>
+  </data>
+  <data name="Feedback_LogsHelp" xml:space="preserve">
+    <value>Les 2000 dernières lignes, nettoyées : chemins, nom d'utilisateur, nom de l'ordinateur, e-mails et clés d'API sont masqués.</value>
+  </data>
+  <data name="Feedback_MalformedError" xml:space="preserve">
+    <value>Réponse inattendue du service de support. Réessaie plus tard.</value>
+  </data>
+  <data name="Feedback_MessageName" xml:space="preserve">
+    <value>Description du problème</value>
+  </data>
+  <data name="Feedback_MessagePlaceholder" xml:space="preserve">
+    <value>Ce qui s'est passé, ce que tu attendais, les étapes pour y arriver…</value>
+  </data>
+  <data name="Feedback_NetworkError" xml:space="preserve">
+    <value>Impossible de joindre le service de support. Vérifie ta connexion Internet, puis réessaie.</value>
+  </data>
+  <data name="Feedback_NoLog" xml:space="preserve">
+    <value>Aucun journal pour l'instant.</value>
+  </data>
+  <data name="Feedback_RemoveShot" xml:space="preserve">
+    <value>Retirer la capture</value>
+  </data>
+  <data name="Feedback_Send" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="Feedback_SendingName" xml:space="preserve">
+    <value>Envoi en cours</value>
+  </data>
+  <data name="Feedback_SendingStatus" xml:space="preserve">
+    <value>Envoi en cours…</value>
+  </data>
+  <data name="Feedback_ShotFailed" xml:space="preserve">
+    <value>Capture impossible sur cet écran. Tu peux envoyer sans capture.</value>
+  </data>
+  <data name="Feedback_ThankYou" xml:space="preserve">
+    <value>Merci ! Ton ticket {0} est enregistré.</value>
+  </data>
+  <data name="Feedback_ThumbName" xml:space="preserve">
+    <value>Aperçu de la capture</value>
+  </data>
+  <data name="Feedback_TimeoutError" xml:space="preserve">
+    <value>Le service de support ne répond pas (délai de 30 s dépassé). Réessaie plus tard.</value>
+  </data>
+  <data name="Feedback_Title" xml:space="preserve">
+    <value>Signaler un problème</value>
+  </data>
+  <data name="Feedback_TypeHeader" xml:space="preserve">
+    <value>Type de problème</value>
+  </data>
+  <data name="Feedback_Type_actions-en-ligne" xml:space="preserve">
+    <value>Actions en ligne (traduction, recherche, IA en ligne)</value>
+  </data>
+  <data name="Feedback_Type_antivirus" xml:space="preserve">
+    <value>Antivirus ou Windows bloque l'application</value>
+  </data>
+  <data name="Feedback_Type_autre" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="Feedback_Type_bug" xml:space="preserve">
+    <value>Un bug : quelque chose ne fonctionne pas</value>
+  </data>
+  <data name="Feedback_Type_ia-locale" xml:space="preserve">
+    <value>IA locale (Ollama, modèles)</value>
+  </data>
+  <data name="Feedback_Type_installation" xml:space="preserve">
+    <value>Installation ou mise à jour</value>
+  </data>
+  <data name="Feedback_Type_suggestion" xml:space="preserve">
+    <value>Une suggestion</value>
+  </data>
+  <data name="Feedback_ViewLog" xml:space="preserve">
+    <value>Voir ce qui sera envoyé</value>
+  </data>
+  <data name="Model_Advanced" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="Model_Balanced" xml:space="preserve">
+    <value>Équilibré</value>
+  </data>
+  <data name="Model_BalancedDesc" xml:space="preserve">
+    <value>Bon en français, rapide sur la plupart des PC.</value>
+  </data>
+  <data name="Model_Fast" xml:space="preserve">
+    <value>Rapide</value>
+  </data>
+  <data name="Model_Light" xml:space="preserve">
+    <value>Léger</value>
+  </data>
+  <data name="Model_LightDesc" xml:space="preserve">
+    <value>Rapide, convient aux petites tâches, moins précis.</value>
+  </data>
+  <data name="Model_MorePowerful" xml:space="preserve">
+    <value>Plus puissant</value>
+  </data>
+  <data name="Model_MostAccurate" xml:space="preserve">
+    <value>Le plus précis</value>
+  </data>
+  <data name="Model_PerformantDesc" xml:space="preserve">
+    <value>Le plus à l'aise en français et pour les textes longs.</value>
+  </data>
+  <data name="Model_Powerful" xml:space="preserve">
+    <value>Performant</value>
+  </data>
+  <data name="Model_PowerfulDesc" xml:space="preserve">
+    <value>Plus lent, pour les PC bien équipés.</value>
+  </data>
+  <data name="Model_RamInfo" xml:space="preserve">
+    <value>Ton PC : {0} Go de mémoire</value>
+  </data>
+  <data name="Model_RecommendedBadge" xml:space="preserve">
+    <value>Recommandé pour ton PC</value>
+  </data>
+  <data name="Model_Speed1" xml:space="preserve">
+    <value>Sur ce PC, la première réponse peut prendre jusqu'à une minute.</value>
+  </data>
+  <data name="Model_Speed2" xml:space="preserve">
+    <value>Sur ce PC, la première réponse peut prendre jusqu'à deux minutes.</value>
+  </data>
+  <data name="Model_Speed3" xml:space="preserve">
+    <value>Sur ce PC, la première réponse peut prendre jusqu'à trois minutes.</value>
+  </data>
+  <data name="Model_SpeedMany" xml:space="preserve">
+    <value>Sur ce PC, la première réponse peut prendre plusieurs minutes.</value>
+  </data>
+  <data name="Model_Versatile" xml:space="preserve">
+    <value>Polyvalent</value>
+  </data>
+  <data name="Settings_Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Settings_AddButton" xml:space="preserve">
+    <value>+  Ajouter</value>
+  </data>
+  <data name="Settings_AddExtFailed" xml:space="preserve">
+    <value>Impossible d'ajouter l'extension : </value>
+  </data>
+  <data name="Settings_AddExtension" xml:space="preserve">
+    <value>Ajouter une extension</value>
+  </data>
+  <data name="Settings_AddModifier" xml:space="preserve">
+    <value>Ajoute Ctrl, Alt, Maj ou Win.</value>
+  </data>
+  <data name="Settings_AiIntro" xml:space="preserve">
+    <value>Pour résumer, expliquer, reformuler ou corriger, Selecto AI a besoin d'un modèle d'IA. Choisis comment :</value>
+  </data>
+  <data name="Settings_AiModel" xml:space="preserve">
+    <value>Modèle d'IA</value>
+  </data>
+  <data name="Settings_ApiKey" xml:space="preserve">
+    <value>Clé API</value>
+  </data>
+  <data name="Settings_ApiKeyOptional" xml:space="preserve">
+    <value>Clé API (facultative)</value>
+  </data>
+  <data name="Settings_ApiKeyPrefix" xml:space="preserve">
+    <value>Clé API </value>
+  </data>
+  <data name="Settings_AppOne" xml:space="preserve">
+    <value>{0} application</value>
+  </data>
+  <data name="Settings_AppOther" xml:space="preserve">
+    <value>{0} applications</value>
+  </data>
+  <data name="Settings_AppearanceHeader" xml:space="preserve">
+    <value>Apparence</value>
+  </data>
+  <data name="Settings_AppearanceSection" xml:space="preserve">
+    <value>Apparition</value>
+  </data>
+  <data name="Settings_AppsHelp" xml:space="preserve">
+    <value>La barre n'apparaît pas dans ces applications (nom du fichier .exe).</value>
+  </data>
+  <data name="Settings_AutoShow" xml:space="preserve">
+    <value>Apparaître automatiquement</value>
+  </data>
+  <data name="Settings_AutoShowHelp" xml:space="preserve">
+    <value>À chaque sélection de texte à la souris.</value>
+  </data>
+  <data name="Settings_AutoUpdate" xml:space="preserve">
+    <value>Rechercher les mises à jour automatiquement</value>
+  </data>
+  <data name="Settings_AutoUpdateHelp" xml:space="preserve">
+    <value>Au démarrage puis toutes les 24 h. Aucune donnée personnelle n'est envoyée.</value>
+  </data>
+  <data name="Settings_Automatic" xml:space="preserve">
+    <value>Automatique</value>
+  </data>
+  <data name="Settings_Available" xml:space="preserve">
+    <value> disponible</value>
+  </data>
+  <data name="Settings_Back" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="Settings_BarActionsHeader" xml:space="preserve">
+    <value>Actions de la barre</value>
+  </data>
+  <data name="Settings_BarSize" xml:space="preserve">
+    <value>Taille de la barre</value>
+  </data>
+  <data name="Settings_BarStyle" xml:space="preserve">
+    <value>Style de la barre</value>
+  </data>
+  <data name="Settings_CanClose" xml:space="preserve">
+    <value>Tu peux fermer cette fenêtre : le téléchargement continue en arrière-plan.</value>
+  </data>
+  <data name="Settings_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Settings_Change" xml:space="preserve">
+    <value>Changer</value>
+  </data>
+  <data name="Settings_CheckDisabled" xml:space="preserve">
+    <value>Vérification désactivée pour cette session.</value>
+  </data>
+  <data name="Settings_CheckFailed" xml:space="preserve">
+    <value>Vérification impossible</value>
+  </data>
+  <data name="Settings_CheckNow" xml:space="preserve">
+    <value>Rechercher maintenant</value>
+  </data>
+  <data name="Settings_Checking" xml:space="preserve">
+    <value>Vérification…</value>
+  </data>
+  <data name="Settings_CheckingModel" xml:space="preserve">
+    <value>Vérification du modèle sur ton PC…</value>
+  </data>
+  <data name="Settings_ChooseApp" xml:space="preserve">
+    <value>Choisir une application</value>
+  </data>
+  <data name="Settings_ChooseExe" xml:space="preserve">
+    <value>Choisir un .exe…</value>
+  </data>
+  <data name="Settings_ChooseFromList" xml:space="preserve">
+    <value>Choisis un modèle dans la liste.</value>
+  </data>
+  <data name="Settings_ChooseJs" xml:space="preserve">
+    <value>Choisir un ou plusieurs fichiers .js ou .zip.</value>
+  </data>
+  <data name="Settings_ChooseModel" xml:space="preserve">
+    <value>Choisis un modèle.</value>
+  </data>
+  <data name="Settings_ChooseModelFirst" xml:space="preserve">
+    <value>Choisis d'abord un modèle.</value>
+  </data>
+  <data name="Settings_Clear" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="Settings_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Settings_ConnectionOk" xml:space="preserve">
+    <value>Connexion réussie ✓</value>
+  </data>
+  <data name="Settings_Continue" xml:space="preserve">
+    <value>Continuer</value>
+  </data>
+  <data name="Settings_Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Settings_CustomEngine" xml:space="preserve">
+    <value>Personnalisé (*** = texte sélectionné)</value>
+  </data>
+  <data name="Settings_CustomServer" xml:space="preserve">
+    <value>serveur personnalisé</value>
+  </data>
+  <data name="Settings_CustomUrlRule" xml:space="preserve">
+    <value>L'URL personnalisée doit commencer par https:// et contenir ***.</value>
+  </data>
+  <data name="Settings_DailyHeader" xml:space="preserve">
+    <value>Recommandation du jour</value>
+  </data>
+  <data name="Settings_Dark" xml:space="preserve">
+    <value>Sombre</value>
+  </data>
+  <data name="Settings_Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Settings_DeleteModelQuestion" xml:space="preserve">
+    <value>Supprimer le modèle « {0} » de ton PC ?{1}</value>
+  </data>
+  <data name="Settings_Dictionary" xml:space="preserve">
+    <value>Dictionnaire</value>
+  </data>
+  <data name="Settings_DictionaryHelp" xml:space="preserve">
+    <value>Langue des définitions.</value>
+  </data>
+  <data name="Settings_DisabledCapture" xml:space="preserve">
+    <value>Désactivé en mode capture</value>
+  </data>
+  <data name="Settings_Done" xml:space="preserve">
+    <value>Terminé</value>
+  </data>
+  <data name="Settings_Download" xml:space="preserve">
+    <value>Télécharger ({0})</value>
+  </data>
+  <data name="Settings_Downloading" xml:space="preserve">
+    <value>Téléchargement…</value>
+  </data>
+  <data name="Settings_EngineHelp" xml:space="preserve">
+    <value>Le moteur qui fait tourner l'IA sur ton PC. Gratuit, sans droits administrateur, installé seulement pour toi.</value>
+  </data>
+  <data name="Settings_EngineNote1" xml:space="preserve">
+    <value>Moteur IA : version portable officielle d'Ollama, dossier </value>
+  </data>
+  <data name="Settings_EngineNote2" xml:space="preserve">
+    <value>, adresse locale http://</value>
+  </data>
+  <data name="Settings_EngineNote3" xml:space="preserve">
+    <value> (jamais accessible depuis le réseau). Un Ollama installé par toi n'est jamais touché.</value>
+  </data>
+  <data name="Settings_EngineOff" xml:space="preserve">
+    <value>Le moteur IA est installé mais éteint.</value>
+  </data>
+  <data name="Settings_EngineStep" xml:space="preserve">
+    <value>Moteur IA</value>
+  </data>
+  <data name="Settings_Example" xml:space="preserve">
+    <value>Exemple</value>
+  </data>
+  <data name="Settings_ExcludedApps" xml:space="preserve">
+    <value>Applications exclues</value>
+  </data>
+  <data name="Settings_ExcludedHeader" xml:space="preserve">
+    <value>Applications et sites exclus</value>
+  </data>
+  <data name="Settings_ExcludedSites" xml:space="preserve">
+    <value>Sites exclus</value>
+  </data>
+  <data name="Settings_ExcludedSitesName" xml:space="preserve">
+    <value>Sites web exclus</value>
+  </data>
+  <data name="Settings_ExeFilter" xml:space="preserve">
+    <value>Applications (*.exe)|*.exe</value>
+  </data>
+  <data name="Settings_ExtFilesHelp" xml:space="preserve">
+    <value>Les extensions sont des fichiers .js.</value>
+  </data>
+  <data name="Settings_ExtFolder" xml:space="preserve">
+    <value>Dossier des extensions</value>
+  </data>
+  <data name="Settings_ExtFolderHelp" xml:space="preserve">
+    <value>Pour en obtenir ou en retirer.</value>
+  </data>
+  <data name="Settings_ExtOne" xml:space="preserve">
+    <value>{0} extension installée</value>
+  </data>
+  <data name="Settings_ExtOther" xml:space="preserve">
+    <value>{0} extensions installées</value>
+  </data>
+  <data name="Settings_ExtensionTag" xml:space="preserve">
+    <value>  (extension)</value>
+  </data>
+  <data name="Settings_ExtensionsHeader" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <data name="Settings_FallbackHelp" xml:space="preserve">
+    <value>Si le texte est déjà dans ta langue.</value>
+  </data>
+  <data name="Settings_FallbackLang" xml:space="preserve">
+    <value>Langue de secours</value>
+  </data>
+  <data name="Settings_FetchingModels" xml:space="preserve">
+    <value>Récupération des modèles…</value>
+  </data>
+  <data name="Settings_FilesHeader" xml:space="preserve">
+    <value>Fichiers et IA locale</value>
+  </data>
+  <data name="Settings_Frees" xml:space="preserve">
+    <value> Cela libère </value>
+  </data>
+  <data name="Settings_GetKey" xml:space="preserve">
+    <value>Obtenir une clé</value>
+  </data>
+  <data name="Settings_HelpHeader" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="Settings_Install" xml:space="preserve">
+    <value>Installer</value>
+  </data>
+  <data name="Settings_InstallEngine" xml:space="preserve">
+    <value>Installer le moteur IA ({0})</value>
+  </data>
+  <data name="Settings_Installed" xml:space="preserve">
+    <value>Installé</value>
+  </data>
+  <data name="Settings_InstalledModels" xml:space="preserve">
+    <value>Modèles déjà sur ton PC</value>
+  </data>
+  <data name="Settings_InvalidExt" xml:space="preserve">
+    <value>Extension invalide : </value>
+  </data>
+  <data name="Settings_InvalidShortcut" xml:space="preserve">
+    <value>Raccourci invalide.</value>
+  </data>
+  <data name="Settings_InvalidValue" xml:space="preserve">
+    <value>Valeur invalide ou déjà présente.</value>
+  </data>
+  <data name="Settings_JsFiles" xml:space="preserve">
+    <value>Fichiers .js.</value>
+  </data>
+  <data name="Settings_JsFilter" xml:space="preserve">
+    <value>Extensions Selecto AI (*.js, *.zip)|*.js;*.zip</value>
+  </data>
+  <data name="Settings_KeySaved" xml:space="preserve">
+    <value>Clé enregistrée ✓ — laisse vide pour la garder.</value>
+  </data>
+  <data name="Settings_LangEnglish" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="Settings_Later" xml:space="preserve">
+    <value>Plus tard</value>
+  </data>
+  <data name="Settings_LaterHelp" xml:space="preserve">
+    <value>Pas d'IA pour l'instant. Tu pourras revenir ici.</value>
+  </data>
+  <data name="Settings_Light" xml:space="preserve">
+    <value>Clair</value>
+  </data>
+  <data name="Settings_LogoName" xml:space="preserve">
+    <value>Logo Selecto AI</value>
+  </data>
+  <data name="Settings_Manage" xml:space="preserve">
+    <value>Gérer…</value>
+  </data>
+  <data name="Settings_ModelListFailed" xml:space="preserve">
+    <value>La liste des modèles n'a pas pu être lue. Réessaie.</value>
+  </data>
+  <data name="Settings_ModelName" xml:space="preserve">
+    <value>Nom du modèle</value>
+  </data>
+  <data name="Settings_ModelStep" xml:space="preserve">
+    <value>Modèle</value>
+  </data>
+  <data name="Settings_MorePowerful" xml:space="preserve">
+    <value>Plus puissant</value>
+  </data>
+  <data name="Settings_MoveDown" xml:space="preserve">
+    <value>Descendre</value>
+  </data>
+  <data name="Settings_MoveDownOf" xml:space="preserve">
+    <value>Descendre </value>
+  </data>
+  <data name="Settings_MoveUp" xml:space="preserve">
+    <value>Monter</value>
+  </data>
+  <data name="Settings_MoveUpOf" xml:space="preserve">
+    <value>Monter </value>
+  </data>
+  <data name="Settings_MyMemoryEmail" xml:space="preserve">
+    <value>E-mail MyMemory</value>
+  </data>
+  <data name="Settings_MyMemoryHelp" xml:space="preserve">
+    <value>Facultatif : relève la limite de traduction. Donnée personnelle.</value>
+  </data>
+  <data name="Settings_NoEngine" xml:space="preserve">
+    <value>Aucun moteur IA n'a été installé par Selecto AI.</value>
+  </data>
+  <data name="Settings_NoExtension" xml:space="preserve">
+    <value>Aucune extension installée</value>
+  </data>
+  <data name="Settings_NoModelConfigured" xml:space="preserve">
+    <value>Aucun modèle configuré.</value>
+  </data>
+  <data name="Settings_None" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Settings_NoneApps" xml:space="preserve">
+    <value>Aucune</value>
+  </data>
+  <data name="Settings_NoneSites" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Settings_NotChecked" xml:space="preserve">
+    <value>Pas encore vérifiée</value>
+  </data>
+  <data name="Settings_OllamaUntouched" xml:space="preserve">
+    <value>Un Ollama que tu aurais installé toi-même n'est pas touché.</value>
+  </data>
+  <data name="Settings_OnMyPc" xml:space="preserve">
+    <value>Sur mon PC (gratuit, privé)</value>
+  </data>
+  <data name="Settings_OnMyPcHelp" xml:space="preserve">
+    <value>Selecto AI installe le moteur IA et un modèle. Rien ne quitte ton PC.</value>
+  </data>
+  <data name="Settings_OnYourPcOllama" xml:space="preserve">
+    <value>sur ton PC (Ollama)</value>
+  </data>
+  <data name="Settings_OnlineActions" xml:space="preserve">
+    <value>Actions en ligne</value>
+  </data>
+  <data name="Settings_OnlineHelp" xml:space="preserve">
+    <value>Dictionnaire, Traduire et IA envoient le texte sélectionné à des services tiers (MyMemory, Wiktionnaire, Wikipédia) ou à ton modèle.</value>
+  </data>
+  <data name="Settings_OnlineService" xml:space="preserve">
+    <value>Service en ligne (clé API)</value>
+  </data>
+  <data name="Settings_OnlineServiceList" xml:space="preserve">
+    <value>OpenAI, Claude, Gemini, Mistral, Groq, DeepSeek, Grok, Together, OpenRouter ou un autre serveur.</value>
+  </data>
+  <data name="Settings_OnlineServiceStep" xml:space="preserve">
+    <value>Service en ligne</value>
+  </data>
+  <data name="Settings_OnlineServiceWord" xml:space="preserve">
+    <value>service en ligne</value>
+  </data>
+  <data name="Settings_OnlineStep1" xml:space="preserve">
+    <value>Étape 1 sur 2 : choisis le service et colle ta clé API.</value>
+  </data>
+  <data name="Settings_OnlineStep2" xml:space="preserve">
+    <value>Étape 2 sur 2 : choisis le modèle. Les modèles rapides et économiques sont en tête de liste.</value>
+  </data>
+  <data name="Settings_Open" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Settings_Optional" xml:space="preserve">
+    <value>Facultatif</value>
+  </data>
+  <data name="Settings_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Settings_OptionsOf" xml:space="preserve">
+    <value>Options de </value>
+  </data>
+  <data name="Settings_Paste" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="Settings_PasteKeyFirst" xml:space="preserve">
+    <value>Colle d'abord ta clé {0} (lien « Obtenir une clé »).</value>
+  </data>
+  <data name="Settings_PosAbove" xml:space="preserve">
+    <value>Au-dessus du texte</value>
+  </data>
+  <data name="Settings_PosBelow" xml:space="preserve">
+    <value>En dessous</value>
+  </data>
+  <data name="Settings_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Settings_PrepareAi" xml:space="preserve">
+    <value>Préparer l'IA au démarrage</value>
+  </data>
+  <data name="Settings_PrepareAiHelp" xml:space="preserve">
+    <value>Charge l'IA locale en arrière-plan au démarrage de Windows pour une première réponse plus rapide.</value>
+  </data>
+  <data name="Settings_ReadyPrefix" xml:space="preserve">
+    <value>Prêt ✓ — modèle : </value>
+  </data>
+  <data name="Settings_ReadyStep" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="Settings_RecommendedSuffix" xml:space="preserve">
+    <value>, recommandé</value>
+  </data>
+  <data name="Settings_Remove" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="Settings_RemoveEngine" xml:space="preserve">
+    <value>Supprime le moteur IA installé par Selecto AI et ses modèles</value>
+  </data>
+  <data name="Settings_ReportHelp" xml:space="preserve">
+    <value>Envoie un ticket au support : type de problème, description et, si tu le choisis, une capture et les journaux.</value>
+  </data>
+  <data name="Settings_ReportProblem" xml:space="preserve">
+    <value>Signaler un problème</value>
+  </data>
+  <data name="Settings_Revert" xml:space="preserve">
+    <value>Rétablir</value>
+  </data>
+  <data name="Settings_Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Settings_Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="Settings_SearchAction" xml:space="preserve">
+    <value>Rechercher une action</value>
+  </data>
+  <data name="Settings_SearchEngine" xml:space="preserve">
+    <value>Moteur de recherche</value>
+  </data>
+  <data name="Settings_SearchEngineTitle" xml:space="preserve">
+    <value>Rechercher – moteur</value>
+  </data>
+  <data name="Settings_SearchingEngine" xml:space="preserve">
+    <value>Recherche du moteur IA…</value>
+  </data>
+  <data name="Settings_ServerAddress" xml:space="preserve">
+    <value>Adresse du serveur (https://…/v1)</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Raccourci clavier</value>
+  </data>
+  <data name="Settings_ShortcutHelp" xml:space="preserve">
+    <value>Affiche la barre sur le texte sélectionné, par exemple après une sélection au clavier. Clique dans le champ puis tape la combinaison (Ctrl, Alt, Maj ou Win + une touche).</value>
+  </data>
+  <data name="Settings_ShowLess" xml:space="preserve">
+    <value>Afficher moins</value>
+  </data>
+  <data name="Settings_SiteOne" xml:space="preserve">
+    <value>{0} site</value>
+  </data>
+  <data name="Settings_SiteOther" xml:space="preserve">
+    <value>{0} sites</value>
+  </data>
+  <data name="Settings_SitesHelp" xml:space="preserve">
+    <value>La barre n'apparaît pas sur ces domaines. Appliqué au mieux : seulement si le navigateur actif expose son adresse ou si le titre de la page cite le domaine.</value>
+  </data>
+  <data name="Settings_Size" xml:space="preserve">
+    <value>Taille</value>
+  </data>
+  <data name="Settings_SpellHelp" xml:space="preserve">
+    <value>S'affiche pour un mot isolé mal orthographié dans un champ éditable : un clic le remplace par la 1re suggestion.</value>
+  </data>
+  <data name="Settings_SpellLanguage" xml:space="preserve">
+    <value>Langue du correcteur</value>
+  </data>
+  <data name="Settings_SpellingTitle" xml:space="preserve">
+    <value>Orthographe</value>
+  </data>
+  <data name="Settings_StartEngine" xml:space="preserve">
+    <value>Démarrer le moteur IA</value>
+  </data>
+  <data name="Settings_StartWithWindows" xml:space="preserve">
+    <value>Lancer avec Windows</value>
+  </data>
+  <data name="Settings_StartupHeader" xml:space="preserve">
+    <value>Démarrage</value>
+  </data>
+  <data name="Settings_StartupHelp" xml:space="preserve">
+    <value>Selecto AI démarre à l'ouverture de session.</value>
+  </data>
+  <data name="Settings_StatusActive" xml:space="preserve">
+    <value>● Actif</value>
+  </data>
+  <data name="Settings_StatusPaused" xml:space="preserve">
+    <value>● En pause</value>
+  </data>
+  <data name="Settings_StepName" xml:space="preserve">
+    <value>Étape {0} : {1}</value>
+  </data>
+  <data name="Settings_StepOf" xml:space="preserve">
+    <value>Étape {0} sur 3 : {1}   {2}</value>
+  </data>
+  <data name="Settings_StyleHelp" xml:space="preserve">
+    <value>Automatique suit le thème d'application de Windows.</value>
+  </data>
+  <data name="Settings_Suggested" xml:space="preserve">
+    <value>  · proposé</value>
+  </data>
+  <data name="Settings_Tab_About" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Settings_Tab_Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Settings_Tab_Ai" xml:space="preserve">
+    <value>IA</value>
+  </data>
+  <data name="Settings_Tab_General" xml:space="preserve">
+    <value>Général</value>
+  </data>
+  <data name="Settings_Test" xml:space="preserve">
+    <value>Tester</value>
+  </data>
+  <data name="Settings_TestConnection" xml:space="preserve">
+    <value>Tester la connexion</value>
+  </data>
+  <data name="Settings_TestFailed" xml:space="preserve">
+    <value>Le test a échoué. Réessaie.</value>
+  </data>
+  <data name="Settings_Testing" xml:space="preserve">
+    <value>Test de la connexion…</value>
+  </data>
+  <data name="Settings_Today" xml:space="preserve">
+    <value>Aujourd'hui</value>
+  </data>
+  <data name="Settings_TranslateTo" xml:space="preserve">
+    <value>Traduire vers</value>
+  </data>
+  <data name="Settings_TrayHiddenWarning" xml:space="preserve">
+    <value>L'icône sera masquée. Pour rouvrir les réglages, relance Selecto AI (un second lancement ouvre cette fenêtre).</value>
+  </data>
+  <data name="Settings_TrayIcon" xml:space="preserve">
+    <value>Icône de la zone de notification</value>
+  </data>
+  <data name="Settings_TrayIconHelp" xml:space="preserve">
+    <value>Pour rouvrir les réglages depuis la barre des tâches.</value>
+  </data>
+  <data name="Settings_TypeModelName" xml:space="preserve">
+    <value> Tape le nom du modèle.</value>
+  </data>
+  <data name="Settings_Uninstall" xml:space="preserve">
+    <value>Désinstaller</value>
+  </data>
+  <data name="Settings_UninstallEllipsis" xml:space="preserve">
+    <value>Désinstaller…</value>
+  </data>
+  <data name="Settings_UninstallEngineQuestion" xml:space="preserve">
+    <value>Désinstaller le moteur IA de Selecto AI et tous ses modèles ?</value>
+  </data>
+  <data name="Settings_UninstallLocalAi" xml:space="preserve">
+    <value>Désinstaller l'IA locale</value>
+  </data>
+  <data name="Settings_UnsavedQuestion" xml:space="preserve">
+    <value>Des réglages n'ont pas été enregistrés. Que veux-tu faire ?</value>
+  </data>
+  <data name="Settings_UpToDate" xml:space="preserve">
+    <value>À jour</value>
+  </data>
+  <data name="Settings_Update" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="Settings_UseModel" xml:space="preserve">
+    <value>Utiliser ce modèle</value>
+  </data>
+  <data name="Settings_WindowName" xml:space="preserve">
+    <value>Réglages de Selecto AI</value>
+  </data>
+  <data name="Settings_With" xml:space="preserve">
+    <value>avec </value>
+  </data>
+  <data name="Settings_Works" xml:space="preserve">
+    <value>Fonctionne </value>
+  </data>
+  <data name="TrayMenu_Activate" xml:space="preserve">
+    <value>Activer Selecto AI</value>
+  </data>
+  <data name="TrayMenu_OpenExtensions" xml:space="preserve">
+    <value>Ouvrir le dossier des extensions</value>
+  </data>
+  <data name="TrayMenu_Quit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="TrayMenu_Report" xml:space="preserve">
+    <value>Signaler un problème…</value>
+  </data>
+  <data name="TrayMenu_Settings" xml:space="preserve">
+    <value>Réglages…</value>
+  </data>
+  <data name="TrayMenu_StatusActive" xml:space="preserve">
+    <value>actif</value>
+  </data>
+  <data name="TrayMenu_StatusOff" xml:space="preserve">
+    <value>désactivé</value>
+  </data>
+  <data name="TrayMenu_Tooltip" xml:space="preserve">
+    <value>Selecto AI – {0}</value>
+  </data>
+  <data name="Update_Disabled" xml:space="preserve">
+    <value>mises à jour désactivées</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>téléchargement impossible ({0})</value>
+  </data>
+  <data name="Update_HashMismatch" xml:space="preserve">
+    <value>SHA-256 invalide, installateur refusé</value>
+  </data>
+  <data name="Update_InstallerMissing" xml:space="preserve">
+    <value>installateur introuvable</value>
+  </data>
+  <data name="Update_LaunchFailed" xml:space="preserve">
+    <value>lancement impossible</value>
+  </data>
+  <data name="Update_NoInstaller" xml:space="preserve">
+    <value>aucun installateur pour cette édition ou architecture</value>
+  </data>
+  <data name="Update_Reason_Connection" xml:space="preserve">
+    <value>connexion impossible</value>
+  </data>
+  <data name="Update_Reason_Write" xml:space="preserve">
+    <value>écriture impossible</value>
+  </data>
+  <data name="Update_SizeMismatch" xml:space="preserve">
+    <value>taille de l'installateur inattendue</value>
+  </data>
+  <data name="Update_UrlRefused" xml:space="preserve">
+    <value>adresse de téléchargement refusée</value>
+  </data>
+  <data name="Welcome_AddLaterAi" xml:space="preserve">
+    <value>Tu pourras en ajouter une plus tard dans Réglages &gt; IA.</value>
+  </data>
+  <data name="Welcome_AiLevel" xml:space="preserve">
+    <value>Quel niveau d'IA ?</value>
+  </data>
+  <data name="Welcome_AiLevelText" xml:space="preserve">
+    <value>Pour résumer, expliquer ou reformuler, Selecto AI a besoin d'un modèle. Tu peux choisir plus tard.</value>
+  </data>
+  <data name="Welcome_ApiKeyName" xml:space="preserve">
+    <value>Clé API</value>
+  </data>
+  <data name="Welcome_Back" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="Welcome_BarExample" xml:space="preserve">
+    <value>Exemple de la barre Selecto AI</value>
+  </data>
+  <data name="Welcome_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Welcome_CheckFailed" xml:space="preserve">
+    <value>La vérification a échoué. Réessaie.</value>
+  </data>
+  <data name="Welcome_Checking" xml:space="preserve">
+    <value>Vérification…</value>
+  </data>
+  <data name="Welcome_Chosen" xml:space="preserve">
+    <value>, choisi</value>
+  </data>
+  <data name="Welcome_ContinueDownload" xml:space="preserve">
+    <value>Tu peux continuer : le téléchargement se poursuit en arrière-plan.</value>
+  </data>
+  <data name="Welcome_Demo_Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Welcome_Demo_Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="Welcome_Demo_Translate" xml:space="preserve">
+    <value>Traduire</value>
+  </data>
+  <data name="Welcome_Disable" xml:space="preserve">
+    <value>Désactiver</value>
+  </data>
+  <data name="Welcome_Disabled" xml:space="preserve">
+    <value>Désactivé ✓</value>
+  </data>
+  <data name="Welcome_FetchingModels" xml:space="preserve">
+    <value>Récupération des modèles…</value>
+  </data>
+  <data name="Welcome_GetKey" xml:space="preserve">
+    <value>Obtenir une clé</value>
+  </data>
+  <data name="Welcome_InstallLocal" xml:space="preserve">
+    <value>Installer l'IA locale ({0})</value>
+  </data>
+  <data name="Welcome_InvalidUrl" xml:space="preserve">
+    <value>Adresse invalide.</value>
+  </data>
+  <data name="Welcome_LetsGoNote" xml:space="preserve">
+    <value>« C'est parti » ferme cette fenêtre : Selecto AI reste dans la zone de notification.</value>
+  </data>
+  <data name="Welcome_LocalAi" xml:space="preserve">
+    <value>Gratuit et privé : le texte ne quitte pas ton PC.</value>
+  </data>
+  <data name="Welcome_NoAi" xml:space="preserve">
+    <value>Pas d'IA pour l'instant. La barre fonctionne sans.</value>
+  </data>
+  <data name="Welcome_NoModel" xml:space="preserve">
+    <value>Aucun modèle trouvé pour cette clé.</value>
+  </data>
+  <data name="Welcome_OnlineAi" xml:space="preserve">
+    <value>OpenAI, Claude, Gemini, Mistral… avec ta propre clé.</value>
+  </data>
+  <data name="Welcome_OnlineNote" xml:space="preserve">
+    <value>Traduire et Dictionnaire envoient le texte sélectionné à des services en ligne (MyMemory, Wiktionnaire, Wikipédia).</value>
+  </data>
+  <data name="Welcome_PasteKeyFirst" xml:space="preserve">
+    <value>Colle d'abord ta clé {0} (lien « Obtenir une clé »).</value>
+  </data>
+  <data name="Welcome_ProviderName" xml:space="preserve">
+    <value>Fournisseur d'IA</value>
+  </data>
+  <data name="Welcome_ReadyPrefix" xml:space="preserve">
+    <value>Prêt ✓ — modèle : </value>
+  </data>
+  <data name="Welcome_RecommendedModel" xml:space="preserve">
+    <value>Modèle conseillé : {0} ({1}). Rien ne se télécharge sans ton clic.</value>
+  </data>
+  <data name="Welcome_SelectThis" xml:space="preserve">
+    <value>Sélectionne ce texte</value>
+  </data>
+  <data name="Welcome_Skip" xml:space="preserve">
+    <value>Passer</value>
+  </data>
+  <data name="Welcome_SkipName" xml:space="preserve">
+    <value>Passer l'assistant</value>
+  </data>
+  <data name="Welcome_StepPrefix" xml:space="preserve">
+    <value>Étape </value>
+  </data>
+  <data name="Welcome_Testing" xml:space="preserve">
+    <value>Test de la connexion…</value>
+  </data>
+  <data name="Welcome_Text1" xml:space="preserve">
+    <value>Sélectionne du texte dans n'importe quelle application : une petite barre apparaît juste à côté. </value>
+  </data>
+  <data name="Welcome_Text2" xml:space="preserve">
+    <value>Rechercher, copier, traduire, demander à l'IA de résumer ou de reformuler : tout est à un clic.</value>
+  </data>
+  <data name="Welcome_Title" xml:space="preserve">
+    <value>Bienvenue dans Selecto AI</value>
+  </data>
+  <data name="Welcome_TitleBar" xml:space="preserve">
+    <value>Bienvenue</value>
+  </data>
+  <data name="Welcome_TrayNote" xml:space="preserve">
+    <value>Selecto AI reste dans la zone de notification, près de l'horloge. Tu peux tout régler plus tard.</value>
+  </data>
+  <data name="Welcome_VerifySave" xml:space="preserve">
+    <value>Vérifier et enregistrer</value>
+  </data>
+  <!-- /T5 -->
+  <!-- T5b -->
+  <data name="Ollama_ErrNoAsset" xml:space="preserve">
+    <value>Aucune version d'Ollama pour ce PC n'a été trouvée sur GitHub.</value>
+  </data>
+  <data name="Ollama_ErrUntrustedUrl" xml:space="preserve">
+    <value>L'adresse de téléchargement n'est pas celle d'Ollama : installation refusée.</value>
+  </data>
+  <data name="Ollama_ErrNoDigest" xml:space="preserve">
+    <value>L'installation est refusée : GitHub ne donne pas l'empreinte de sécurité de ce fichier. Réessaie plus tard.</value>
+  </data>
+  <data name="Ollama_ErrNoSize" xml:space="preserve">
+    <value>GitHub n'indique pas la taille du fichier. Réessaie plus tard.</value>
+  </data>
+  <data name="Ollama_ErrCorrupt" xml:space="preserve">
+    <value>Le fichier téléchargé est corrompu, réessaie</value>
+  </data>
+  <data name="Ollama_ErrDiskSpace" xml:space="preserve">
+    <value>Il n'y a pas assez de place sur le disque : il manque {0}. Libère de l'espace puis réessaie.</value>
+  </data>
+  <data name="Ollama_TransferOf" xml:space="preserve">
+    <value>{0} sur {1}</value>
+  </data>
+  <data name="Ollama_TimeRemaining" xml:space="preserve">
+    <value>{0} restantes</value>
+  </data>
+  <data name="Ollama_Starting" xml:space="preserve">
+    <value>Démarrage du moteur IA…</value>
+  </data>
+  <data name="Ollama_ModelNotInstalled" xml:space="preserve">
+    <value>Le modèle {0} n'est plus installé.</value>
+  </data>
+  <data name="Ollama_EngineNotInstalled" xml:space="preserve">
+    <value>Le moteur IA n'est plus installé sur ton PC.</value>
+  </data>
+  <data name="Ollama_ErrNetwork" xml:space="preserve">
+    <value>Pas de connexion à Internet, ou GitHub ne répond pas. Vérifie ta connexion puis réessaie.</value>
+  </data>
+  <data name="Ollama_ErrTimeout" xml:space="preserve">
+    <value>La connexion est trop lente ou coupée. Réessaie.</value>
+  </data>
+  <data name="Ollama_ErrBlockedFile" xml:space="preserve">
+    <value>Windows ou ton antivirus a bloqué le fichier. Autorise Selecto AI (ou le dossier SelectoAI\ollama) dans ton antivirus, puis réessaie.</value>
+  </data>
+  <data name="Ollama_ErrLaunchBlocked" xml:space="preserve">
+    <value>Windows ou ton antivirus a empêché de lancer le moteur IA (ollama.exe). Autorise-le dans ton antivirus ou dans SmartScreen, puis réessaie.</value>
+  </data>
+  <data name="Ollama_ErrDiskFull" xml:space="preserve">
+    <value>Il n'y a plus de place sur le disque. Libère de l'espace puis réessaie.</value>
+  </data>
+  <data name="Ollama_ErrBadArchive" xml:space="preserve">
+    <value>L'archive téléchargée est abîmée. Réessaie.</value>
+  </data>
+  <data name="Ollama_ErrGeneric" xml:space="preserve">
+    <value>L'installation a échoué. Réessaie.</value>
+  </data>
+  <data name="App_UpdateAvailable" xml:space="preserve">
+    <value>Selecto AI {0} est disponible</value>
+  </data>
+  <data name="App_AiEnabledToast" xml:space="preserve">
+    <value>Traduire, Dictionnaire et IA sont maintenant activés. Ils envoient le texte sélectionné à des services en ligne (MyMemory, Wiktionnaire, Wikipédia, ou ton IA). Désactivable dans Réglages &gt; IA.</value>
+  </data>
+  <data name="App_ShortcutRefused" xml:space="preserve">
+    <value>Windows a refusé ce raccourci (déjà utilisé ?). Choisis-en un autre.</value>
+  </data>
+  <data name="Tray_StatusOnOne" xml:space="preserve">
+    <value>Barre active · {0} action</value>
+  </data>
+  <data name="Tray_StatusOnOther" xml:space="preserve">
+    <value>Barre active · {0} actions</value>
+  </data>
+  <data name="Tray_StatusPaused" xml:space="preserve">
+    <value>En pause</value>
+  </data>
+  <data name="Tray_Extensions" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <!-- T5c -->
+  <data name="Settings_Apply" xml:space="preserve">
+    <value>Appliquer</value>
+  </data>
+  <data name="Settings_Saved" xml:space="preserve">
+    <value>Réglages enregistrés</value>
+  </data>
+  <!-- T9 -->
+  <data name="Quit_Title" xml:space="preserve">
+    <value>Quitter Selecto AI ?</value>
+  </data>
+  <data name="Quit_Body" xml:space="preserve">
+    <value>La barre ne s'affichera plus jusqu'au prochain lancement.</value>
+  </data>
+  <data name="Quit_Confirm" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="Quit_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Quit_DontAsk" xml:space="preserve">
+    <value>Ne plus demander</value>
+  </data>
+  <!-- T10 -->
+  <data name="About_VersionLine" xml:space="preserve">
+    <value>Selecto AI {0} · {1}</value>
+  </data>
+  <data name="About_CheckUpdate" xml:space="preserve">
+    <value>Rechercher une mise à jour</value>
+  </data>
+  <data name="About_LinkSite" xml:space="preserve">
+    <value>Site Selecto AI</value>
+  </data>
+  <data name="About_LinkPrivacy" xml:space="preserve">
+    <value>Confidentialité</value>
+  </data>
+  <!-- T7 -->
+  <data name="Settings_UiLanguage" xml:space="preserve">
+    <value>Langue de l'interface</value>
+  </data>
+  <data name="Settings_UiLanguage_Auto" xml:space="preserve">
+    <value>Automatique (Windows)</value>
+  </data>
+  <data name="Settings_UiLanguage_RestartNote" xml:space="preserve">
+    <value>Redémarre Selecto AI pour appliquer partout.</value>
+  </data>
+  <!-- T11 -->
+  <data name="Ext_SamplesRenamed" xml:space="preserve">
+    <value>Les extensions d'exemple ont été renommées en .js.ancien (elles ne sont pas supprimées).</value>
+  </data>
+  <!-- T13 -->
+  <data name="Settings_BuiltInExtensions" xml:space="preserve">
+    <value>Extensions intégrées</value>
+  </data>
+  <data name="Settings_BuiltInExtensions_Help" xml:space="preserve">
+    <value>Les extensions ajoutent des actions à la barre. Désactivées par défaut pour garder la barre courte.</value>
+  </data>
+  <data name="Settings_WriteExtension" xml:space="preserve">
+    <value>Écrire une extension</value>
+  </data>
+  <!-- T14 -->
+  <data name="Welcome_StepOf" xml:space="preserve">
+    <value>{0} sur {1}</value>
+  </data>
+  <!-- T14b -->
+  <data name="Settings_Rec_Paused" xml:space="preserve">
+    <value>Selecto AI est en pause : réactive l'apparition automatique pour retrouver la barre.</value>
+  </data>
+  <data name="Settings_Rec_EnableOnline" xml:space="preserve">
+    <value>Active les actions en ligne pour définir, traduire ou résumer une sélection dans un petit popup.</value>
+  </data>
+  <data name="Settings_Rec_ReenableAction" xml:space="preserve">
+    <value>Réactive l'action « {0} » si elle te manque.</value>
+  </data>
+  <data name="Settings_Rec_AddExtension" xml:space="preserve">
+    <value>Ajoute une extension (.js) pour créer tes propres actions.</value>
+  </data>
+  <data name="Settings_Rec_AllGood" xml:space="preserve">
+    <value>Tout est en ordre : place tes actions favorites en tête de liste.</value>
+  </data>
+  <data name="Settings_FirstRun_Local" xml:space="preserve">
+    <value>IA locale gratuite (Ollama, recommandé)</value>
+  </data>
+  <data name="Settings_FirstRun_Provider" xml:space="preserve">
+    <value>Mon fournisseur (clé API)</value>
+  </data>
+  <data name="Settings_FirstRun_None" xml:space="preserve">
+    <value>Aucune</value>
+  </data>
+  <!-- T14b -->
+  <data name="Online_Lang_fr" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="Online_Lang_en" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="Online_Lang_es" xml:space="preserve">
+    <value>Espagnol</value>
+  </data>
+  <data name="Online_Lang_de" xml:space="preserve">
+    <value>Allemand</value>
+  </data>
+  <data name="Online_Lang_it" xml:space="preserve">
+    <value>Italien</value>
+  </data>
+  <data name="Online_Lang_pt" xml:space="preserve">
+    <value>Portugais</value>
+  </data>
+  <data name="Online_Lang_nl" xml:space="preserve">
+    <value>Néerlandais</value>
+  </data>
+  <data name="Online_Lang_ar" xml:space="preserve">
+    <value>Arabe</value>
+  </data>
+  <data name="Online_Privacy_Local" xml:space="preserve">
+    <value>Le texte sélectionné reste sur ton PC.</value>
+  </data>
+  <data name="Online_Privacy_Sent" xml:space="preserve">
+    <value>Le texte sélectionné est envoyé à {0}.</value>
+  </data>
+  <data name="Online_ThisServer" xml:space="preserve">
+    <value>ce serveur</value>
+  </data>
+  <data name="Online_Cfg_AddressMissing" xml:space="preserve">
+    <value>Indique l'adresse du serveur.</value>
+  </data>
+  <data name="Online_Cfg_AddressScheme" xml:space="preserve">
+    <value>L'adresse doit commencer par http:// ou https://.</value>
+  </data>
+  <data name="Online_Cfg_AddressCreds" xml:space="preserve">
+    <value>L'adresse ne doit contenir ni identifiants ni paramètres.</value>
+  </data>
+  <data name="Online_Cfg_HttpsRequired" xml:space="preserve">
+    <value>Utilise une adresse https:// : la clé ne doit pas voyager en clair.</value>
+  </data>
+  <data name="Online_Models_NoChat" xml:space="preserve">
+    <value>Ce service n'a proposé aucun modèle de conversation avec cette clé.</value>
+  </data>
+  <data name="Online_ErrServiceSlow" xml:space="preserve">
+    <value>Le service met trop de temps à répondre. Réessaie dans un instant.</value>
+  </data>
+  <data name="Online_ErrUnreachableAddr" xml:space="preserve">
+    <value>Impossible de joindre le service. Vérifie ta connexion Internet et l'adresse.</value>
+  </data>
+  <data name="Online_ErrUnreachable" xml:space="preserve">
+    <value>Impossible de joindre le service. Vérifie ta connexion Internet.</value>
+  </data>
+  <data name="Online_ErrGeneric" xml:space="preserve">
+    <value>Une erreur est survenue. Réessaie.</value>
+  </data>
+  <data name="Online_NothingToShow" xml:space="preserve">
+    <value>Rien à afficher.</value>
+  </data>
+  <data name="Online_Llm_Empty" xml:space="preserve">
+    <value>Le modèle n'a rien répondu. Réessaie.</value>
+  </data>
+  <data name="Online_Llm_ErrorGeneric" xml:space="preserve">
+    <value>Le modèle a renvoyé une erreur.</value>
+  </data>
+  <data name="Online_Llm_ErrorSaid" xml:space="preserve">
+    <value>Le modèle a répondu : {0}</value>
+  </data>
+  <data name="Online_Llm_Unexpected" xml:space="preserve">
+    <value>Réponse inattendue du modèle. Vérifie les réglages.</value>
+  </data>
+  <data name="Online_Llm_UnexpectedAddr" xml:space="preserve">
+    <value>Réponse inattendue du modèle. Vérifie l'adresse du serveur dans les réglages.</value>
+  </data>
+  <data name="Online_Llm_QuotaExhausted" xml:space="preserve">
+    <value>Crédit ou quota épuisé sur ce service. Ajoute du crédit ou choisis un autre fournisseur.</value>
+  </data>
+  <data name="Online_Llm_CreditLow" xml:space="preserve">
+    <value>Crédit insuffisant sur ce service. Choisis un modèle gratuit ou ajoute du crédit.</value>
+  </data>
+  <data name="Online_Llm_OllamaModelMissing" xml:space="preserve">
+    <value>Ce modèle n'est pas installé dans Ollama. Choisis-en un dans les réglages.</value>
+  </data>
+  <data name="Online_Llm_Slow" xml:space="preserve">
+    <value>Le modèle met trop de temps à répondre. Réessaie.</value>
+  </data>
+  <data name="Online_Llm_RateLimited" xml:space="preserve">
+    <value>Trop de demandes ou quota atteint. Réessaie dans un instant.</value>
+  </data>
+  <data name="Online_Llm_ServerError" xml:space="preserve">
+    <value>Le serveur du modèle a rencontré un problème. Réessaie dans un instant.</value>
+  </data>
+  <data name="Online_Llm_Refused" xml:space="preserve">
+    <value>Le modèle a refusé la demande. Vérifie les réglages.</value>
+  </data>
+  <data name="Online_Llm_KeyRefused" xml:space="preserve">
+    <value>La clé API est refusée. Vérifie-la dans les réglages.</value>
+  </data>
+  <data name="Online_Llm_ModelNotFound" xml:space="preserve">
+    <value>Modèle introuvable. Choisis-en un autre dans les réglages.</value>
+  </data>
+  <data name="Online_LocalStarting" xml:space="preserve">
+    <value>Démarrage de l'IA locale… (premier lancement plus long)</value>
+  </data>
+  <data name="Online_EngineNotStarted" xml:space="preserve">
+    <value>Le moteur IA n'a pas démarré. Réessaie, ou réinstalle-le depuis les réglages.</value>
+  </data>
+  <data name="Online_FetchingVersion" xml:space="preserve">
+    <value>Recherche de la dernière version du moteur IA…</value>
+  </data>
+  <data name="Online_Verifying" xml:space="preserve">
+    <value>Vérification du fichier…</value>
+  </data>
+  <data name="Online_ArchiveNoEngine" xml:space="preserve">
+    <value>L'archive ne contient pas le moteur IA. Réessaie.</value>
+  </data>
+  <data name="Online_EngineInstalled" xml:space="preserve">
+    <value>Moteur IA installé ✓</value>
+  </data>
+  <data name="Online_EngineStartBlocked" xml:space="preserve">
+    <value>Le moteur IA est installé mais ne démarre pas. Un antivirus l'a peut-être bloqué.</value>
+  </data>
+  <data name="Online_InstallCancelled" xml:space="preserve">
+    <value>Installation annulée.</value>
+  </data>
+  <data name="Online_GitHubLimit" xml:space="preserve">
+    <value>GitHub limite les demandes pour le moment. Réessaie dans quelques minutes.</value>
+  </data>
+  <data name="Online_GitHubBad" xml:space="preserve">
+    <value>GitHub ne répond pas comme prévu. Réessaie plus tard.</value>
+  </data>
+  <data name="Online_DownloadingEngine" xml:space="preserve">
+    <value>Téléchargement du moteur IA…</value>
+  </data>
+  <data name="Online_InstallFirst" xml:space="preserve">
+    <value>Installe d'abord le moteur IA (étape 1).</value>
+  </data>
+  <data name="Online_EngineNoResponse" xml:space="preserve">
+    <value>Le moteur IA ne répond pas. Un antivirus l'a peut-être bloqué.</value>
+  </data>
+  <data name="Online_DownloadingModel" xml:space="preserve">
+    <value>Téléchargement du modèle…</value>
+  </data>
+  <data name="Online_ModelReady" xml:space="preserve">
+    <value>Modèle prêt ✓</value>
+  </data>
+  <data name="Online_DownloadCancelled" xml:space="preserve">
+    <value>Téléchargement annulé.</value>
+  </data>
+  <data name="Online_DeletingModel" xml:space="preserve">
+    <value>Suppression du modèle…</value>
+  </data>
+  <data name="Online_ModelDeleted" xml:space="preserve">
+    <value>Modèle supprimé ✓</value>
+  </data>
+  <data name="Online_UninstallingEngine" xml:space="preserve">
+    <value>Désinstallation du moteur IA…</value>
+  </data>
+  <data name="Online_EngineUninstalled" xml:space="preserve">
+    <value>Moteur IA désinstallé ✓</value>
+  </data>
+  <data name="Online_UninstallLeftovers" xml:space="preserve">
+    <value>Certains fichiers n'ont pas pu être supprimés (ils sont peut-être utilisés). Ferme Selecto AI puis supprime le dossier SelectoAI\ollama.</value>
+  </data>
+  <data name="Online_ModelDeleteFailed" xml:space="preserve">
+    <value>Le modèle n'a pas pu être supprimé. Réessaie.</value>
+  </data>
+  <data name="Online_EngineNotResponding" xml:space="preserve">
+    <value>Le moteur IA ne répond pas : réessaie dans un instant.</value>
+  </data>
+  <data name="Online_DownloadInterrupted" xml:space="preserve">
+    <value>Le téléchargement s'est interrompu. Réessaie.</value>
+  </data>
+  <data name="Online_OllamaNotRunning" xml:space="preserve">
+    <value>Ollama n'est pas lancé : ouvre-le puis réessaie.</value>
+  </data>
+  <data name="Online_OllamaNotRunningRetry" xml:space="preserve">
+    <value>Ollama n'est pas lancé : ouvre-le, puis réessaie.</value>
+  </data>
+  <data name="Online_ModelNotInCatalog" xml:space="preserve">
+    <value>Ce modèle est introuvable dans le catalogue d'Ollama.</value>
+  </data>
+  <data name="Online_NoDiskForModel" xml:space="preserve">
+    <value>Il n'y a pas assez de place sur le disque pour ce modèle.</value>
+  </data>
+  <data name="Online_PullFailed" xml:space="preserve">
+    <value>Le téléchargement a échoué. Vérifie ta connexion puis réessaie.</value>
+  </data>
+  <data name="Online_NoDefinition" xml:space="preserve">
+    <value>Aucune définition trouvée pour « {0} ».</value>
+  </data>
+  <data name="Online_TextShortenedFree" xml:space="preserve">
+    <value>Texte raccourci : le service gratuit accepte environ 500 caractères par requête.</value>
+  </data>
+  <data name="Online_TranslatedBy" xml:space="preserve">
+    <value>Traduction : MyMemory</value>
+  </data>
+  <data name="Online_NoWikipedia" xml:space="preserve">
+    <value>Aucun article Wikipédia ne correspond à cette sélection.</value>
+  </data>
+  <data name="Online_Ambiguous" xml:space="preserve">
+    <value>Plusieurs sens sont possibles : précise ta sélection.</value>
+  </data>
+  <data name="Online_SourceWiki" xml:space="preserve">
+    <value>Source : Wikipédia ({0})</value>
+  </data>
+  <data name="Online_NoModel" xml:space="preserve">
+    <value>Aucun modèle configuré.</value>
+  </data>
+  <data name="Online_AiNotInstalled" xml:space="preserve">
+    <value>L'IA n'est pas installée sur ton PC.</value>
+  </data>
+  <data name="Online_LocalNotStarted" xml:space="preserve">
+    <value>Le moteur IA local n'a pas encore démarré (premier lancement plus long sur certains PC). Réessaie dans un instant.</value>
+  </data>
+  <data name="Online_ModelServerUnreachable" xml:space="preserve">
+    <value>Le serveur du modèle est injoignable. Vérifie ta connexion et l'adresse dans les réglages.</value>
+  </data>
+  <data name="Online_ModelSlow" xml:space="preserve">
+    <value>Le modèle met trop de temps à répondre. Réessaie, ou choisis un modèle plus léger.</value>
+  </data>
+  <data name="Online_ModelNoLongerInstalled" xml:space="preserve">
+    <value>Le modèle {0} n'est plus installé sur ton PC.</value>
+  </data>
+  <data name="Online_Title_Summary" xml:space="preserve">
+    <value>Résumé</value>
+  </data>
+  <data name="Online_Title_Explain" xml:space="preserve">
+    <value>Explication</value>
+  </data>
+  <data name="Online_Title_Rephrase" xml:space="preserve">
+    <value>Reformulation</value>
+  </data>
+  <data name="Online_Title_Correct" xml:space="preserve">
+    <value>Texte corrigé</value>
+  </data>
+  <data name="Online_TruncatedAt" xml:space="preserve">
+    <value>Texte raccourci à {0} caractères avant l'envoi.</value>
+  </data>
+  <data name="Online_GeneratedBy" xml:space="preserve">
+    <value>Réponse générée par {0}, vérifie avant de remplacer.</value>
+  </data>
+  <data name="Online_CopilotNoAccess" xml:space="preserve">
+    <value>Copilot n'a pas d'accès direct : ouvre-le dans le navigateur.</value>
+  </data>
+  <data name="Online_TranslateQuota" xml:space="preserve">
+    <value>Le quota gratuit de traduction est atteint pour aujourd'hui (environ 5 000 caractères par jour). Réessaie demain.</value>
+  </data>
+  <data name="Online_SameLanguage" xml:space="preserve">
+    <value>Le texte est déjà dans la langue cible.</value>
+  </data>
+  <data name="Online_TranslateEmpty" xml:space="preserve">
+    <value>Le service de traduction n'a rien renvoyé.</value>
+  </data>
+  <data name="Online_TranslateUnreadable" xml:space="preserve">
+    <value>Réponse illisible du service de traduction.</value>
+  </data>
+  <data name="Online_NothingToTranslate" xml:space="preserve">
+    <value>Il n'y a rien à traduire.</value>
+  </data>
+  <data name="Online_Pos_noun" xml:space="preserve">
+    <value>nom</value>
+  </data>
+  <data name="Online_Pos_verb" xml:space="preserve">
+    <value>verbe</value>
+  </data>
+  <data name="Online_Pos_adjective" xml:space="preserve">
+    <value>adjectif</value>
+  </data>
+  <data name="Online_Pos_adverb" xml:space="preserve">
+    <value>adverbe</value>
+  </data>
+  <data name="Online_Pos_pronoun" xml:space="preserve">
+    <value>pronom</value>
+  </data>
+  <data name="Online_Pos_preposition" xml:space="preserve">
+    <value>préposition</value>
+  </data>
+  <data name="Online_Pos_conjunction" xml:space="preserve">
+    <value>conjonction</value>
+  </data>
+  <data name="Online_Pos_interjection" xml:space="preserve">
+    <value>interjection</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Welcome_Continue" xml:space="preserve">
+    <value>Continuer</value>
+  </data>
+  <data name="Welcome_Start" xml:space="preserve">
+    <value>C'est parti</value>
+  </data>
+  <data name="Settings_GetExtensions" xml:space="preserve">
+    <value>Télécharger d'autres extensions</value>
+  </data>
+  <data name="Settings_GetExtensionsHelp" xml:space="preserve">
+    <value>Catalogue sur le site Selecto AI.</value>
+  </data>
+  <data name="Settings_Browse" xml:space="preserve">
+    <value>Parcourir</value>
+  </data>
+  <data name="Import_SkipLine" xml:space="preserve">
+    <value>{0} : {1}</value>
+  </data>
+  <data name="Import_NoneAdded" xml:space="preserve">
+    <value>Aucune extension ajoutée.</value>
+  </data>
+  <data name="Import_NotScript" xml:space="preserve">
+    <value>Fichier non pris en charge (.js ou .zip seulement).</value>
+  </data>
+  <data name="Import_NotArchive" xml:space="preserve">
+    <value>Archive zip illisible.</value>
+  </data>
+  <data name="Import_NoScript" xml:space="preserve">
+    <value>Aucun fichier .js à la racine de l'archive.</value>
+  </data>
+  <data name="Import_TooManyEntries" xml:space="preserve">
+    <value>Plus de {0} fichiers .js dans l'archive.</value>
+  </data>
+  <data name="Import_OutsideRoot" xml:space="preserve">
+    <value>Chemin interdit : seuls les fichiers à la racine sont pris.</value>
+  </data>
+  <data name="Import_BadName" xml:space="preserve">
+    <value>Nom de fichier non valide.</value>
+  </data>
+  <data name="Import_TooLarge" xml:space="preserve">
+    <value>Fichier trop volumineux ({0} Ko au maximum).</value>
+  </data>
+  <data name="Settings_InstalledExtensions" xml:space="preserve">
+    <value>Extensions installées</value>
+  </data>
+  <data name="Settings_ExtensionActionsOne" xml:space="preserve">
+    <value>{0} action</value>
+  </data>
+  <data name="Settings_ExtensionActionsOther" xml:space="preserve">
+    <value>{0} actions</value>
+  </data>
+  <data name="Settings_ShowMore" xml:space="preserve">
+    <value>Afficher plus ({0})</value>
+  </data>
+  <data name="Settings_ExtensionActionsTwo" xml:space="preserve">
+    <value>{0} actions</value>
+  </data>
+  <data name="Settings_ExtensionActionsFew" xml:space="preserve">
+    <value>{0} actions</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Maj</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Espace</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Entrée</value>
+  </data>
+  <data name="Welcome_ShortcutHint" xml:space="preserve">
+    <value>Sélectionne à la souris, ou appuie sur {0} après une sélection au clavier.</value>
+  </data>
+  <data name="Settings_ShortcutRowHelp" xml:space="preserve">
+    <value>Après une sélection au clavier, appuie sur {0} pour afficher la barre.</value>
+  </data>
+  <data name="Settings_ShortcutNoneHelp" xml:space="preserve">
+    <value>Sans raccourci, la barre n'apparaît qu'après une sélection à la souris.</value>
+  </data>
+  <data name="About_FreeSoftware" xml:space="preserve">
+    <value>Logiciel libre (MIT)</value>
+  </data>
+  <data name="About_LinkSource" xml:space="preserve">
+    <value>Code source (GitHub)</value>
+  </data>
+  <data name="Mit_Title" xml:space="preserve">
+    <value>Licence</value>
+  </data>
+  <data name="Mit_Name" xml:space="preserve">
+    <value>Licence MIT</value>
+  </data>
+  <data name="Mit_Help" xml:space="preserve">
+    <value>Selecto AI est libre : tu peux l'utiliser, le copier, le modifier et le partager.</value>
+  </data>
+  <data name="Mit_Read" xml:space="preserve">
+    <value>Lire la licence</value>
+  </data>
+  <data name="Mit_Intro" xml:space="preserve">
+    <value>Texte officiel de la licence MIT (en anglais).</value>
+  </data>
+  <data name="Mit_OpenGitHub" xml:space="preserve">
+    <value>Voir sur GitHub</value>
+  </data>
+  <data name="Welcome_FreeTitle" xml:space="preserve">
+    <value>Logiciel libre et gratuit</value>
+  </data>
+  <data name="Welcome_FreeText" xml:space="preserve">
+    <value>Selecto AI est gratuit, sans limite de durée et sans clé. Son code est public (MIT) : tu peux le lire, le copier et y participer sur GitHub.</value>
+  </data>
+  <data name="Welcome_FreeGitHub" xml:space="preserve">
+    <value>Voir le code sur GitHub</value>
+  </data>
+</root>

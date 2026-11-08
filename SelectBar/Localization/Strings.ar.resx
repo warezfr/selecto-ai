@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Tray_BarOn" xml:space="preserve">
+    <value>الشريط مفعّل</value>
+  </data>
+  <data name="Tray_Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="Tray_About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="Tray_ReportProblem" xml:space="preserve">
+    <value>الإبلاغ عن مشكلة</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>إنهاء</value>
+  </data>
+  <data name="Tray_UpdateAvailable" xml:space="preserve">
+    <value>يتوفر التحديث {0}</value>
+  </data>
+  <data name="Action_Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="Action_Replace" xml:space="preserve">
+    <value>استبدال</value>
+  </data>
+  <data name="Action_Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="Tray_ActionsOne" xml:space="preserve">
+    <value>{0} إجراء</value>
+    <comment>Forme singulier acceptée par le cahier des charges (« {0} إجراء »).</comment>
+  </data>
+  <data name="Tray_ActionsOther" xml:space="preserve">
+    <value>{0} إجراءات</value>
+    <comment>Forme pluriel acceptée par le cahier des charges (« {0} إجراءات »).</comment>
+  </data>
+  <data name="Action_OpenLink" xml:space="preserve">
+    <value>فتح الرابط</value>
+  </data>
+  <data name="Action_Reveal" xml:space="preserve">
+    <value>عرض في مستكشف الملفات</value>
+    <comment>Nom de l'Explorateur Windows en arabe à vérifier sur un Windows arabe.</comment>
+  </data>
+  <data name="Action_Mail" xml:space="preserve">
+    <value>كتابة بريد إلى…</value>
+    <comment>Formule à relire : « écrire un e-mail à ».</comment>
+  </data>
+  <data name="Action_Spell" xml:space="preserve">
+    <value>التدقيق الإملائي</value>
+  </data>
+  <data name="Action_Cut" xml:space="preserve">
+    <value>قص</value>
+  </data>
+  <data name="Action_Paste" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="Action_Define" xml:space="preserve">
+    <value>القاموس</value>
+  </data>
+  <data name="Action_Translate" xml:space="preserve">
+    <value>ترجمة</value>
+  </data>
+  <data name="Action_Ai" xml:space="preserve">
+    <value>AI</value>
+    <comment>Sigle « IA » identique en espagnol (exempté dans le test).</comment>
+  </data>
+  <data name="Action_Summarize" xml:space="preserve">
+    <value>تلخيص</value>
+  </data>
+  <data name="Action_Explain" xml:space="preserve">
+    <value>شرح</value>
+  </data>
+  <data name="Action_Rephrase" xml:space="preserve">
+    <value>إعادة صياغة</value>
+  </data>
+  <data name="Action_Correct" xml:space="preserve">
+    <value>تصحيح</value>
+  </data>
+  <data name="Bar_Back" xml:space="preserve">
+    <value>رجوع</value>
+  </data>
+  <data name="Bar_MoreChoices" xml:space="preserve">
+    <value>خيارات أخرى</value>
+  </data>
+  <data name="Popup_Searching" xml:space="preserve">
+    <value>جارٍ البحث…</value>
+  </data>
+  <data name="Popup_KindDefine" xml:space="preserve">
+    <value>القاموس</value>
+  </data>
+  <data name="Popup_KindTranslate" xml:space="preserve">
+    <value>ترجمة</value>
+  </data>
+  <data name="Popup_KindExplain" xml:space="preserve">
+    <value>شرح</value>
+  </data>
+  <data name="Popup_KindSummarize" xml:space="preserve">
+    <value>ملخص</value>
+  </data>
+  <data name="Popup_KindRephrase" xml:space="preserve">
+    <value>إعادة صياغة</value>
+  </data>
+  <data name="Popup_KindCorrect" xml:space="preserve">
+    <value>تصحيح</value>
+  </data>
+  <data name="Popup_ErrorGeneric" xml:space="preserve">
+    <value>حدث خطأ. حاول مرة أخرى.</value>
+  </data>
+  <data name="Popup_InstallAi" xml:space="preserve">
+    <value>تثبيت الذكاء الاصطناعي على جهازي</value>
+  </data>
+  <data name="Popup_OnlineService" xml:space="preserve">
+    <value>استخدام خدمة عبر الإنترنت</value>
+  </data>
+  <data name="Popup_OpenInBrowser" xml:space="preserve">
+    <value>فتح في المتصفح</value>
+  </data>
+  <data name="Popup_Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="Popup_Copied" xml:space="preserve">
+    <value>تم النسخ ✓</value>
+  </data>
+  <data name="Popup_Replace" xml:space="preserve">
+    <value>استبدال</value>
+  </data>
+  <data name="Dialog_Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Dialog_No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Dialog_DontSave" xml:space="preserve">
+    <value>عدم الحفظ</value>
+    <comment>Bouton de la boîte de fermeture : vérifier la formulation usuelle.</comment>
+  </data>
+  <data name="Dialog_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Copilot_ClipboardNotice" xml:space="preserve">
+    <value>تم نسخ الموجّه، ألصقه ‏(Ctrl+V)‏</value>
+    <comment>« Prompt » rendu par « الموجّه » : terme à relire.</comment>
+  </data>
+  <data name="Flyout_Logo" xml:space="preserve">
+    <value>شعار Selecto AI</value>
+  </data>
+  <data name="Flyout_Settings" xml:space="preserve">
+    <value>الإعدادات…</value>
+  </data>
+  <data name="Flyout_OpenExtensions" xml:space="preserve">
+    <value>فتح مجلد الإضافات</value>
+    <comment>Terme « extensions » rendu par « الإضافات » : à valider.</comment>
+  </data>
+  <data name="Feedback_AttachLogs" xml:space="preserve">
+    <value>إرفاق سجلات Selecto AI</value>
+  </data>
+  <data name="Feedback_AttachShot" xml:space="preserve">
+    <value>إرفاق لقطة للشاشة</value>
+  </data>
+  <data name="Feedback_AttachmentsHeader" xml:space="preserve">
+    <value>المرفقات</value>
+  </data>
+  <data name="Feedback_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Feedback_Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="Feedback_Consent" xml:space="preserve">
+    <value>أوافق على إرسال هذه المعلومات إلى الناشر لمعالجة طلبي.</value>
+  </data>
+  <data name="Feedback_DescribeHeader" xml:space="preserve">
+    <value>صف المشكلة</value>
+  </data>
+  <data name="Feedback_EmailHeader" xml:space="preserve">
+    <value>البريد الإلكتروني (اختياري)</value>
+  </data>
+  <data name="Feedback_EmailName" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="Feedback_EmailPlaceholder" xml:space="preserve">
+    <value>name@example.com</value>
+    <comment>Exemple d'adresse neutre (non traduit).</comment>
+  </data>
+  <data name="Feedback_Err_400" xml:space="preserve">
+    <value>رُفض النموذج: أحد الحقول غير صالح. تحقق منه ثم أعد المحاولة.</value>
+  </data>
+  <data name="Feedback_Err_403" xml:space="preserve">
+    <value>رفضت خدمة الدعم هذا الإرسال. حدّث Selecto AI ثم أعد المحاولة، أو راسل الناشر مباشرة.</value>
+    <comment>« Éditeur » rendu par « الناشر » : à valider.</comment>
+  </data>
+  <data name="Feedback_Err_413" xml:space="preserve">
+    <value>المرفقات كبيرة جداً. أزل اللقطة أو السجلات ثم أعد المحاولة.</value>
+  </data>
+  <data name="Feedback_Err_429" xml:space="preserve">
+    <value>عدد كبير جداً من الطلبات من هذا الاتصال. حاول لاحقاً.</value>
+  </data>
+  <data name="Feedback_Err_5xx" xml:space="preserve">
+    <value>خدمة الدعم غير متاحة مؤقتاً. حاول مرة أخرى بعد بضع دقائق.</value>
+  </data>
+  <data name="Feedback_Err_Consent" xml:space="preserve">
+    <value>ضع علامة في خانة الموافقة لإرسال طلبك.</value>
+  </data>
+  <data name="Feedback_Err_Email" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني غير صالح (أو اترك الحقل فارغاً).</value>
+  </data>
+  <data name="Feedback_Err_LogSize" xml:space="preserve">
+    <value>السجل يتجاوز 1 ميغابايت.</value>
+  </data>
+  <data name="Feedback_Err_Other" xml:space="preserve">
+    <value>تعذّر الإرسال ‏(الخطأ {0})‏. حاول لاحقاً.</value>
+  </data>
+  <data name="Feedback_Err_ShotSize" xml:space="preserve">
+    <value>إحدى اللقطات تتجاوز 5 ميغابايت.</value>
+  </data>
+  <data name="Feedback_Err_Shots" xml:space="preserve">
+    <value>الحد الأقصى 3 لقطات لكل إرسال.</value>
+  </data>
+  <data name="Feedback_Err_TooLong" xml:space="preserve">
+    <value>الوصف يتجاوز 5000 حرف.</value>
+  </data>
+  <data name="Feedback_Err_TooShort" xml:space="preserve">
+    <value>صف المشكلة بـ 10 أحرف على الأقل.</value>
+  </data>
+  <data name="Feedback_Err_TotalSize" xml:space="preserve">
+    <value>المرفقات تتجاوز 12 ميغابايت.</value>
+  </data>
+  <data name="Feedback_Err_Type" xml:space="preserve">
+    <value>اختر نوع المشكلة.</value>
+  </data>
+  <data name="Feedback_Interrupted" xml:space="preserve">
+    <value>تم قطع الإرسال. لم يتم تأكيد أي شيء: أعد المحاولة إن لزم.</value>
+  </data>
+  <data name="Feedback_Intro" xml:space="preserve">
+    <value>مشكلة أو فكرة؟ تُرسل التذكرة إلى الناشر. إذا تركت بريدك الإلكتروني فسيردّ عليك عبر البريد.</value>
+  </data>
+  <data name="Feedback_LogIntro" xml:space="preserve">
+    <value>تم تنظيف سجل Selecto AI. لا يُرفق إلا إذا كانت الخانة محددة.</value>
+  </data>
+  <data name="Feedback_LogTitle" xml:space="preserve">
+    <value>ما سيتم إرساله</value>
+  </data>
+  <data name="Feedback_LogsHelp" xml:space="preserve">
+    <value>آخر 2000 سطر، بعد التنظيف: تُخفى المسارات واسم المستخدم واسم الكمبيوتر والبريد الإلكتروني ومفاتيح API.</value>
+  </data>
+  <data name="Feedback_MalformedError" xml:space="preserve">
+    <value>ردّ غير متوقع من خدمة الدعم. حاول لاحقاً.</value>
+  </data>
+  <data name="Feedback_MessageName" xml:space="preserve">
+    <value>وصف المشكلة</value>
+  </data>
+  <data name="Feedback_MessagePlaceholder" xml:space="preserve">
+    <value>ما الذي حدث، وما الذي كنت تتوقعه، والخطوات للوصول إلى ذلك…</value>
+  </data>
+  <data name="Feedback_NetworkError" xml:space="preserve">
+    <value>تعذّر الوصول إلى خدمة الدعم. تحقق من اتصالك بالإنترنت ثم أعد المحاولة.</value>
+  </data>
+  <data name="Feedback_NoLog" xml:space="preserve">
+    <value>لا يوجد سجل حتى الآن.</value>
+  </data>
+  <data name="Feedback_RemoveShot" xml:space="preserve">
+    <value>إزالة اللقطة</value>
+  </data>
+  <data name="Feedback_Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="Feedback_SendingName" xml:space="preserve">
+    <value>جارٍ الإرسال</value>
+  </data>
+  <data name="Feedback_SendingStatus" xml:space="preserve">
+    <value>جارٍ الإرسال…</value>
+  </data>
+  <data name="Feedback_ShotFailed" xml:space="preserve">
+    <value>تعذّر التقاط لقطة لهذه الشاشة. يمكنك الإرسال دون لقطة.</value>
+  </data>
+  <data name="Feedback_ThankYou" xml:space="preserve">
+    <value>شكراً! تم تسجيل تذكرتك {0}.</value>
+  </data>
+  <data name="Feedback_ThumbName" xml:space="preserve">
+    <value>معاينة اللقطة</value>
+  </data>
+  <data name="Feedback_TimeoutError" xml:space="preserve">
+    <value>خدمة الدعم لا تستجيب ‏(انتهت مهلة 30 ثانية)‏. حاول لاحقاً.</value>
+  </data>
+  <data name="Feedback_Title" xml:space="preserve">
+    <value>الإبلاغ عن مشكلة</value>
+  </data>
+  <data name="Feedback_TypeHeader" xml:space="preserve">
+    <value>نوع المشكلة</value>
+  </data>
+  <data name="Feedback_Type_actions-en-ligne" xml:space="preserve">
+    <value>الإجراءات عبر الإنترنت (ترجمة، بحث، ذكاء اصطناعي عبر الإنترنت)</value>
+    <comment>Libellé long : à relire pour la longueur.</comment>
+  </data>
+  <data name="Feedback_Type_antivirus" xml:space="preserve">
+    <value>مكافح الفيروسات أو Windows يحظر التطبيق</value>
+  </data>
+  <data name="Feedback_Type_autre" xml:space="preserve">
+    <value>أخرى</value>
+  </data>
+  <data name="Feedback_Type_bug" xml:space="preserve">
+    <value>خطأ: شيء ما لا يعمل</value>
+  </data>
+  <data name="Feedback_Type_ia-locale" xml:space="preserve">
+    <value>الذكاء الاصطناعي المحلي ‏(Ollama، النماذج)‏</value>
+  </data>
+  <data name="Feedback_Type_installation" xml:space="preserve">
+    <value>التثبيت أو التحديث</value>
+  </data>
+  <data name="Feedback_Type_suggestion" xml:space="preserve">
+    <value>اقتراح</value>
+  </data>
+  <data name="Feedback_ViewLog" xml:space="preserve">
+    <value>عرض ما سيتم إرساله</value>
+  </data>
+  <data name="TrayMenu_Activate" xml:space="preserve">
+    <value>تفعيل Selecto AI</value>
+  </data>
+  <data name="TrayMenu_OpenExtensions" xml:space="preserve">
+    <value>فتح مجلد الإضافات</value>
+    <comment>Terme « extensions » : voir Flyout_OpenExtensions.</comment>
+  </data>
+  <data name="TrayMenu_Quit" xml:space="preserve">
+    <value>إنهاء</value>
+  </data>
+  <data name="TrayMenu_Report" xml:space="preserve">
+    <value>الإبلاغ عن مشكلة…</value>
+  </data>
+  <data name="TrayMenu_Settings" xml:space="preserve">
+    <value>الإعدادات…</value>
+  </data>
+  <data name="TrayMenu_StatusActive" xml:space="preserve">
+    <value>نشط</value>
+  </data>
+  <data name="TrayMenu_StatusOff" xml:space="preserve">
+    <value>متوقف</value>
+  </data>
+  <data name="TrayMenu_Tooltip" xml:space="preserve">
+    <value>Selecto AI – {0}</value>
+    <comment>Nom propre : identique au français, exempté dans le test.</comment>
+  </data>
+  <data name="Update_Disabled" xml:space="preserve">
+    <value>التحديثات معطّلة</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>تعذّر التنزيل ‏({0})‏</value>
+  </data>
+  <data name="Update_HashMismatch" xml:space="preserve">
+    <value>قيمة SHA-256 غير صالحة، تم رفض المثبّت</value>
+  </data>
+  <data name="Update_InstallerMissing" xml:space="preserve">
+    <value>المثبّت غير موجود</value>
+  </data>
+  <data name="Update_LaunchFailed" xml:space="preserve">
+    <value>تعذّر البدء</value>
+  </data>
+  <data name="Update_NoInstaller" xml:space="preserve">
+    <value>لا يوجد مثبّت لهذه الإصدار أو المعمارية</value>
+  </data>
+  <data name="Update_Reason_Connection" xml:space="preserve">
+    <value>تعذّر الاتصال</value>
+  </data>
+  <data name="Update_Reason_Write" xml:space="preserve">
+    <value>تعذّرت الكتابة</value>
+  </data>
+  <data name="Update_SizeMismatch" xml:space="preserve">
+    <value>حجم المثبّت غير متوقع</value>
+  </data>
+  <data name="Update_UrlRefused" xml:space="preserve">
+    <value>رفض عنوان التنزيل</value>
+  </data>
+  <data name="Welcome_AddLaterAi" xml:space="preserve">
+    <value>يمكنك إضافة واحد لاحقاً من الإعدادات &gt; الذكاء الاصطناعي.</value>
+  </data>
+  <data name="Welcome_AiLevel" xml:space="preserve">
+    <value>ما مستوى الذكاء الاصطناعي؟</value>
+  </data>
+  <data name="Welcome_AiLevelText" xml:space="preserve">
+    <value>للتلخيص أو الشرح أو إعادة الصياغة، يحتاج Selecto AI إلى نموذج. يمكنك الاختيار لاحقاً.</value>
+  </data>
+  <data name="Welcome_ApiKeyName" xml:space="preserve">
+    <value>مفتاح API</value>
+  </data>
+  <data name="Welcome_Back" xml:space="preserve">
+    <value>رجوع</value>
+  </data>
+  <data name="Welcome_BarExample" xml:space="preserve">
+    <value>مثال على شريط Selecto AI</value>
+  </data>
+  <data name="Welcome_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Welcome_CheckFailed" xml:space="preserve">
+    <value>فشل التحقق. حاول مرة أخرى.</value>
+  </data>
+  <data name="Welcome_Checking" xml:space="preserve">
+    <value>جارٍ التحقق…</value>
+  </data>
+  <data name="Welcome_Chosen" xml:space="preserve">
+    <value>، المختار</value>
+    <comment>Fragment de phrase : à relire dans son contexte.</comment>
+  </data>
+  <data name="Welcome_ContinueDownload" xml:space="preserve">
+    <value>يمكنك المتابعة: يستمر التنزيل في الخلفية.</value>
+  </data>
+  <data name="Welcome_Demo_Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="Welcome_Demo_Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="Welcome_Demo_Translate" xml:space="preserve">
+    <value>ترجمة</value>
+  </data>
+  <data name="Welcome_Disable" xml:space="preserve">
+    <value>تعطيل</value>
+  </data>
+  <data name="Welcome_Disabled" xml:space="preserve">
+    <value>تم التعطيل ✓</value>
+  </data>
+  <data name="Welcome_FetchingModels" xml:space="preserve">
+    <value>جارٍ جلب النماذج…</value>
+  </data>
+  <data name="Welcome_GetKey" xml:space="preserve">
+    <value>الحصول على مفتاح</value>
+  </data>
+  <data name="Welcome_InstallLocal" xml:space="preserve">
+    <value>تثبيت الذكاء الاصطناعي المحلي ‏({0})‏</value>
+  </data>
+  <data name="Welcome_InvalidUrl" xml:space="preserve">
+    <value>عنوان غير صالح.</value>
+  </data>
+  <data name="Welcome_LetsGoNote" xml:space="preserve">
+    <value>زر « هيا بنا » يغلق هذه النافذة: يبقى Selecto AI في منطقة الإشعارات.</value>
+  </data>
+  <data name="Welcome_LocalAi" xml:space="preserve">
+    <value>مجاني وخاص: لا يغادر النص جهازك.</value>
+  </data>
+  <data name="Welcome_NoAi" xml:space="preserve">
+    <value>لا ذكاء اصطناعي حالياً. يعمل الشريط بدونه.</value>
+  </data>
+  <data name="Welcome_NoModel" xml:space="preserve">
+    <value>لم يُعثر على أي نموذج لهذا المفتاح.</value>
+  </data>
+  <data name="Welcome_OnlineAi" xml:space="preserve">
+    <value>OpenAI وClaude وGemini وMistral… بمفتاحك الخاص.</value>
+  </data>
+  <data name="Welcome_OnlineNote" xml:space="preserve">
+    <value>الترجمة والقاموس يرسلان النص المحدد إلى خدمات عبر الإنترنت ‏(MyMemory، ويكاموس، ويكيبيديا)‏.</value>
+    <comment>Nom arabe de Wiktionary (« ويكاموس ») : à valider.</comment>
+  </data>
+  <data name="Welcome_PasteKeyFirst" xml:space="preserve">
+    <value>الصق مفتاحك {0} أولاً (رابط « الحصول على مفتاح »).</value>
+  </data>
+  <data name="Welcome_ProviderName" xml:space="preserve">
+    <value>مزوّد الذكاء الاصطناعي</value>
+  </data>
+  <data name="Welcome_ReadyPrefix" xml:space="preserve">
+    <value>جاهز ✓ — النموذج: </value>
+  </data>
+  <data name="Welcome_RecommendedModel" xml:space="preserve">
+    <value>النموذج المقترح: {0} ‏({1})‏. لا يُنزَّل شيء دون نقرك.</value>
+  </data>
+  <data name="Welcome_SelectThis" xml:space="preserve">
+    <value>حدّد هذا النص</value>
+  </data>
+  <data name="Welcome_Skip" xml:space="preserve">
+    <value>تخطي</value>
+  </data>
+  <data name="Welcome_SkipName" xml:space="preserve">
+    <value>تخطي المساعد</value>
+  </data>
+  <data name="Welcome_StepPrefix" xml:space="preserve">
+    <value>الخطوة </value>
+  </data>
+  <data name="Welcome_Testing" xml:space="preserve">
+    <value>جارٍ اختبار الاتصال…</value>
+  </data>
+  <data name="Welcome_Text1" xml:space="preserve">
+    <value>حدّد نصاً في أي تطبيق: يظهر شريط صغير بجانبه. </value>
+  </data>
+  <data name="Welcome_Text2" xml:space="preserve">
+    <value>بحث، ونسخ، وترجمة، وطلب تلخيص أو إعادة صياغة من الذكاء الاصطناعي: كل ذلك بنقرة واحدة.</value>
+  </data>
+  <data name="Welcome_Title" xml:space="preserve">
+    <value>أهلاً بك في Selecto AI</value>
+  </data>
+  <data name="Welcome_TitleBar" xml:space="preserve">
+    <value>مرحباً</value>
+  </data>
+  <data name="Welcome_TrayNote" xml:space="preserve">
+    <value>يبقى Selecto AI في منطقة الإشعارات بجانب الساعة. يمكنك ضبط كل شيء لاحقاً.</value>
+  </data>
+  <data name="Welcome_VerifySave" xml:space="preserve">
+    <value>التحقق والحفظ</value>
+  </data>
+  <!-- T7 -->
+  <data name="Settings_UiLanguage" xml:space="preserve">
+    <value>لغة الواجهة</value>
+  </data>
+  <data name="Settings_UiLanguage_Auto" xml:space="preserve">
+    <value>تلقائي ‏(Windows)‏</value>
+  </data>
+  <data name="Settings_UiLanguage_RestartNote" xml:space="preserve">
+    <value>أعد تشغيل Selecto AI لتطبيقه في كل مكان.</value>
+  </data>
+  <data name="Model_Advanced" xml:space="preserve">
+    <value>متقدم</value>
+  </data>
+  <data name="Model_Balanced" xml:space="preserve">
+    <value>متوازن</value>
+  </data>
+  <data name="Model_BalancedDesc" xml:space="preserve">
+    <value>جيد في الفرنسية، وسريع على معظم الأجهزة.</value>
+    <comment>« Bon en français » : formulation à relire.</comment>
+  </data>
+  <data name="Model_Fast" xml:space="preserve">
+    <value>سريع</value>
+  </data>
+  <data name="Model_Light" xml:space="preserve">
+    <value>خفيف</value>
+  </data>
+  <data name="Model_LightDesc" xml:space="preserve">
+    <value>سريع، مناسب للمهام الصغيرة، وأقل دقة.</value>
+  </data>
+  <data name="Model_MorePowerful" xml:space="preserve">
+    <value>أقوى</value>
+  </data>
+  <data name="Model_MostAccurate" xml:space="preserve">
+    <value>الأدق</value>
+  </data>
+  <data name="Model_PerformantDesc" xml:space="preserve">
+    <value>الأكثر إتقاناً للفرنسية وللنصوص الطويلة.</value>
+    <comment>Formulation à relire.</comment>
+  </data>
+  <data name="Model_Powerful" xml:space="preserve">
+    <value>عالي الأداء</value>
+  </data>
+  <data name="Model_PowerfulDesc" xml:space="preserve">
+    <value>أبطأ، مناسب للأجهزة القوية.</value>
+  </data>
+  <data name="Model_RamInfo" xml:space="preserve">
+    <value>جهازك: {0} غيغابايت من الذاكرة</value>
+    <comment>« Go » rendu par « GB » (ES) et « غيغابايت » (AR) : à valider.</comment>
+  </data>
+  <data name="Model_RecommendedBadge" xml:space="preserve">
+    <value>موصى به لجهازك</value>
+  </data>
+  <data name="Model_Speed1" xml:space="preserve">
+    <value>على هذا الجهاز، قد تستغرق الإجابة الأولى حتى دقيقة واحدة.</value>
+  </data>
+  <data name="Model_Speed2" xml:space="preserve">
+    <value>على هذا الجهاز، قد تستغرق الإجابة الأولى حتى دقيقتين.</value>
+    <comment>Forme du nombre (dual) à relire.</comment>
+  </data>
+  <data name="Model_Speed3" xml:space="preserve">
+    <value>على هذا الجهاز، قد تستغرق الإجابة الأولى حتى ثلاث دقائق.</value>
+  </data>
+  <data name="Model_SpeedMany" xml:space="preserve">
+    <value>على هذا الجهاز، قد تستغرق الإجابة الأولى عدة دقائق.</value>
+  </data>
+  <data name="Model_Versatile" xml:space="preserve">
+    <value>متعدد الاستخدامات</value>
+  </data>
+  <data name="Settings_Add" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="Settings_AddButton" xml:space="preserve">
+    <value>+  إضافة</value>
+  </data>
+  <data name="Settings_AddExtFailed" xml:space="preserve">
+    <value>تعذّر تثبيت الإضافة: </value>
+    <comment>« Extension » rendu par « إضافة » : à valider.</comment>
+  </data>
+  <data name="Settings_AddExtension" xml:space="preserve">
+    <value>تثبيت إضافة</value>
+    <comment>« Extension » rendu par « إضافة » : à valider.</comment>
+  </data>
+  <data name="Settings_AddModifier" xml:space="preserve">
+    <value>أضِف Ctrl أو Alt أو Shift أو Win.</value>
+  </data>
+  <data name="Settings_AiIntro" xml:space="preserve">
+    <value>لتلخيص النص أو شرحه أو إعادة صياغته أو تصحيحه، يحتاج Selecto AI إلى نموذج ذكاء اصطناعي. اختر الطريقة:</value>
+  </data>
+  <data name="Settings_AiModel" xml:space="preserve">
+    <value>نموذج الذكاء الاصطناعي</value>
+  </data>
+  <data name="Settings_ApiKey" xml:space="preserve">
+    <value>مفتاح API</value>
+  </data>
+  <data name="Settings_ApiKeyOptional" xml:space="preserve">
+    <value>مفتاح API (اختياري)</value>
+  </data>
+  <data name="Settings_ApiKeyPrefix" xml:space="preserve">
+    <value>مفتاح API </value>
+  </data>
+  <data name="Settings_AppOne" xml:space="preserve">
+    <value>{0} تطبيق</value>
+  </data>
+  <data name="Settings_AppOther" xml:space="preserve">
+    <value>{0} تطبيقات</value>
+  </data>
+  <data name="Settings_AppearanceHeader" xml:space="preserve">
+    <value>المظهر</value>
+  </data>
+  <data name="Settings_AppearanceSection" xml:space="preserve">
+    <value>الظهور</value>
+    <comment>« Aparición » à valider.</comment>
+  </data>
+  <data name="Settings_AppsHelp" xml:space="preserve">
+    <value>لا يظهر الشريط في هذه التطبيقات ‏(اسم ملف .exe)‏.</value>
+  </data>
+  <data name="Settings_AutoShow" xml:space="preserve">
+    <value>الظهور تلقائياً</value>
+  </data>
+  <data name="Settings_AutoShowHelp" xml:space="preserve">
+    <value>عند كل تحديد للنص بالفأرة.</value>
+  </data>
+  <data name="Settings_AutoUpdate" xml:space="preserve">
+    <value>البحث عن التحديثات تلقائياً</value>
+  </data>
+  <data name="Settings_AutoUpdateHelp" xml:space="preserve">
+    <value>عند بدء التشغيل ثم كل 24 ساعة. لا يُرسل أي بيانات شخصية.</value>
+  </data>
+  <data name="Settings_Automatic" xml:space="preserve">
+    <value>تلقائي</value>
+  </data>
+  <data name="Settings_Available" xml:space="preserve">
+    <value> متاح</value>
+    <comment>Espace initial conservé (concaténation).</comment>
+  </data>
+  <data name="Settings_Back" xml:space="preserve">
+    <value>رجوع</value>
+  </data>
+  <data name="Settings_BarActionsHeader" xml:space="preserve">
+    <value>إجراءات الشريط</value>
+  </data>
+  <data name="Settings_BarSize" xml:space="preserve">
+    <value>حجم الشريط</value>
+  </data>
+  <data name="Settings_BarStyle" xml:space="preserve">
+    <value>نمط الشريط</value>
+  </data>
+  <data name="Settings_CanClose" xml:space="preserve">
+    <value>يمكنك إغلاق هذه النافذة: يستمر التنزيل في الخلفية.</value>
+  </data>
+  <data name="Settings_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Settings_Change" xml:space="preserve">
+    <value>تغيير</value>
+  </data>
+  <data name="Settings_CheckDisabled" xml:space="preserve">
+    <value>التحقق معطّل لهذه الجلسة.</value>
+  </data>
+  <data name="Settings_CheckFailed" xml:space="preserve">
+    <value>تعذّر التحقق</value>
+  </data>
+  <data name="Settings_CheckNow" xml:space="preserve">
+    <value>البحث الآن</value>
+  </data>
+  <data name="Settings_Checking" xml:space="preserve">
+    <value>جارٍ التحقق…</value>
+  </data>
+  <data name="Settings_CheckingModel" xml:space="preserve">
+    <value>جارٍ التحقق من النموذج على جهازك…</value>
+  </data>
+  <data name="Settings_ChooseApp" xml:space="preserve">
+    <value>اختر تطبيقاً</value>
+  </data>
+  <data name="Settings_ChooseExe" xml:space="preserve">
+    <value>اختر ملف .exe…</value>
+  </data>
+  <data name="Settings_ChooseFromList" xml:space="preserve">
+    <value>اختر نموذجاً من القائمة.</value>
+  </data>
+  <data name="Settings_ChooseJs" xml:space="preserve">
+    <value>اختر ملفًا أو أكثر بصيغة ‎.js‎ أو ‎.zip‎.</value>
+  </data>
+  <data name="Settings_ChooseModel" xml:space="preserve">
+    <value>اختر نموذجاً.</value>
+  </data>
+  <data name="Settings_ChooseModelFirst" xml:space="preserve">
+    <value>اختر نموذجاً أولاً.</value>
+  </data>
+  <data name="Settings_Clear" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="Settings_Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="Settings_ConnectionOk" xml:space="preserve">
+    <value>نجح الاتصال ✓</value>
+  </data>
+  <data name="Settings_Continue" xml:space="preserve">
+    <value>متابعة</value>
+  </data>
+  <data name="Settings_Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="Settings_CustomEngine" xml:space="preserve">
+    <value>مخصص ‏(*** = النص المحدد)‏</value>
+  </data>
+  <data name="Settings_CustomServer" xml:space="preserve">
+    <value>خادم مخصص</value>
+  </data>
+  <data name="Settings_CustomUrlRule" xml:space="preserve">
+    <value>يجب أن يبدأ عنوان URL المخصص بـ https:// وأن يحتوي على ***.</value>
+  </data>
+  <data name="Settings_DailyHeader" xml:space="preserve">
+    <value>توصية اليوم</value>
+  </data>
+  <data name="Settings_Dark" xml:space="preserve">
+    <value>داكن</value>
+  </data>
+  <data name="Settings_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Settings_DeleteModelQuestion" xml:space="preserve">
+    <value>هل تريد حذف النموذج «{0}» من جهازك؟{1}</value>
+  </data>
+  <data name="Settings_Dictionary" xml:space="preserve">
+    <value>القاموس</value>
+  </data>
+  <data name="Settings_DictionaryHelp" xml:space="preserve">
+    <value>لغة التعريفات.</value>
+  </data>
+  <data name="Settings_DisabledCapture" xml:space="preserve">
+    <value>معطّل في وضع الالتقاط</value>
+  </data>
+  <data name="Settings_Done" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="Settings_Download" xml:space="preserve">
+    <value>تنزيل ‏({0})‏</value>
+  </data>
+  <data name="Settings_Downloading" xml:space="preserve">
+    <value>جارٍ التنزيل…</value>
+  </data>
+  <data name="Settings_EngineHelp" xml:space="preserve">
+    <value>المحرك الذي يشغّل الذكاء الاصطناعي على جهازك. مجاني، ولا يحتاج صلاحيات المسؤول، ويُثبَّت لحسابك فقط.</value>
+  </data>
+  <data name="Settings_EngineNote1" xml:space="preserve">
+    <value>محرك الذكاء الاصطناعي: النسخة المحمولة الرسمية من Ollama، في المجلد </value>
+    <comment>« Ollama » non traduit ; formulation à relire.</comment>
+  </data>
+  <data name="Settings_EngineNote2" xml:space="preserve">
+    <value>، العنوان المحلي http://</value>
+  </data>
+  <data name="Settings_EngineNote3" xml:space="preserve">
+    <value> (لا يمكن الوصول إليه من الشبكة أبداً). لا يُمسّ أي Ollama ثبّتّه بنفسك أبداً.</value>
+  </data>
+  <data name="Settings_EngineOff" xml:space="preserve">
+    <value>محرك الذكاء الاصطناعي مثبّت لكنه متوقف.</value>
+  </data>
+  <data name="Settings_EngineStep" xml:space="preserve">
+    <value>محرك الذكاء الاصطناعي</value>
+  </data>
+  <data name="Settings_Example" xml:space="preserve">
+    <value>مثال</value>
+  </data>
+  <data name="Settings_ExcludedApps" xml:space="preserve">
+    <value>التطبيقات المستبعدة</value>
+  </data>
+  <data name="Settings_ExcludedHeader" xml:space="preserve">
+    <value>التطبيقات والمواقع المستبعدة</value>
+  </data>
+  <data name="Settings_ExcludedSites" xml:space="preserve">
+    <value>المواقع المستبعدة</value>
+  </data>
+  <data name="Settings_ExcludedSitesName" xml:space="preserve">
+    <value>مواقع الويب المستبعدة</value>
+  </data>
+  <data name="Settings_ExeFilter" xml:space="preserve">
+    <value>التطبيقات ‏(*.exe)‏|*.exe</value>
+  </data>
+  <data name="Settings_ExtFilesHelp" xml:space="preserve">
+    <value>الإضافات ملفات ‎.js‎.</value>
+  </data>
+  <data name="Settings_ExtFolder" xml:space="preserve">
+    <value>مجلد الإضافات</value>
+  </data>
+  <data name="Settings_ExtFolderHelp" xml:space="preserve">
+    <value>لإضافتها أو إزالتها.</value>
+  </data>
+  <data name="Settings_ExtOne" xml:space="preserve">
+    <value>{0} إضافة مثبّتة</value>
+  </data>
+  <data name="Settings_ExtOther" xml:space="preserve">
+    <value>{0} إضافات مثبّتة</value>
+  </data>
+  <data name="Settings_ExtensionTag" xml:space="preserve">
+    <value>  (إضافة)</value>
+  </data>
+  <data name="Settings_ExtensionsHeader" xml:space="preserve">
+    <value>الإضافات</value>
+  </data>
+  <data name="Settings_FallbackHelp" xml:space="preserve">
+    <value>إذا كان النص بلغتك أصلاً.</value>
+  </data>
+  <data name="Settings_FallbackLang" xml:space="preserve">
+    <value>اللغة الاحتياطية</value>
+  </data>
+  <data name="Settings_FetchingModels" xml:space="preserve">
+    <value>جارٍ جلب النماذج…</value>
+  </data>
+  <data name="Settings_FilesHeader" xml:space="preserve">
+    <value>الملفات والذكاء الاصطناعي المحلي</value>
+  </data>
+  <data name="Settings_Frees" xml:space="preserve">
+    <value> وهذا يحرّر </value>
+    <comment>Espaces de début et de fin conservés (concaténation).</comment>
+  </data>
+  <data name="Settings_GetKey" xml:space="preserve">
+    <value>الحصول على مفتاح</value>
+  </data>
+  <data name="Settings_HelpHeader" xml:space="preserve">
+    <value>المساعدة</value>
+  </data>
+  <data name="Settings_Install" xml:space="preserve">
+    <value>تثبيت</value>
+  </data>
+  <data name="Settings_InstallEngine" xml:space="preserve">
+    <value>تثبيت محرك الذكاء الاصطناعي ‏({0})‏</value>
+  </data>
+  <data name="Settings_Installed" xml:space="preserve">
+    <value>مثبَّت</value>
+  </data>
+  <data name="Settings_InstalledModels" xml:space="preserve">
+    <value>نماذج موجودة على جهازك</value>
+  </data>
+  <data name="Settings_InvalidExt" xml:space="preserve">
+    <value>إضافة غير صالحة: </value>
+  </data>
+  <data name="Settings_InvalidShortcut" xml:space="preserve">
+    <value>اختصار غير صالح.</value>
+  </data>
+  <data name="Settings_InvalidValue" xml:space="preserve">
+    <value>قيمة غير صالحة أو موجودة مسبقاً.</value>
+  </data>
+  <data name="Settings_JsFiles" xml:space="preserve">
+    <value>ملفات ‎.js‎.</value>
+  </data>
+  <data name="Settings_JsFilter" xml:space="preserve">
+    <value>إضافات Selecto AI ‏(*.js, *.zip)‏|*.js;*.zip</value>
+  </data>
+  <data name="Settings_KeySaved" xml:space="preserve">
+    <value>تم حفظ المفتاح ✓ — اتركه فارغاً للاحتفاظ به.</value>
+  </data>
+  <data name="Settings_LangEnglish" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+  <data name="Settings_Later" xml:space="preserve">
+    <value>لاحقاً</value>
+  </data>
+  <data name="Settings_LaterHelp" xml:space="preserve">
+    <value>بلا ذكاء اصطناعي الآن. يمكنك العودة إلى هنا لاحقاً.</value>
+  </data>
+  <data name="Settings_Light" xml:space="preserve">
+    <value>فاتح</value>
+  </data>
+  <data name="Settings_LogoName" xml:space="preserve">
+    <value>شعار Selecto AI</value>
+  </data>
+  <data name="Settings_Manage" xml:space="preserve">
+    <value>إدارة…</value>
+  </data>
+  <data name="Settings_ModelListFailed" xml:space="preserve">
+    <value>تعذّرت قراءة قائمة النماذج. حاول مرة أخرى.</value>
+  </data>
+  <data name="Settings_ModelName" xml:space="preserve">
+    <value>اسم النموذج</value>
+  </data>
+  <data name="Settings_ModelStep" xml:space="preserve">
+    <value>النموذج</value>
+  </data>
+  <data name="Settings_MorePowerful" xml:space="preserve">
+    <value>أقوى</value>
+  </data>
+  <data name="Settings_MoveDown" xml:space="preserve">
+    <value>تحريك لأسفل</value>
+  </data>
+  <data name="Settings_MoveDownOf" xml:space="preserve">
+    <value>تحريك لأسفل </value>
+    <comment>Espace final conservé (concaténation).</comment>
+  </data>
+  <data name="Settings_MoveUp" xml:space="preserve">
+    <value>تحريك لأعلى</value>
+  </data>
+  <data name="Settings_MoveUpOf" xml:space="preserve">
+    <value>تحريك لأعلى </value>
+    <comment>Espace final conservé (concaténation).</comment>
+  </data>
+  <data name="Settings_MyMemoryEmail" xml:space="preserve">
+    <value>البريد الإلكتروني لـ MyMemory</value>
+  </data>
+  <data name="Settings_MyMemoryHelp" xml:space="preserve">
+    <value>اختياري: يرفع حد الترجمة. وهو بيان شخصي.</value>
+  </data>
+  <data name="Settings_NoEngine" xml:space="preserve">
+    <value>لم يثبّت Selecto AI أي محرك ذكاء اصطناعي.</value>
+  </data>
+  <data name="Settings_NoExtension" xml:space="preserve">
+    <value>لا توجد إضافات مثبّتة</value>
+  </data>
+  <data name="Settings_NoModelConfigured" xml:space="preserve">
+    <value>لا يوجد نموذج مضبوط.</value>
+  </data>
+  <data name="Settings_None" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="Settings_NoneApps" xml:space="preserve">
+    <value>لا توجد</value>
+  </data>
+  <data name="Settings_NoneSites" xml:space="preserve">
+    <value>لا توجد مواقع</value>
+  </data>
+  <data name="Settings_NotChecked" xml:space="preserve">
+    <value>لم يُتحقق منها بعد</value>
+  </data>
+  <data name="Settings_OllamaUntouched" xml:space="preserve">
+    <value>لا يُمسّ أي Ollama ثبّتّه بنفسك.</value>
+    <comment>« Ollama » non traduit ; formulation à relire.</comment>
+  </data>
+  <data name="Settings_OnMyPc" xml:space="preserve">
+    <value>على جهازي (مجاني، خاص)</value>
+  </data>
+  <data name="Settings_OnMyPcHelp" xml:space="preserve">
+    <value>يثبّت Selecto AI محرك الذكاء الاصطناعي ونموذجاً. لا يغادر شيء جهازك.</value>
+  </data>
+  <data name="Settings_OnYourPcOllama" xml:space="preserve">
+    <value>على جهازك ‏(Ollama)‏</value>
+  </data>
+  <data name="Settings_OnlineActions" xml:space="preserve">
+    <value>الإجراءات عبر الإنترنت</value>
+  </data>
+  <data name="Settings_OnlineHelp" xml:space="preserve">
+    <value>تُرسل ميزات القاموس والترجمة والذكاء الاصطناعي النص المحدد إلى خدمات خارجية ‏(MyMemory وويكاموس وويكيبيديا)‏ أو إلى نموذجك.</value>
+    <comment>« Wiktionnaire » rendu par « Wikcionario » (ES) et « ويكاموس » (AR) : à valider.</comment>
+  </data>
+  <data name="Settings_OnlineService" xml:space="preserve">
+    <value>خدمة عبر الإنترنت ‏(مفتاح API)‏</value>
+  </data>
+  <data name="Settings_OnlineServiceList" xml:space="preserve">
+    <value>OpenAI أو Claude أو Gemini أو Mistral أو Groq أو DeepSeek أو Grok أو Together أو OpenRouter أو خادم آخر.</value>
+  </data>
+  <data name="Settings_OnlineServiceStep" xml:space="preserve">
+    <value>خدمة عبر الإنترنت</value>
+  </data>
+  <data name="Settings_OnlineServiceWord" xml:space="preserve">
+    <value>خدمة عبر الإنترنت</value>
+  </data>
+  <data name="Settings_OnlineStep1" xml:space="preserve">
+    <value>الخطوة 1 من 2: اختر الخدمة والصق مفتاح API.</value>
+  </data>
+  <data name="Settings_OnlineStep2" xml:space="preserve">
+    <value>الخطوة 2 من 2: اختر النموذج. النماذج السريعة والاقتصادية في أعلى القائمة.</value>
+  </data>
+  <data name="Settings_Open" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="Settings_Optional" xml:space="preserve">
+    <value>اختياري</value>
+  </data>
+  <data name="Settings_Options" xml:space="preserve">
+    <value>خيارات</value>
+  </data>
+  <data name="Settings_OptionsOf" xml:space="preserve">
+    <value>خيارات </value>
+    <comment>Espace final conservé (concaténation).</comment>
+  </data>
+  <data name="Settings_Paste" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="Settings_PasteKeyFirst" xml:space="preserve">
+    <value>الصق أولاً مفتاح {0} (رابط «الحصول على مفتاح»).</value>
+  </data>
+  <data name="Settings_PosAbove" xml:space="preserve">
+    <value>فوق النص</value>
+  </data>
+  <data name="Settings_PosBelow" xml:space="preserve">
+    <value>أسفل</value>
+  </data>
+  <data name="Settings_Position" xml:space="preserve">
+    <value>الموضع</value>
+  </data>
+  <data name="Settings_PrepareAi" xml:space="preserve">
+    <value>تحضير الذكاء الاصطناعي عند بدء التشغيل</value>
+  </data>
+  <data name="Settings_PrepareAiHelp" xml:space="preserve">
+    <value>يحمّل الذكاء الاصطناعي المحلي في الخلفية عند بدء تشغيل Windows لاستجابة أولى أسرع.</value>
+  </data>
+  <data name="Settings_ReadyPrefix" xml:space="preserve">
+    <value>جاهز ✓ — النموذج: </value>
+  </data>
+  <data name="Settings_ReadyStep" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="Settings_RecommendedSuffix" xml:space="preserve">
+    <value>، موصى به</value>
+  </data>
+  <data name="Settings_Remove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="Settings_RemoveEngine" xml:space="preserve">
+    <value>يحذف محرك الذكاء الاصطناعي الذي ثبّته Selecto AI ونماذجه</value>
+  </data>
+  <data name="Settings_ReportHelp" xml:space="preserve">
+    <value>أرسل تذكرة إلى الدعم: نوع المشكلة والوصف، وإذا اخترت ذلك، لقطة وسجلات.</value>
+  </data>
+  <data name="Settings_ReportProblem" xml:space="preserve">
+    <value>الإبلاغ عن مشكلة</value>
+  </data>
+  <data name="Settings_Revert" xml:space="preserve">
+    <value>استعادة</value>
+  </data>
+  <data name="Settings_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Settings_Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="Settings_SearchAction" xml:space="preserve">
+    <value>البحث عن إجراء</value>
+  </data>
+  <data name="Settings_SearchEngine" xml:space="preserve">
+    <value>محرك البحث</value>
+  </data>
+  <data name="Settings_SearchEngineTitle" xml:space="preserve">
+    <value>بحث – المحرك</value>
+  </data>
+  <data name="Settings_SearchingEngine" xml:space="preserve">
+    <value>جارٍ البحث عن محرك الذكاء الاصطناعي…</value>
+  </data>
+  <data name="Settings_ServerAddress" xml:space="preserve">
+    <value>عنوان الخادم ‏(https://…/v1)‏</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>اختصار لوحة المفاتيح</value>
+  </data>
+  <data name="Settings_ShortcutHelp" xml:space="preserve">
+    <value>يُظهر الشريط على النص المحدد، مثلاً بعد التحديد بلوحة المفاتيح. انقر في الحقل ثم اكتب المجموعة ‏(Ctrl أو Alt أو Shift أو Win + مفتاح)‏.</value>
+  </data>
+  <data name="Settings_ShowLess" xml:space="preserve">
+    <value>عرض أقل</value>
+  </data>
+  <data name="Settings_SiteOne" xml:space="preserve">
+    <value>{0} موقع</value>
+  </data>
+  <data name="Settings_SiteOther" xml:space="preserve">
+    <value>{0} مواقع</value>
+  </data>
+  <data name="Settings_SitesHelp" xml:space="preserve">
+    <value>لا يظهر الشريط في هذه النطاقات. يُطبَّق قدر الإمكان: فقط إذا كشف المتصفح النشط عنوانه، أو إذا ذكر عنوان الصفحة النطاق.</value>
+  </data>
+  <data name="Settings_Size" xml:space="preserve">
+    <value>الحجم</value>
+  </data>
+  <data name="Settings_SpellHelp" xml:space="preserve">
+    <value>يظهر عند كلمة معزولة مكتوبة بشكل خاطئ في حقل قابل للتحرير: نقرة واحدة تستبدلها بالاقتراح الأول.</value>
+  </data>
+  <data name="Settings_SpellLanguage" xml:space="preserve">
+    <value>لغة المدقق الإملائي</value>
+  </data>
+  <data name="Settings_SpellingTitle" xml:space="preserve">
+    <value>التدقيق الإملائي</value>
+  </data>
+  <data name="Settings_StartEngine" xml:space="preserve">
+    <value>تشغيل محرك الذكاء الاصطناعي</value>
+  </data>
+  <data name="Settings_StartWithWindows" xml:space="preserve">
+    <value>التشغيل مع Windows</value>
+  </data>
+  <data name="Settings_StartupHeader" xml:space="preserve">
+    <value>بدء التشغيل</value>
+  </data>
+  <data name="Settings_StartupHelp" xml:space="preserve">
+    <value>يبدأ Selecto AI عند فتح الجلسة.</value>
+  </data>
+  <data name="Settings_StatusActive" xml:space="preserve">
+    <value>● نشط</value>
+  </data>
+  <data name="Settings_StatusPaused" xml:space="preserve">
+    <value>● متوقف مؤقتاً</value>
+  </data>
+  <data name="Settings_StepName" xml:space="preserve">
+    <value>الخطوة {0}: {1}</value>
+  </data>
+  <data name="Settings_StepOf" xml:space="preserve">
+    <value>الخطوة {0} من 3: {1}   {2}</value>
+  </data>
+  <data name="Settings_StyleHelp" xml:space="preserve">
+    <value>تلقائي يتبع وضع التطبيقات في Windows.</value>
+  </data>
+  <data name="Settings_Suggested" xml:space="preserve">
+    <value>  · مقترح</value>
+  </data>
+  <data name="Settings_Tab_About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="Settings_Tab_Actions" xml:space="preserve">
+    <value>الإجراءات</value>
+  </data>
+  <data name="Settings_Tab_Ai" xml:space="preserve">
+    <value>الذكاء الاصطناعي</value>
+  </data>
+  <data name="Settings_Tab_General" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Settings_Test" xml:space="preserve">
+    <value>اختبار</value>
+  </data>
+  <data name="Settings_TestConnection" xml:space="preserve">
+    <value>اختبار الاتصال</value>
+  </data>
+  <data name="Settings_TestFailed" xml:space="preserve">
+    <value>فشل الاختبار. حاول مرة أخرى.</value>
+  </data>
+  <data name="Settings_Testing" xml:space="preserve">
+    <value>جارٍ اختبار الاتصال…</value>
+  </data>
+  <data name="Settings_Today" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="Settings_TranslateTo" xml:space="preserve">
+    <value>ترجمة إلى</value>
+  </data>
+  <data name="Settings_TrayHiddenWarning" xml:space="preserve">
+    <value>سيُخفى الرمز. لفتح الإعدادات مجدداً، أعد تشغيل Selecto AI (التشغيل الثاني يفتح هذه النافذة).</value>
+    <comment>Formulation à relire.</comment>
+  </data>
+  <data name="Settings_TrayIcon" xml:space="preserve">
+    <value>رمز منطقة الإشعارات</value>
+  </data>
+  <data name="Settings_TrayIconHelp" xml:space="preserve">
+    <value>لإعادة فتح الإعدادات من شريط المهام.</value>
+  </data>
+  <data name="Settings_TypeModelName" xml:space="preserve">
+    <value> اكتب اسم النموذج.</value>
+  </data>
+  <data name="Settings_Uninstall" xml:space="preserve">
+    <value>إلغاء التثبيت</value>
+  </data>
+  <data name="Settings_UninstallEllipsis" xml:space="preserve">
+    <value>إلغاء التثبيت…</value>
+  </data>
+  <data name="Settings_UninstallEngineQuestion" xml:space="preserve">
+    <value>هل تريد إلغاء تثبيت محرك الذكاء الاصطناعي من Selecto AI وجميع نماذجه؟</value>
+  </data>
+  <data name="Settings_UninstallLocalAi" xml:space="preserve">
+    <value>إلغاء تثبيت الذكاء الاصطناعي المحلي</value>
+  </data>
+  <data name="Settings_UnsavedQuestion" xml:space="preserve">
+    <value>توجد إعدادات لم تُحفظ. ماذا تريد أن تفعل؟</value>
+  </data>
+  <data name="Settings_UpToDate" xml:space="preserve">
+    <value>محدّث</value>
+  </data>
+  <data name="Settings_Update" xml:space="preserve">
+    <value>التحديث</value>
+  </data>
+  <data name="Settings_UseModel" xml:space="preserve">
+    <value>استخدام هذا النموذج</value>
+  </data>
+  <data name="Settings_WindowName" xml:space="preserve">
+    <value>إعدادات Selecto AI</value>
+  </data>
+  <data name="Settings_With" xml:space="preserve">
+    <value>مع </value>
+  </data>
+  <data name="Settings_Works" xml:space="preserve">
+    <value>يعمل </value>
+  </data>
+  <data name="Ollama_ErrNoAsset" xml:space="preserve">
+    <value>لم يُعثر على نسخة من Ollama لهذا الجهاز على GitHub.</value>
+  </data>
+  <data name="Ollama_ErrUntrustedUrl" xml:space="preserve">
+    <value>عنوان التنزيل ليس عنوان Ollama: تم رفض التثبيت.</value>
+  </data>
+  <data name="Ollama_ErrNoDigest" xml:space="preserve">
+    <value>تم رفض التثبيت: لا يوفّر GitHub بصمة الأمان لهذا الملف. حاول لاحقاً.</value>
+  </data>
+  <data name="Ollama_ErrNoSize" xml:space="preserve">
+    <value>لا يذكر GitHub حجم الملف. حاول لاحقاً.</value>
+  </data>
+  <data name="Ollama_ErrCorrupt" xml:space="preserve">
+    <value>الملف المنزَّل تالف، حاول مرة أخرى</value>
+    <comment>Pas de point final dans l'original : conservé.</comment>
+  </data>
+  <data name="Ollama_ErrDiskSpace" xml:space="preserve">
+    <value>لا توجد مساحة كافية على القرص: ينقص {0}. أفرغ مساحة ثم حاول مرة أخرى.</value>
+  </data>
+  <data name="Ollama_TransferOf" xml:space="preserve">
+    <value>{0} من {1}</value>
+  </data>
+  <data name="Ollama_TimeRemaining" xml:space="preserve">
+    <value>متبقٍ {0}</value>
+    <comment>Formulation à relire.</comment>
+  </data>
+  <data name="Ollama_Starting" xml:space="preserve">
+    <value>جارٍ تشغيل محرك الذكاء الاصطناعي…</value>
+  </data>
+  <data name="Ollama_ModelNotInstalled" xml:space="preserve">
+    <value>لم يعد النموذج {0} مثبتاً.</value>
+  </data>
+  <data name="Ollama_EngineNotInstalled" xml:space="preserve">
+    <value>لم يعد محرك الذكاء الاصطناعي مثبتاً على جهازك.</value>
+  </data>
+  <data name="Ollama_ErrNetwork" xml:space="preserve">
+    <value>لا يوجد اتصال بالإنترنت، أو أن GitHub لا يستجيب. تحقق من اتصالك ثم حاول مرة أخرى.</value>
+  </data>
+  <data name="Ollama_ErrTimeout" xml:space="preserve">
+    <value>الاتصال بطيء جداً أو انقطع. حاول مرة أخرى.</value>
+  </data>
+  <data name="Ollama_ErrBlockedFile" xml:space="preserve">
+    <value>حظر Windows أو مضاد الفيروسات الملف. اسمح بـ Selecto AI ‏(أو مجلد SelectoAI\ollama)‏ في مضاد الفيروسات، ثم حاول مرة أخرى.</value>
+    <comment>Nom de SmartScreen en arabe à vérifier sur un Windows arabe.</comment>
+  </data>
+  <data name="Ollama_ErrLaunchBlocked" xml:space="preserve">
+    <value>منع Windows أو مضاد الفيروسات تشغيل محرك الذكاء الاصطناعي ‏(ollama.exe)‏. اسمح له في مضاد الفيروسات أو في SmartScreen، ثم حاول مرة أخرى.</value>
+    <comment>Nom de SmartScreen en arabe à vérifier sur un Windows arabe.</comment>
+  </data>
+  <data name="Ollama_ErrDiskFull" xml:space="preserve">
+    <value>لم تعد هناك مساحة على القرص. أفرغ مساحة ثم حاول مرة أخرى.</value>
+  </data>
+  <data name="Ollama_ErrBadArchive" xml:space="preserve">
+    <value>أرشيف التنزيل تالف. حاول مرة أخرى.</value>
+  </data>
+  <data name="Ollama_ErrGeneric" xml:space="preserve">
+    <value>فشل التثبيت. حاول مرة أخرى.</value>
+  </data>
+  <data name="App_UpdateAvailable" xml:space="preserve">
+    <value>Selecto AI {0} متاح</value>
+  </data>
+  <data name="App_AiEnabledToast" xml:space="preserve">
+    <value>تم الآن تفعيل الترجمة والقاموس والذكاء الاصطناعي. تُرسل النص المحدد إلى خدمات عبر الإنترنت ‏(MyMemory وويكاموس وويكيبيديا، أو ذكاءك الاصطناعي)‏. يمكن إيقافه من الإعدادات &gt; الذكاء الاصطناعي.</value>
+    <comment>Wiktionnaire / Wikcionario / ويكاموس : à valider.</comment>
+  </data>
+  <data name="App_ShortcutRefused" xml:space="preserve">
+    <value>رفض Windows هذا الاختصار (ربما هو مستخدم مسبقاً؟). اختر اختصاراً آخر.</value>
+  </data>
+  <data name="Tray_StatusOnOne" xml:space="preserve">
+    <value>الشريط مفعّل · {0} إجراء</value>
+  </data>
+  <data name="Tray_StatusOnOther" xml:space="preserve">
+    <value>الشريط مفعّل · {0} إجراءات</value>
+  </data>
+  <data name="Tray_StatusPaused" xml:space="preserve">
+    <value>متوقف مؤقتاً</value>
+  </data>
+  <data name="Tray_Extensions" xml:space="preserve">
+    <value>الإضافات</value>
+  </data>
+  <data name="Settings_Apply" xml:space="preserve">
+    <value>تطبيق</value>
+  </data>
+  <data name="Settings_Saved" xml:space="preserve">
+    <value>تم حفظ الإعدادات</value>
+  </data>
+  <data name="About_CheckUpdate" xml:space="preserve">
+    <value>البحث عن تحديث</value>
+  </data>
+  <data name="About_LinkPrivacy" xml:space="preserve">
+    <value>الخصوصية</value>
+  </data>
+  <data name="About_LinkSite" xml:space="preserve">
+    <value>موقع Selecto AI</value>
+  </data>
+  <data name="About_VersionLine" xml:space="preserve">
+    <value>Selecto AI {0} · {1}</value>
+  </data>
+  <data name="Quit_Body" xml:space="preserve">
+    <value>لن يظهر الشريط حتى التشغيل التالي.</value>
+  </data>
+  <data name="Quit_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Quit_Confirm" xml:space="preserve">
+    <value>إنهاء</value>
+  </data>
+  <data name="Quit_DontAsk" xml:space="preserve">
+    <value>عدم السؤال مجدداً</value>
+  </data>
+  <data name="Quit_Title" xml:space="preserve">
+    <value>هل تريد إنهاء Selecto AI؟</value>
+  </data>
+  <!-- T11 -->
+  <data name="Ext_SamplesRenamed" xml:space="preserve">
+    <value>أُعيدت تسمية الإضافات النموذجية إلى ‎.js‎.ancien (لم تُحذف).</value>
+  </data>
+  <!-- T13 -->
+  <data name="Settings_BuiltInExtensions" xml:space="preserve">
+    <value>الإضافات المدمجة</value>
+  </data>
+  <data name="Settings_BuiltInExtensions_Help" xml:space="preserve">
+    <value>تضيف الإضافات إجراءات إلى الشريط. مُعطّلة افتراضيًا للإبقاء على الشريط قصيرًا.</value>
+  </data>
+  <data name="Settings_WriteExtension" xml:space="preserve">
+    <value>كتابة إضافة</value>
+  </data>
+  <!-- T14 -->
+  <data name="Welcome_StepOf" xml:space="preserve">
+    <value>{0} من {1}</value>
+  </data>
+  <!-- T14b -->
+  <data name="Settings_Rec_Paused" xml:space="preserve">
+    <value>Selecto AI متوقف مؤقتاً: فعّل الظهور التلقائي لاستعادة الشريط.</value>
+  </data>
+  <data name="Settings_Rec_EnableOnline" xml:space="preserve">
+    <value>فعّل الإجراءات عبر الإنترنت لتعريف النص المحدد أو ترجمته أو تلخيصه في نافذة صغيرة.</value>
+  </data>
+  <data name="Settings_Rec_ReenableAction" xml:space="preserve">
+    <value>أعِد تفعيل الإجراء « {0} » إذا افتقدته.</value>
+  </data>
+  <data name="Settings_Rec_AddExtension" xml:space="preserve">
+    <value>أضف امتداداً ‏(‎.js‎)‏ لإنشاء إجراءاتك الخاصة.</value>
+  </data>
+  <data name="Settings_Rec_AllGood" xml:space="preserve">
+    <value>كل شيء على ما يرام: ضع إجراءاتك المفضلة في أعلى القائمة.</value>
+  </data>
+  <data name="Settings_FirstRun_Local" xml:space="preserve">
+    <value>ذكاء اصطناعي محلي مجاني ‏(Ollama، موصى به)‏</value>
+  </data>
+  <data name="Settings_FirstRun_Provider" xml:space="preserve">
+    <value>مزوّدي ‏(مفتاح API)‏</value>
+  </data>
+  <data name="Settings_FirstRun_None" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <!-- T14b -->
+  <data name="Online_Lang_fr" xml:space="preserve">
+    <value>الفرنسية</value>
+  </data>
+  <data name="Online_Lang_en" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+  <data name="Online_Lang_es" xml:space="preserve">
+    <value>الإسبانية</value>
+  </data>
+  <data name="Online_Lang_de" xml:space="preserve">
+    <value>الألمانية</value>
+  </data>
+  <data name="Online_Lang_it" xml:space="preserve">
+    <value>الإيطالية</value>
+  </data>
+  <data name="Online_Lang_pt" xml:space="preserve">
+    <value>البرتغالية</value>
+  </data>
+  <data name="Online_Lang_nl" xml:space="preserve">
+    <value>الهولندية</value>
+  </data>
+  <data name="Online_Lang_ar" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="Online_Privacy_Local" xml:space="preserve">
+    <value>يبقى النص المحدد على جهازك.</value>
+  </data>
+  <data name="Online_Privacy_Sent" xml:space="preserve">
+    <value>يُرسل النص المحدد إلى {0}.</value>
+  </data>
+  <data name="Online_ThisServer" xml:space="preserve">
+    <value>هذا الخادم</value>
+  </data>
+  <data name="Online_Cfg_AddressMissing" xml:space="preserve">
+    <value>أدخل عنوان الخادم.</value>
+  </data>
+  <data name="Online_Cfg_AddressScheme" xml:space="preserve">
+    <value>يجب أن يبدأ العنوان بـ http:// أو https://.</value>
+  </data>
+  <data name="Online_Cfg_AddressCreds" xml:space="preserve">
+    <value>يجب ألا يحتوي العنوان على بيانات دخول أو معلمات.</value>
+  </data>
+  <data name="Online_Cfg_HttpsRequired" xml:space="preserve">
+    <value>استخدم عنوان https:// : لا يجب أن ينتقل المفتاح كنص غير مشفّر.</value>
+  </data>
+  <data name="Online_Models_NoChat" xml:space="preserve">
+    <value>لم تقدّم هذه الخدمة أي نموذج محادثة بهذا المفتاح.</value>
+  </data>
+  <data name="Online_ErrServiceSlow" xml:space="preserve">
+    <value>الخدمة تستغرق وقتاً طويلاً للرد. أعد المحاولة بعد لحظة.</value>
+  </data>
+  <data name="Online_ErrUnreachableAddr" xml:space="preserve">
+    <value>تعذّر الوصول إلى الخدمة. تحقّق من اتصالك بالإنترنت ومن العنوان.</value>
+  </data>
+  <data name="Online_ErrUnreachable" xml:space="preserve">
+    <value>تعذّر الوصول إلى الخدمة. تحقّق من اتصالك بالإنترنت.</value>
+  </data>
+  <data name="Online_ErrGeneric" xml:space="preserve">
+    <value>حدث خطأ. أعد المحاولة.</value>
+  </data>
+  <data name="Online_NothingToShow" xml:space="preserve">
+    <value>لا شيء للعرض.</value>
+  </data>
+  <data name="Online_Llm_Empty" xml:space="preserve">
+    <value>لم يُقدّم النموذج أي رد. أعد المحاولة.</value>
+  </data>
+  <data name="Online_Llm_ErrorGeneric" xml:space="preserve">
+    <value>أعاد النموذج خطأ.</value>
+  </data>
+  <data name="Online_Llm_ErrorSaid" xml:space="preserve">
+    <value>ردّ النموذج: {0}</value>
+  </data>
+  <data name="Online_Llm_Unexpected" xml:space="preserve">
+    <value>رد غير متوقع من النموذج. تحقّق من الإعدادات.</value>
+  </data>
+  <data name="Online_Llm_UnexpectedAddr" xml:space="preserve">
+    <value>رد غير متوقع من النموذج. تحقّق من عنوان الخادم في الإعدادات.</value>
+  </data>
+  <data name="Online_Llm_QuotaExhausted" xml:space="preserve">
+    <value>نفد الرصيد أو الحصة في هذه الخدمة. أضف رصيداً أو اختر مزوّداً آخر.</value>
+  </data>
+  <data name="Online_Llm_CreditLow" xml:space="preserve">
+    <value>الرصيد غير كافٍ في هذه الخدمة. اختر نموذجاً مجانياً أو أضف رصيداً.</value>
+  </data>
+  <data name="Online_Llm_OllamaModelMissing" xml:space="preserve">
+    <value>هذا النموذج غير مثبّت في Ollama. اختر نموذجاً آخر في الإعدادات.</value>
+  </data>
+  <data name="Online_Llm_Slow" xml:space="preserve">
+    <value>يستغرق النموذج وقتاً طويلاً للرد. أعد المحاولة.</value>
+  </data>
+  <data name="Online_Llm_RateLimited" xml:space="preserve">
+    <value>طلبات كثيرة جداً أو تم بلوغ الحصة. أعد المحاولة بعد لحظة.</value>
+  </data>
+  <data name="Online_Llm_ServerError" xml:space="preserve">
+    <value>واجه خادم النموذج مشكلة. أعد المحاولة بعد لحظة.</value>
+  </data>
+  <data name="Online_Llm_Refused" xml:space="preserve">
+    <value>رفض النموذج الطلب. تحقّق من الإعدادات.</value>
+  </data>
+  <data name="Online_Llm_KeyRefused" xml:space="preserve">
+    <value>تم رفض مفتاح API. تحقّق منه في الإعدادات.</value>
+  </data>
+  <data name="Online_Llm_ModelNotFound" xml:space="preserve">
+    <value>النموذج غير موجود. اختر نموذجاً آخر في الإعدادات.</value>
+  </data>
+  <data name="Online_LocalStarting" xml:space="preserve">
+    <value>جارٍ تشغيل الذكاء الاصطناعي المحلي… (التشغيل الأول أطول)</value>
+  </data>
+  <data name="Online_EngineNotStarted" xml:space="preserve">
+    <value>لم يبدأ محرك الذكاء الاصطناعي. أعد المحاولة، أو أعد تثبيته من الإعدادات.</value>
+  </data>
+  <data name="Online_FetchingVersion" xml:space="preserve">
+    <value>جارٍ البحث عن أحدث إصدار من محرك الذكاء الاصطناعي…</value>
+  </data>
+  <data name="Online_Verifying" xml:space="preserve">
+    <value>جارٍ التحقق من الملف…</value>
+  </data>
+  <data name="Online_ArchiveNoEngine" xml:space="preserve">
+    <value>الأرشيف لا يحتوي على محرك الذكاء الاصطناعي. أعد المحاولة.</value>
+  </data>
+  <data name="Online_EngineInstalled" xml:space="preserve">
+    <value>تم تثبيت محرك الذكاء الاصطناعي ✓</value>
+  </data>
+  <data name="Online_EngineStartBlocked" xml:space="preserve">
+    <value>محرك الذكاء الاصطناعي مثبّت لكنه لا يعمل. ربما حجبه برنامج مكافحة الفيروسات.</value>
+  </data>
+  <data name="Online_InstallCancelled" xml:space="preserve">
+    <value>تم إلغاء التثبيت.</value>
+  </data>
+  <data name="Online_GitHubLimit" xml:space="preserve">
+    <value>يحدّ GitHub من الطلبات حالياً. أعد المحاولة بعد بضع دقائق.</value>
+  </data>
+  <data name="Online_GitHubBad" xml:space="preserve">
+    <value>لم يستجب GitHub كما هو متوقع. أعد المحاولة لاحقاً.</value>
+  </data>
+  <data name="Online_DownloadingEngine" xml:space="preserve">
+    <value>جارٍ تنزيل محرك الذكاء الاصطناعي…</value>
+  </data>
+  <data name="Online_InstallFirst" xml:space="preserve">
+    <value>ثبّت محرك الذكاء الاصطناعي أولاً ‏(الخطوة 1)‏.</value>
+  </data>
+  <data name="Online_EngineNoResponse" xml:space="preserve">
+    <value>محرك الذكاء الاصطناعي لا يستجيب. ربما حجبه برنامج مكافحة الفيروسات.</value>
+  </data>
+  <data name="Online_DownloadingModel" xml:space="preserve">
+    <value>جارٍ تنزيل النموذج…</value>
+  </data>
+  <data name="Online_ModelReady" xml:space="preserve">
+    <value>النموذج جاهز ✓</value>
+  </data>
+  <data name="Online_DownloadCancelled" xml:space="preserve">
+    <value>تم إلغاء التنزيل.</value>
+  </data>
+  <data name="Online_DeletingModel" xml:space="preserve">
+    <value>جارٍ حذف النموذج…</value>
+  </data>
+  <data name="Online_ModelDeleted" xml:space="preserve">
+    <value>تم حذف النموذج ✓</value>
+  </data>
+  <data name="Online_UninstallingEngine" xml:space="preserve">
+    <value>جارٍ إلغاء تثبيت محرك الذكاء الاصطناعي…</value>
+  </data>
+  <data name="Online_EngineUninstalled" xml:space="preserve">
+    <value>تم إلغاء تثبيت محرك الذكاء الاصطناعي ✓</value>
+  </data>
+  <data name="Online_UninstallLeftovers" xml:space="preserve">
+    <value>تعذّر حذف بعض الملفات (ربما هي قيد الاستخدام). أغلق Selecto AI ثم احذف المجلد SelectoAI\ollama.</value>
+  </data>
+  <data name="Online_ModelDeleteFailed" xml:space="preserve">
+    <value>تعذّر حذف النموذج. أعد المحاولة.</value>
+  </data>
+  <data name="Online_EngineNotResponding" xml:space="preserve">
+    <value>محرك الذكاء الاصطناعي لا يستجيب: أعد المحاولة بعد لحظة.</value>
+  </data>
+  <data name="Online_DownloadInterrupted" xml:space="preserve">
+    <value>انقطع التنزيل. أعد المحاولة.</value>
+  </data>
+  <data name="Online_OllamaNotRunning" xml:space="preserve">
+    <value>برنامج Ollama غير قيد التشغيل: افتحه ثم أعد المحاولة.</value>
+  </data>
+  <data name="Online_OllamaNotRunningRetry" xml:space="preserve">
+    <value>برنامج Ollama غير قيد التشغيل: افتحه ثم أعد المحاولة.</value>
+  </data>
+  <data name="Online_ModelNotInCatalog" xml:space="preserve">
+    <value>لم يُعثر على هذا النموذج في كتالوج Ollama.</value>
+  </data>
+  <data name="Online_NoDiskForModel" xml:space="preserve">
+    <value>لا توجد مساحة كافية على القرص لهذا النموذج.</value>
+  </data>
+  <data name="Online_PullFailed" xml:space="preserve">
+    <value>فشل التنزيل. تحقّق من اتصالك ثم أعد المحاولة.</value>
+  </data>
+  <data name="Online_NoDefinition" xml:space="preserve">
+    <value>لم يُعثر على أي تعريف لـ « {0} ».</value>
+  </data>
+  <data name="Online_TextShortenedFree" xml:space="preserve">
+    <value>تم اختصار النص: تقبل الخدمة المجانية نحو 500 حرف في كل طلب.</value>
+  </data>
+  <data name="Online_TranslatedBy" xml:space="preserve">
+    <value>الترجمة: MyMemory</value>
+  </data>
+  <data name="Online_NoWikipedia" xml:space="preserve">
+    <value>لا توجد مقالة في ويكيبيديا تطابق هذا التحديد.</value>
+  </data>
+  <data name="Online_Ambiguous" xml:space="preserve">
+    <value>هناك عدة معانٍ محتملة: حدّد نصك بدقة أكبر.</value>
+  </data>
+  <data name="Online_SourceWiki" xml:space="preserve">
+    <value>المصدر: ويكيبيديا ‏({0})‏</value>
+  </data>
+  <data name="Online_NoModel" xml:space="preserve">
+    <value>لم يتم إعداد أي نموذج.</value>
+  </data>
+  <data name="Online_AiNotInstalled" xml:space="preserve">
+    <value>الذكاء الاصطناعي غير مثبّت على جهازك.</value>
+  </data>
+  <data name="Online_LocalNotStarted" xml:space="preserve">
+    <value>لم يبدأ محرك الذكاء الاصطناعي المحلي بعد (التشغيل الأول أطول على بعض الأجهزة). أعد المحاولة بعد لحظة.</value>
+  </data>
+  <data name="Online_ModelServerUnreachable" xml:space="preserve">
+    <value>خادم النموذج غير متاح. تحقّق من اتصالك ومن العنوان في الإعدادات.</value>
+  </data>
+  <data name="Online_ModelSlow" xml:space="preserve">
+    <value>يستغرق النموذج وقتاً طويلاً للرد. أعد المحاولة، أو اختر نموذجاً أخف.</value>
+  </data>
+  <data name="Online_ModelNoLongerInstalled" xml:space="preserve">
+    <value>لم يعد النموذج {0} مثبتاً على جهازك.</value>
+  </data>
+  <data name="Online_Title_Summary" xml:space="preserve">
+    <value>ملخص</value>
+  </data>
+  <data name="Online_Title_Explain" xml:space="preserve">
+    <value>شرح</value>
+  </data>
+  <data name="Online_Title_Rephrase" xml:space="preserve">
+    <value>إعادة صياغة</value>
+  </data>
+  <data name="Online_Title_Correct" xml:space="preserve">
+    <value>نص مصحّح</value>
+  </data>
+  <data name="Online_TruncatedAt" xml:space="preserve">
+    <value>تم اختصار النص إلى {0} حرف قبل الإرسال.</value>
+  </data>
+  <data name="Online_GeneratedBy" xml:space="preserve">
+    <value>أنشأ {0} هذا الرد، تحقّق منه قبل الاستبدال.</value>
+  </data>
+  <data name="Online_CopilotNoAccess" xml:space="preserve">
+    <value>ليس لدى Copilot وصول مباشر: افتحه في المتصفح.</value>
+  </data>
+  <data name="Online_TranslateQuota" xml:space="preserve">
+    <value>تم بلوغ حصة الترجمة المجانية لهذا اليوم ‏(نحو 5000 حرف يومياً)‏. أعد المحاولة غداً.</value>
+  </data>
+  <data name="Online_SameLanguage" xml:space="preserve">
+    <value>النص مكتوب بالفعل باللغة المستهدفة.</value>
+  </data>
+  <data name="Online_TranslateEmpty" xml:space="preserve">
+    <value>لم تُرجع خدمة الترجمة أي نتيجة.</value>
+  </data>
+  <data name="Online_TranslateUnreadable" xml:space="preserve">
+    <value>رد غير قابل للقراءة من خدمة الترجمة.</value>
+  </data>
+  <data name="Online_NothingToTranslate" xml:space="preserve">
+    <value>لا يوجد ما يُترجم.</value>
+  </data>
+  <data name="Online_Pos_noun" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="Online_Pos_verb" xml:space="preserve">
+    <value>فعل</value>
+  </data>
+  <data name="Online_Pos_adjective" xml:space="preserve">
+    <value>صفة</value>
+  </data>
+  <data name="Online_Pos_adverb" xml:space="preserve">
+    <value>ظرف</value>
+  </data>
+  <data name="Online_Pos_pronoun" xml:space="preserve">
+    <value>ضمير</value>
+  </data>
+  <data name="Online_Pos_preposition" xml:space="preserve">
+    <value>حرف جر</value>
+  </data>
+  <data name="Online_Pos_conjunction" xml:space="preserve">
+    <value>حرف عطف</value>
+  </data>
+  <data name="Online_Pos_interjection" xml:space="preserve">
+    <value>أداة تعجب</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>الإصدار</value>
+  </data>
+  <data name="Welcome_Continue" xml:space="preserve">
+    <value>متابعة</value>
+  </data>
+  <data name="Welcome_Start" xml:space="preserve">
+    <value>هيا بنا</value>
+  </data>
+  <data name="Settings_GetExtensions" xml:space="preserve">
+    <value>تنزيل إضافات أخرى</value>
+  </data>
+  <data name="Settings_GetExtensionsHelp" xml:space="preserve">
+    <value>الكتالوج على موقع Selecto AI.</value>
+  </data>
+  <data name="Settings_Browse" xml:space="preserve">
+    <value>تصفح</value>
+  </data>
+  <data name="Import_SkipLine" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Import_NoneAdded" xml:space="preserve">
+    <value>لم تُضَف أي إضافة.</value>
+  </data>
+  <data name="Import_NotScript" xml:space="preserve">
+    <value>ملف غير مدعوم ‏(‎.js‎ أو ‎.zip‎ فقط)‏.</value>
+  </data>
+  <data name="Import_NotArchive" xml:space="preserve">
+    <value>أرشيف zip غير قابل للقراءة.</value>
+  </data>
+  <data name="Import_NoScript" xml:space="preserve">
+    <value>لا يوجد ملف ‎.js‎ في جذر الأرشيف.</value>
+  </data>
+  <data name="Import_TooManyEntries" xml:space="preserve">
+    <value>أكثر من {0} ملفات ‎.js‎ في الأرشيف.</value>
+  </data>
+  <data name="Import_OutsideRoot" xml:space="preserve">
+    <value>مسار غير مسموح: تُؤخذ الملفات الموجودة في الجذر فقط.</value>
+  </data>
+  <data name="Import_BadName" xml:space="preserve">
+    <value>اسم ملف غير صالح.</value>
+  </data>
+  <data name="Import_TooLarge" xml:space="preserve">
+    <value>الملف كبير جدًا ‏(الحد الأقصى {0} كيلوبايت)‏.</value>
+  </data>
+  <data name="Settings_InstalledExtensions" xml:space="preserve">
+    <value>الإضافات المثبّتة</value>
+  </data>
+  <data name="Settings_ExtensionActionsOne" xml:space="preserve">
+    <value>{0} إجراء</value>
+  </data>
+  <data name="Settings_ExtensionActionsOther" xml:space="preserve">
+    <value>{0} إجراءً</value>
+  </data>
+  <data name="Settings_ShowMore" xml:space="preserve">
+    <value>عرض المزيد: {0}</value>
+  </data>
+  <data name="Settings_ExtensionActionsTwo" xml:space="preserve">
+    <value>{0} إجراءان</value>
+  </data>
+  <data name="Settings_ExtensionActionsFew" xml:space="preserve">
+    <value>{0} إجراءات</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Welcome_ShortcutHint" xml:space="preserve">
+    <value>حدّد بالفأرة، أو اضغط {0} بعد التحديد بلوحة المفاتيح.</value>
+  </data>
+  <data name="Settings_ShortcutRowHelp" xml:space="preserve">
+    <value>بعد التحديد بلوحة المفاتيح، اضغط {0} لإظهار الشريط.</value>
+  </data>
+  <data name="Settings_ShortcutNoneHelp" xml:space="preserve">
+    <value>من دون اختصار، لا يظهر الشريط إلا بعد التحديد بالفأرة.</value>
+  </data>
+  <data name="About_FreeSoftware" xml:space="preserve">
+    <value>برنامج حر (MIT)</value>
+  </data>
+  <data name="About_LinkSource" xml:space="preserve">
+    <value>الشيفرة المصدرية (GitHub)</value>
+  </data>
+  <data name="Mit_Title" xml:space="preserve">
+    <value>الترخيص</value>
+  </data>
+  <data name="Mit_Name" xml:space="preserve">
+    <value>رخصة MIT</value>
+  </data>
+  <data name="Mit_Help" xml:space="preserve">
+    <value>Selecto AI برنامج حر: يمكنك استخدامه ونسخه وتعديله ومشاركته.</value>
+  </data>
+  <data name="Mit_Read" xml:space="preserve">
+    <value>قراءة الترخيص</value>
+  </data>
+  <data name="Mit_Intro" xml:space="preserve">
+    <value>النص الرسمي لرخصة MIT (بالإنجليزية).</value>
+  </data>
+  <data name="Mit_OpenGitHub" xml:space="preserve">
+    <value>عرض على GitHub</value>
+  </data>
+  <data name="Welcome_FreeTitle" xml:space="preserve">
+    <value>برنامج حر ومجاني</value>
+  </data>
+  <data name="Welcome_FreeText" xml:space="preserve">
+    <value>Selecto AI مجاني، بلا حد زمني وبلا مفتاح. شيفرته عامة (MIT): يمكنك قراءتها ونسخها والمشاركة فيها على GitHub.</value>
+  </data>
+  <data name="Welcome_FreeGitHub" xml:space="preserve">
+    <value>عرض الشيفرة على GitHub</value>
+  </data>
+</root>

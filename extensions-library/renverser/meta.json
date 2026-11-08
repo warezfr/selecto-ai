@@ -1,0 +1,30 @@
+{
+  "slug": "renverser",
+  "family": "lignes",
+  "files": [
+    "renverser.js"
+  ],
+  "icon": "<>",
+  "name": {
+    "fr": "Renverser",
+    "en": "Flip lines",
+    "es": "Invertir líneas",
+    "ar": "عكس الأسطر"
+  },
+  "tagline": {
+    "fr": "Inverse l'ordre des lignes.",
+    "en": "Reverse the order of lines.",
+    "es": "Invierte el orden de las líneas.",
+    "ar": "اعكس ترتيب الأسطر."
+  },
+  "description": {
+    "fr": "Remet les lignes de la sélection dans l'ordre inverse : la dernière devient la première. Utile pour lire une liste à l'envers, retrouver le plus ancien message d'un journal ou inverser un classement.",
+    "en": "Puts the lines of the selection in reverse order: the last one becomes the first. Useful for reading a list backwards, finding the oldest entry in a log or flipping a ranking.",
+    "es": "Pone las líneas de la selección en orden inverso: la última pasa a ser la primera. Sirve para leer una lista al revés, encontrar la entrada más antigua de un registro o invertir un ranking.",
+    "ar": "يعيد ترتيب أسطر التحديد بالعكس، فيصبح السطر الأخير أولًا. مفيد لقراءة قائمة من الآخر إلى الأول، أو للوصول إلى أقدم سطر في سجل، أو لعكس ترتيب تصنيف."
+  },
+  "example": {
+    "before": "un\ndeux\ntrois",
+    "after": "trois\ndeux\nun"
+  }
+}

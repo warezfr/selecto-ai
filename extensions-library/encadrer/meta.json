@@ -1,0 +1,35 @@
+{
+  "slug": "encadrer",
+  "family": "forme",
+  "files": [
+    "encadrer.js",
+    "encadrer-parentheses.js",
+    "encadrer-crochets.js",
+    "encadrer-accolades.js",
+    "encadrer-chevrons.js",
+    "encadrer-guillemets.js"
+  ],
+  "icon": "[]",
+  "name": {
+    "fr": "Encadrer",
+    "en": "Wrap",
+    "es": "Encuadrar",
+    "ar": "تأطير"
+  },
+  "tagline": {
+    "fr": "Entoure le texte de parenthèses, crochets, accolades ou guillemets.",
+    "en": "Wrap the text in brackets, braces or quotes.",
+    "es": "Rodea el texto con paréntesis, corchetes, llaves o comillas.",
+    "ar": "أحِط النص بأقواس أو علامات تنصيص."
+  },
+  "description": {
+    "fr": "Entoure la sélection d'un signe d'ouverture et de fermeture : parenthèses, crochets, accolades, guillemets français ou guillemets droits. Pratique pour mettre une référence entre parenthèses, un code entre accolades ou une citation entre guillemets, sans retaper le texte.",
+    "en": "Surrounds the selection with an opening and a closing mark: parentheses, square brackets, curly braces, French quotes or straight quotes. Handy for putting a reference in parentheses, a snippet in braces or a quote in marks, without retyping anything.",
+    "es": "Rodea la selección con un signo de apertura y otro de cierre: paréntesis, corchetes, llaves, comillas angulares o comillas rectas. Útil para poner una referencia entre paréntesis, un fragmento entre llaves o una cita entre comillas, sin volver a escribir el texto.",
+    "ar": "يحيط التحديد بعلامة فتح وأخرى إغلاق: أقواس عادية أو مربعة أو معقوفة أو علامات تنصيص. مفيد لوضع مرجع بين قوسين أو مقطع برمجي بين أقواس معقوفة أو اقتباس بين علامات التنصيص دون إعادة كتابة النص."
+  },
+  "example": {
+    "before": "texte",
+    "after": "(texte)"
+  }
+}

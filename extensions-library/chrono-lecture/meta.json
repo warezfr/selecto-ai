@@ -1,0 +1,20 @@
+{
+  "slug": "chrono-lecture",
+  "family": "lecture",
+  "files": ["chrono-lecture.js"],
+  "icon": "min",
+  "name": { "fr": "Chrono lecture", "en": "Reading time", "es": "Tiempo de lectura", "ar": "مدة القراءة" },
+  "tagline": {
+    "fr": "Combien de temps pour lire ce texte ?",
+    "en": "How long will this take to read?",
+    "es": "¿Cuánto tarda en leerse este texto?",
+    "ar": "كم يستغرق قراءة هذا النص؟"
+  },
+  "description": {
+    "fr": "Affiche directement dans la barre le nombre de mots et une estimation du temps de lecture, à raison de 230 mots par minute. Pratique pour savoir si un article tient dans une pause ou s'il vaut mieux le garder pour plus tard.",
+    "en": "Shows the word count and an estimated reading time right in the bar, at 230 words per minute. Handy for deciding whether an article fits in a break or should wait for later.",
+    "es": "Muestra en la barra el número de palabras y una estimación del tiempo de lectura, a 230 palabras por minuto. Es útil para saber si un artículo cabe en una pausa o conviene dejarlo para más tarde.",
+    "ar": "تعرض في الشريط عدد الكلمات وتقديراً لمدة القراءة بسرعة 230 كلمة في الدقيقة. مفيدة لمعرفة ما إذا كان المقال يتسع لاستراحة قصيرة أم يُؤجَّل إلى وقت لاحق."
+  },
+  "example": { "before": "Lorem ipsum dolor sit amet", "after": "5 words · < 1 min" }
+}

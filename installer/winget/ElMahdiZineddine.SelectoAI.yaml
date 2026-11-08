@@ -1,0 +1,7 @@
+# Modèle winget : manifeste de version (à adapter avant tout envoi à microsoft/winget-pkgs).
+# PackageIdentifier : [À DÉCIDER] Éditeur.Produit définitif.
+PackageIdentifier: ElMahdiZineddine.SelectoAI
+PackageVersion: 4.0.0
+DefaultLocale: fr-FR
+ManifestType: version
+ManifestVersion: 1.6.0

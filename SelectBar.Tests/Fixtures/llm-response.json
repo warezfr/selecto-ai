@@ -1,0 +1,1 @@
+{"id": "chatcmpl-1", "object": "chat.completion", "choices": [{"index": 0, "message": {"role": "assistant", "content": "Bonjour le monde."}, "finish_reason": "stop"}], "usage": {"total_tokens": 12}}

@@ -1,0 +1,105 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>SelectBar.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageReference Include="Jint" Version="4.1.0" />
+  </ItemGroup>
+  <!-- Logique pure (sans WPF/Win32) compilée directement : les tests tournent aussi sur Mac/Linux. -->
+  <ItemGroup>
+    <Compile Include="..\SelectBar\Actions\ActionContext.cs" Link="Linked\ActionContext.cs" />
+    <Compile Include="..\SelectBar\Actions\ActionDefinition.cs" Link="Linked\ActionDefinition.cs" />
+    <Compile Include="..\SelectBar\Actions\ActionFilter.cs" Link="Linked\ActionFilter.cs" />
+    <Compile Include="..\SelectBar\Actions\ExternalLauncher.cs" Link="Linked\ExternalLauncher.cs" />
+    <Compile Include="..\SelectBar\Input\ClickGuard.cs" Link="Linked\ClickGuard.cs" />
+    <Compile Include="..\SelectBar\SelfTest\SelfTestRunner.cs" Link="Linked\SelfTestRunner.cs" />
+    <Compile Include="..\SelectBar\Actions\BuiltInActions.cs" Link="Linked\BuiltInActions.cs" />
+    <Compile Include="..\SelectBar\Actions\IActionServices.cs" Link="Linked\IActionServices.cs" />
+    <Compile Include="..\SelectBar\Actions\SearchEngines.cs" Link="Linked\SearchEngines.cs" />
+    <Compile Include="..\SelectBar\Actions\CopilotPrompts.cs" Link="Linked\CopilotPrompts.cs" />
+    <Compile Include="..\SelectBar\Settings\Recommendation.cs" Link="Linked\Recommendation.cs" />
+    <Compile Include="..\SelectBar\Actions\ActionGlyphs.cs" Link="Linked\ActionGlyphs.cs" />
+    <Compile Include="..\SelectBar\Actions\LinkSafety.cs" Link="Linked\LinkSafety.cs" />
+    <Compile Include="..\SelectBar\Actions\TextClassifier.cs" Link="Linked\TextClassifier.cs" />
+    <Compile Include="..\SelectBar\Extensions\ExtensionHeaderParser.cs" Link="Linked\ExtensionHeaderParser.cs" />
+    <Compile Include="..\SelectBar\Extensions\ExtensionInventory.cs" Link="Linked\ExtensionInventory.cs" />
+    <Compile Include="..\SelectBar\Extensions\ExtensionMapper.cs" Link="Linked\ExtensionMapper.cs" />
+    <Compile Include="..\SelectBar\Extensions\ExtensionImporter.cs" Link="Linked\ExtensionImporter.cs" />
+    <Compile Include="..\SelectBar\Extensions\ExtensionHost.cs" Link="Linked\ExtensionHost.cs" />
+    <Compile Include="..\SelectBar\Extensions\ExtensionCatalog.cs" Link="Linked\ExtensionCatalog.cs" />
+    <Compile Include="..\SelectBar\Extensions\ExtensionLoader.cs" Link="Linked\ExtensionLoader.cs" />
+    <Compile Include="..\SelectBar\Extensions\Calc\CalcEngine.cs" Link="Linked\Calc\CalcEngine.cs" />
+    <Compile Include="..\SelectBar\Extensions\Calc\UnitConverter.cs" Link="Linked\Calc\UnitConverter.cs" />
+    <Compile Include="..\SelectBar\Extensions\Calc\CurrencyRates.cs" Link="Linked\Calc\CurrencyRates.cs" />
+    <Compile Include="..\SelectBar\Selection\SelectionDecision.cs" Link="Linked\SelectionDecision.cs" />
+    <Compile Include="..\SelectBar\Selection\TextLimits.cs" Link="Linked\TextLimits.cs" />
+    <Compile Include="..\SelectBar\Input\GestureDetector.cs" Link="Linked\GestureDetector.cs" />
+    <Compile Include="..\SelectBar\Settings\Appearance.cs" Link="Linked\Appearance.cs" />
+    <Compile Include="..\SelectBar\Settings\ThemePalette.cs" Link="Linked\ThemePalette.cs" />
+    <Compile Include="..\SelectBar\Settings\ColorContrast.cs" Link="Linked\ColorContrast.cs" />
+    <Compile Include="..\SelectBar\Settings\ExcludedSites.cs" Link="Linked\ExcludedSites.cs" />
+    <Compile Include="..\SelectBar\Settings\AppSettings.cs" Link="Linked\AppSettings.cs" />
+    <Compile Include="..\SelectBar\Settings\ExcludedApps.cs" Link="Linked\ExcludedApps.cs" />
+    <Compile Include="..\SelectBar\Settings\HotkeyParser.cs" Link="Linked\HotkeyParser.cs" />
+    <Compile Include="..\SelectBar\Settings\SettingsStore.cs" Link="Linked\SettingsStore.cs" />
+    <Compile Include="..\SelectBar\Settings\SettingsMigration.cs" Link="Linked\SettingsMigration.cs" />
+    <Compile Include="..\SelectBar\Edition\EditionInfo.cs" Link="Linked\Edition\EditionInfo.cs" />
+    <Compile Include="..\SelectBar\Edition\MitLicense.cs" Link="Linked\Edition\MitLicense.cs" />
+    <Compile Include="..\SelectBar\UI\TrayIconChoice.cs" Link="Linked\TrayIconChoice.cs" />
+    <Compile Include="..\SelectBar\UI\SettingsDraft.cs" Link="Linked\SettingsDraft.cs" />
+    <Compile Include="..\SelectBar\UI\FlyoutPlacement.cs" Link="Linked\FlyoutPlacement.cs" />
+    <Compile Include="..\SelectBar\UI\RtlLayout.cs" Link="Linked\RtlLayout.cs" />
+    <Compile Include="..\SelectBar\UI\TrayFlyoutModel.cs" Link="Linked\TrayFlyoutModel.cs" />
+    <Compile Include="..\SelectBar\UI\AboutLinks.cs" Link="Linked\AboutLinks.cs" />
+    <Compile Include="..\SelectBar\UI\QuitPolicy.cs" Link="Linked\QuitPolicy.cs" />
+    <Compile Include="..\SelectBar\Settings\FirstRunFlow.cs" Link="Linked\FirstRunFlow.cs" />
+    <Compile Include="..\SelectBar\CaptureOptions.cs" Link="Linked\CaptureOptions.cs" />
+    <Compile Include="..\SelectBar\AppPaths.cs" Link="Linked\AppPaths.cs" />
+    <Compile Include="..\SelectBar\Settings\AppDataMigration.cs" Link="Linked\AppDataMigration.cs" />
+    <Compile Include="..\SelectBar\Settings\StartupEntries.cs" Link="Linked\StartupEntries.cs" />
+    <Compile Include="..\SelectBar\Online\DictionaryParsers.cs" Link="Linked\Online\DictionaryParsers.cs" />
+    <Compile Include="..\SelectBar\Online\LanguageCodes.cs" Link="Linked\Online\LanguageCodes.cs" />
+    <Compile Include="..\SelectBar\Online\LlmConfig.cs" Link="Linked\Online\LlmConfig.cs" />
+    <Compile Include="..\SelectBar\Online\LlmPrompts.cs" Link="Linked\Online\LlmPrompts.cs" />
+    <Compile Include="..\SelectBar\Online\LlmTransports.cs" Link="Linked\Online\LlmTransports.cs" />
+    <Compile Include="..\SelectBar\Online\LlmModels.cs" Link="Linked\Online\LlmModels.cs" />
+    <Compile Include="..\SelectBar\Online\LruCache.cs" Link="Linked\Online\LruCache.cs" />
+    <Compile Include="..\SelectBar\Online\OllamaClient.cs" Link="Linked\Online\OllamaClient.cs" />
+    <Compile Include="..\SelectBar\Online\OllamaOpenRouter.cs" Link="Linked\Online\OllamaOpenRouter.cs" />
+    <Compile Include="..\SelectBar\Online\OllamaSetup.cs" Link="Linked\Online\OllamaSetup.cs" />
+    <Compile Include="..\SelectBar\Online\LocalAiTiming.cs" Link="Linked\Online\LocalAiTiming.cs" />
+    <Compile Include="..\SelectBar\Online\OnlineHttp.cs" Link="Linked\Online\OnlineHttp.cs" />
+    <Compile Include="..\SelectBar\Online\Providers.cs" Link="Linked\Online\Providers.cs" />
+    <Compile Include="..\SelectBar\Online\ResultContracts.cs" Link="Linked\Online\ResultContracts.cs" />
+    <Compile Include="..\SelectBar\Online\ResultService.cs" Link="Linked\Online\ResultService.cs" />
+    <Compile Include="..\SelectBar\Online\TranslateLogic.cs" Link="Linked\Online\TranslateLogic.cs" />
+    <Compile Include="..\SelectBar\Online\WikipediaParser.cs" Link="Linked\Online\WikipediaParser.cs" />
+    <Compile Include="..\SelectBar\Update\UpdateLogic.cs" Link="Linked\Update\UpdateLogic.cs" />
+    <Compile Include="..\SelectBar\Update\UpdateService.cs" Link="Linked\Update\UpdateService.cs" />
+    <Compile Include="..\SelectBar\Log.cs" Link="Linked\Log.cs" />
+    <Compile Include="..\SelectBar\Support\FeedbackLogic.cs" Link="Linked\Support\FeedbackLogic.cs" />
+    <Compile Include="..\SelectBar\Support\FeedbackServer.cs" Link="Linked\Support\FeedbackServer.cs" />
+    <Compile Include="..\SelectBar\Localization\L.cs" Link="Linked\Localization\L.cs" />
+    <Compile Include="..\SelectBar\Localization\UiCulture.cs" Link="Linked\Localization\UiCulture.cs" />
+    <Compile Include="..\SelectBar\Localization\UiLanguageResolver.cs" Link="Linked\Localization\UiLanguageResolver.cs" />
+    <Compile Include="..\SelectBar\Localization\UiLanguageChoices.cs" Link="Linked\Localization\UiLanguageChoices.cs" />
+  </ItemGroup>
+  <!-- Ressources de l'interface : le projet de test compile les sources de l'application (fichiers liés), donc typeof(L).Assembly
+       est SelectBar.Tests ; les resx doivent y être embarqués sous le nom que ResourceManager attend. -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\SelectBar\Localization\Strings.resx" Link="Linked\Localization\Strings.resx" LogicalName="SelectBar.Localization.Strings.resources" />
+    <EmbeddedResource Include="..\SelectBar\Localization\Strings.en.resx" Link="Linked\Localization\Strings.en.resx" LogicalName="SelectBar.Localization.Strings.en.resources" />
+    <EmbeddedResource Include="..\SelectBar\Localization\Strings.es.resx" Link="Linked\Localization\Strings.es.resx" LogicalName="SelectBar.Localization.Strings.es.resources" />
+    <EmbeddedResource Include="..\SelectBar\Localization\Strings.ar.resx" Link="Linked\Localization\Strings.ar.resx" LogicalName="SelectBar.Localization.Strings.ar.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Fixtures\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

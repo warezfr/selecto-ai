@@ -1,0 +1,30 @@
+{
+  "slug": "brouiller",
+  "family": "discretion",
+  "files": [
+    "brouiller.js"
+  ],
+  "icon": "Rx",
+  "name": {
+    "fr": "Brouiller",
+    "en": "Scramble",
+    "es": "Ofuscar",
+    "ar": "تشويش النص"
+  },
+  "tagline": {
+    "fr": "Brouille le texte en ROT13 ; une seconde application le rétablit.",
+    "en": "Scramble the text with ROT13; applying it twice restores it.",
+    "es": "Oculta el texto con ROT13; aplicarlo dos veces lo restaura.",
+    "ar": "شوّش النص بترميز ROT13، وتطبيقه مرتين يعيده كما كان."
+  },
+  "description": {
+    "fr": "Décale chaque lettre de A à Z de treize rangs (ROT13), sans toucher aux accents ni aux autres caractères. Appliquée deux fois, l'extension redonne le texte d'origine. Pratique pour cacher une réponse ou un spoiler, ou pour lire un spoiler caché dans un forum.",
+    "en": "Shifts each letter from A to Z by thirteen places (ROT13), leaving accents and other characters untouched. Applied twice, it gives back the original text. Handy for hiding an answer or a spoiler, and for reading one someone else hid.",
+    "es": "Desplaza cada letra de la A a la Z trece posiciones (ROT13), sin tocar acentos ni otros caracteres. Aplicada dos veces, devuelve el texto original. Útil para ocultar una respuesta o un spoiler, y para leer uno que otra persona ocultó.",
+    "ar": "ينقل كل حرف من A إلى Z ثلاثة عشر موضعًا (ROT13) دون المساس بالتشكيل أو بباقي الرموز. عند تطبيقه مرتين يعود النص الأصلي. مفيد لإخفاء إجابة أو حرق أحداث، وكذلك لقراءة نص أخفاه غيرك."
+  },
+  "example": {
+    "before": "Bonjour",
+    "after": "Obawbhe"
+  }
+}

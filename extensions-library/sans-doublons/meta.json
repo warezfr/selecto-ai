@@ -1,0 +1,30 @@
+{
+  "slug": "sans-doublons",
+  "family": "lignes",
+  "files": [
+    "sans-doublons.js"
+  ],
+  "icon": "=",
+  "name": {
+    "fr": "Sans doublons",
+    "en": "Unique lines",
+    "es": "Sin duplicados",
+    "ar": "بلا تكرار"
+  },
+  "tagline": {
+    "fr": "Retire les lignes en double, en gardant l'ordre.",
+    "en": "Remove duplicate lines, keeping the order.",
+    "es": "Quita las líneas duplicadas y conserva el orden.",
+    "ar": "احذف الأسطر المكررة مع الحفاظ على الترتيب."
+  },
+  "description": {
+    "fr": "Garde la première occurrence de chaque ligne et supprime les doublons, dans l'ordre d'origine. La comparaison est exacte : une majuscule ou un espace de plus rend deux lignes différentes. Utile pour nettoyer une liste d'e-mails ou de mots-clés.",
+    "en": "Keeps the first occurrence of each line and removes the duplicates, in the original order. The comparison is exact: one extra capital or space makes two lines different. Useful for cleaning up a list of emails or keywords.",
+    "es": "Conserva la primera aparición de cada línea y elimina los duplicados, manteniendo el orden original. La comparación es exacta: una mayúscula o un espacio de más hace que dos líneas sean distintas. Útil para limpiar una lista de correos o de palabras clave.",
+    "ar": "يحتفظ بأول ظهور لكل سطر ويحذف التكرار مع الحفاظ على الترتيب الأصلي. المقارنة دقيقة: حرف كبير أو مسافة زائدة تجعل السطرين مختلفين. مفيد لتنظيف قائمة من عناوين البريد أو الكلمات المفتاحية."
+  },
+  "example": {
+    "before": "pommes\npoires\npommes\nkiwis",
+    "after": "pommes\npoires\nkiwis"
+  }
+}

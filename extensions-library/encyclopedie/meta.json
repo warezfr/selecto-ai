@@ -1,0 +1,20 @@
+{
+  "slug": "encyclopedie",
+  "family": "ailleurs",
+  "files": ["encyclopedie.js"],
+  "icon": "W",
+  "name": { "fr": "Encyclopédie", "en": "Encyclopedia", "es": "Enciclopedia", "ar": "موسوعة" },
+  "tagline": {
+    "fr": "Cherchez un mot dans Wikipédia, en un clic.",
+    "en": "Look up the selection on Wikipedia.",
+    "es": "Busca la selección en Wikipedia.",
+    "ar": "ابحث عن التحديد في ويكيبيديا."
+  },
+  "description": {
+    "fr": "Ouvre Wikipédia dans votre langue, ou en anglais si elle n'est pas prise en charge, et lance une recherche sur le texte sélectionné. Pratique pour vérifier un nom, une date ou un terme inconnu sans quitter votre travail ; seuls les 200 premiers caractères sont envoyés.",
+    "en": "Opens Wikipedia in your language, or in English when yours is not supported, and searches for the selected text. Handy for checking a name, a date or an unfamiliar term without leaving your work; only the first 200 characters are sent.",
+    "es": "Abre Wikipedia en tu idioma, o en inglés si tu idioma no está disponible, y busca el texto seleccionado. Es útil para comprobar un nombre, una fecha o un término desconocido sin salir de tu trabajo; solo se envían los primeros 200 caracteres.",
+    "ar": "تفتح ويكيبيديا بلغتك، أو بالإنجليزية إذا لم تكن لغتك مدعومة، وتبحث عن النص المحدد. مفيدة للتحقق من اسم أو تاريخ أو مصطلح غير مألوف دون مغادرة عملك، ولا يُرسل سوى أول 200 حرف."
+  },
+  "example": { "before": "Marie Curie", "after": "Opens https://fr.wikipedia.org/w/index.php?search=Marie%20Curie" }
+}

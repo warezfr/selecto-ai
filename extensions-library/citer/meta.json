@@ -1,0 +1,20 @@
+{
+  "slug": "citer",
+  "family": "redaction",
+  "files": ["citer.js"],
+  "icon": ">",
+  "name": { "fr": "Citer", "en": "Quote block", "es": "Citar bloque", "ar": "اقتباس" },
+  "tagline": {
+    "fr": "Mettez vos lignes en citation, en un clic.",
+    "en": "Turn lines into a quote in one click.",
+    "es": "Convierte las líneas en una cita con un clic.",
+    "ar": "حوّل الأسطر إلى اقتباس بنقرة واحدة."
+  },
+  "description": {
+    "fr": "Ajoute « > » devant chaque ligne du texte sélectionné, pour citer un passage dans un courriel, un forum ou une note. Si vous relancez l'action sur un texte déjà cité, le préfixe disparaît et le texte revient tel qu'il était.",
+    "en": "Adds “> ” in front of every line of the selected text, which is handy for quoting a passage in an email, a forum post or a note. Run it again on text that is already quoted and the prefix is removed.",
+    "es": "Añade «> » delante de cada línea del texto seleccionado, útil para citar un fragmento en un correo, un foro o una nota. Si vuelves a aplicarla sobre un texto ya citado, quita el prefijo y deja el texto como estaba.",
+    "ar": "تضيف «> » أمام كل سطر من النص المحدد، وهي مفيدة لاقتباس فقرة في بريد إلكتروني أو منشور في منتدى أو ملاحظة. وإذا طبّقتها مرة أخرى على نص مقتبس، تُزال البادئة ويعود النص كما كان."
+  },
+  "example": { "before": "one line\nsecond line", "after": "> one line\n> second line" }
+}

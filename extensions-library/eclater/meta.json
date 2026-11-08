@@ -1,0 +1,30 @@
+{
+  "slug": "eclater",
+  "family": "lignes",
+  "files": [
+    "eclater.js"
+  ],
+  "icon": "a;",
+  "name": {
+    "fr": "Éclater",
+    "en": "Split list",
+    "es": "Separar lista",
+    "ar": "تفكيك القائمة"
+  },
+  "tagline": {
+    "fr": "Sépare une liste écrite en une ligne par élément.",
+    "en": "Split a written list into one item per line.",
+    "es": "Separa una lista escrita en un elemento por línea.",
+    "ar": "حوّل قائمة مكتوبة إلى عنصر في كل سطر."
+  },
+  "description": {
+    "fr": "Découpe une liste séparée par des virgules ou des points-virgules en une ligne par élément. Les espaces autour de chaque élément sont retirés et les éléments vides sont ignorés. Utile pour passer une liste de courses, de noms ou d'étiquettes dans un tableur.",
+    "en": "Splits a list separated by commas or semicolons into one item per line. Spaces around each item are removed, and empty items are ignored. Useful for moving a shopping list, names or tags into a spreadsheet.",
+    "es": "Divide una lista separada por comas o punto y coma en un elemento por línea. Se quitan los espacios alrededor de cada elemento y se ignoran los vacíos. Útil para pasar una lista de la compra, nombres o etiquetas a una hoja de cálculo.",
+    "ar": "يقسّم قائمة مفصولة بفواصل أو فواصل منقوطة إلى عنصر في كل سطر، ويزيل المسافات حول كل عنصر ويتجاهل العناصر الفارغة. مفيد لنقل قائمة مشتريات أو أسماء أو وسوم إلى جدول بيانات."
+  },
+  "example": {
+    "before": "pommes, poires; cerises",
+    "after": "pommes\npoires\ncerises"
+  }
+}

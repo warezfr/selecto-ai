@@ -1,0 +1,17 @@
+# Modèle winget : paramètres régionaux fr-FR.
+PackageIdentifier: ElMahdiZineddine.SelectoAI
+PackageVersion: 4.0.0
+PackageLocale: fr-FR
+Publisher: EL MAHDI ZINEDDINE
+PublisherUrl: https://selecto.span.observer
+PackageName: Selecto AI
+PackageUrl: https://selecto.span.observer
+License: MIT
+LicenseUrl: https://github.com/warezfr/selecto-ai/blob/main/LICENSE
+ShortDescription: Une barre d'actions IA qui apparaît quand on sélectionne du texte dans n'importe quelle application.
+Tags:
+  - ia
+  - traduction
+  - productivité
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

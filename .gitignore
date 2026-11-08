@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+
+# Licences : la clé privée ne doit jamais entrer dans le dépôt
+.selectbar-license/
+*.pem
+dist/

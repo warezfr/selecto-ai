@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MODELE de manifeste MSIX de l'edition Store de Selecto AI (non utilisable tel quel : scripts\build-msix.ps1 le renseigne).
+  - Les valeurs [À RENSEIGNER ...] viennent du Partner Center (Gestion des produits > Identite du produit) ; build-msix.ps1 refuse de
+    produire un paquet tant qu'il en reste (parametres -IdentityName, -Publisher, -PublisherDisplayName).
+  - {{VERSION}} (4 nombres, ex. 2.0.0.0 ; le dernier doit rester 0 pour le Store) et {{ARCH}} (x64 ou arm64) sont remplaces par le script.
+  - desktop:StartupTask (TaskId SelectoStartup) : c'est ce que « Lancer avec Windows » active dans l'edition Store (la valeur Run du registre
+    ne fonctionne pas dans un MSIX). Enabled="false" : desactive tant que l'utilisateur ne l'a pas demande dans les reglages.
+  - runFullTrust : capacite restreinte, necessaire au hook souris/clavier global et a la lecture de la selection (a justifier a la soumission).
+-->
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap desktop rescap">
+
+  <Identity
+    Name="[À RENSEIGNER depuis Partner Center : Identity Name]"
+    Publisher="[À RENSEIGNER depuis Partner Center : Publisher]"
+    Version="{{VERSION}}"
+    ProcessorArchitecture="{{ARCH}}" />
+
+  <Properties>
+    <DisplayName>Selecto AI</DisplayName>
+    <PublisherDisplayName>[À RENSEIGNER depuis Partner Center : Publisher display name]</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="fr-FR" />
+    <Resource Language="en-US" />
+    <Resource Language="es-ES" />
+    <Resource Language="ar-SA" />
+  </Resources>
+
+  <Applications>
+    <Application Id="SelectoAI" Executable="SelectoAI.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements
+        DisplayName="Selecto AI"
+        Description="Une barre d'actions IA qui apparait quand tu selectionnes du texte dans n'importe quelle application."
+        BackgroundColor="transparent"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <desktop:Extension Category="windows.startupTask" Executable="SelectoAI.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="SelectoStartup" Enabled="false" DisplayName="Selecto AI" />
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,34 @@
+{
+  "slug": "nom-de-code",
+  "family": "forme",
+  "files": [
+    "nom-de-code.js",
+    "nom-de-code-snake.js",
+    "nom-de-code-kebab.js",
+    "nom-de-code-camel.js",
+    "nom-de-code-pascal.js"
+  ],
+  "icon": "a_b",
+  "name": {
+    "fr": "Nom de code",
+    "en": "Code name",
+    "es": "Nombre en clave",
+    "ar": "اسم رمزي"
+  },
+  "tagline": {
+    "fr": "Transforme un titre en nom de fichier, de variable ou d'identifiant.",
+    "en": "Turn a title into a file, variable or identifier name.",
+    "es": "Convierte un título en nombre de archivo, variable o identificador.",
+    "ar": "حوّل العنوان إلى اسم ملف أو متغيّر أو معرّف."
+  },
+  "description": {
+    "fr": "Transforme la sélection en nom de code : snake_case, kebab-case, camelCase ou PascalCase. Les accents sont retirés et les mots sont découpés aux espaces, aux tirets, aux points et aux changements de majuscule. Idéal pour nommer un fichier, une variable ou une adresse web.",
+    "en": "Turns the selection into a code name: snake_case, kebab-case, camelCase or PascalCase. Accents are removed, and words are split at spaces, dashes, dots and capital letters. Ideal for naming a file, a variable or a web address.",
+    "es": "Convierte la selección en un nombre de código: snake_case, kebab-case, camelCase o PascalCase. Se quitan los acentos y las palabras se separan por espacios, guiones, puntos y cambios de mayúscula. Ideal para nombrar un archivo, una variable o una dirección web.",
+    "ar": "يحوّل التحديد إلى اسم برمجي: snake_case أو kebab-case أو camelCase أو PascalCase. تُزال علامات النبر مثل é، وتُقسَّم الكلمات عند المسافات والشرطات والنقاط وتغيّر حالة الأحرف. مثالي لتسمية ملف أو متغيّر أو عنوان ويب."
+  },
+  "example": {
+    "before": "Mon titre de page",
+    "after": "mon_titre_de_page"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "itineraire",
+  "family": "ailleurs",
+  "files": ["itineraire.js"],
+  "icon": "→",
+  "name": { "fr": "Itinéraire", "en": "Directions", "es": "Cómo llegar", "ar": "الاتجاهات" },
+  "tagline": {
+    "fr": "Trouvez l'itinéraire vers une adresse.",
+    "en": "Get directions to the selected address.",
+    "es": "Cómo llegar a la dirección seleccionada.",
+    "ar": "احصل على الاتجاهات إلى العنوان المحدد."
+  },
+  "description": {
+    "fr": "Ouvre Google Maps avec le texte sélectionné comme recherche, qu'il s'agisse d'une adresse, d'un nom de commerce ou d'un lieu. Pratique pour un rendez-vous ou un devis reçu par courriel, sans recopier l'adresse à la main.",
+    "en": "Opens Google Maps with the selected text as the search, whether it is an address, a business name or a place. Handy for an appointment or a quote received by email, without retyping the address.",
+    "es": "Abre Google Maps con el texto seleccionado como búsqueda, sea una dirección, el nombre de un comercio o un lugar. Es práctico para una cita o un presupuesto recibido por correo, sin tener que escribir la dirección a mano.",
+    "ar": "تفتح خرائط Google مع النص المحدد كبحث، سواء كان عنواناً أو اسم متجر أو مكاناً. مفيدة لموعد أو عرض سعر وصلك بالبريد الإلكتروني دون إعادة كتابة العنوان يدوياً."
+  },
+  "example": { "before": "10 rue de la Paix, Paris", "after": "Opens https://www.google.com/maps/search/?api=1&query=10%20rue%20de%20la%20Paix%2C%20Paris" }
+}

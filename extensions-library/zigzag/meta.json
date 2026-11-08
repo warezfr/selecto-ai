@@ -1,0 +1,30 @@
+{
+  "slug": "zigzag",
+  "family": "forme",
+  "files": [
+    "zigzag.js"
+  ],
+  "icon": "Zz",
+  "name": {
+    "fr": "Zigzag",
+    "en": "Zigzag",
+    "es": "Zigzag",
+    "ar": "متعرّج"
+  },
+  "tagline": {
+    "fr": "Alterne majuscules et minuscules, lettre par lettre.",
+    "en": "Alternate upper and lower case, letter by letter.",
+    "es": "Alterna mayúsculas y minúsculas, letra a letra.",
+    "ar": "بدّل بين الأحرف الكبيرة والصغيرة حرفًا بعد حرف."
+  },
+  "description": {
+    "fr": "Transforme la sélection en alternant une majuscule et une minuscule, lettre par lettre. Les espaces, les chiffres et les signes ne comptent pas. Idéal pour un titre qui se remarque, un pseudo original ou une blague à partager.",
+    "en": "Turns the selection into alternating upper and lower case, letter by letter. Spaces, digits and punctuation are not counted. Ideal for a title that stands out, an original nickname or a joke to share.",
+    "es": "Convierte la selección en mayúsculas y minúsculas alternadas, letra por letra. Los espacios, los números y los signos no cuentan. Ideal para un título llamativo, un apodo original o una broma para compartir.",
+    "ar": "يحوّل التحديد إلى أحرف كبيرة وصغيرة متناوبة، حرفًا بعد حرف. المسافات والأرقام وعلامات الترقيم لا تُحسب. مثالي لعنوان يلفت النظر أو لاسم مستعار مميّز أو لمزحة تشاركها."
+  },
+  "example": {
+    "before": "alterne la casse",
+    "after": "AlTeRnE lA cAsSe"
+  }
+}

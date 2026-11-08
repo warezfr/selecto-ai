@@ -1,0 +1,30 @@
+{
+  "slug": "slug",
+  "family": "forme",
+  "files": [
+    "slug.js"
+  ],
+  "icon": "/s",
+  "name": {
+    "fr": "Slug",
+    "en": "Slug",
+    "es": "Slug",
+    "ar": "معرّف الرابط"
+  },
+  "tagline": {
+    "fr": "Crée un identifiant propre pour une adresse web.",
+    "en": "Create a clean slug for a web address.",
+    "es": "Crea un slug limpio para una dirección web.",
+    "ar": "أنشئ معرّفًا نظيفًا لعنوان الويب."
+  },
+  "description": {
+    "fr": "Transforme la sélection en slug : minuscules, sans accents, avec seulement des lettres et des chiffres séparés par des tirets. Pratique pour le titre d'un article, l'adresse d'une page ou un nom de fichier qui doit fonctionner partout.",
+    "en": "Turns the selection into a slug: lower case, no accents, only letters and digits separated by dashes. Handy for an article title, a page address or a file name that has to work everywhere.",
+    "es": "Convierte la selección en un slug: minúsculas, sin acentos y solo con letras y números separados por guiones. Útil para el título de un artículo, la dirección de una página o un nombre de archivo que debe funcionar en cualquier sitio.",
+    "ar": "يحوّل التحديد إلى معرّف رابط: أحرف صغيرة بلا علامات، ولا تبقى إلا الحروف والأرقام اللاتينية مفصولة بشرطات. مفيد لعنوان مقال أو لعنوان صفحة أو لاسم ملف يجب أن يعمل في كل مكان."
+  },
+  "example": {
+    "before": "Café & Crème : l'été 2026!",
+    "after": "cafe-creme-l-ete-2026"
+  }
+}
