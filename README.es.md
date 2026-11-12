@@ -1,5 +1,7 @@
 <h1 align="center">Selecto AI</h1>
 
+<p align="center"><img src="docs/images/flag-ma.svg" alt="Bandera de Marruecos" height="18"> <sub>Hecho con orgullo en Marruecos 🇲🇦</sub></p>
+
 <p align="center">
   Una barra de acciones flotante para Windows: selecciona texto en cualquier aplicación y tradúcelo, corrígelo, resúmelo, búscalo o conviértelo con una IA local o en línea.
 </p>
@@ -167,7 +169,7 @@ Las incidencias y las pull requests son bienvenidas. Lee antes [CONTRIBUTING.md]
 
 ## Autor
 
-Selecto AI está diseñado y mantenido por **EL MAHDI ZINEDDINE** ([@warezfr](https://github.com/warezfr)). Sitio web: <https://selecto.span.observer>.
+Selecto AI está diseñado y mantenido por **EL MAHDI ZINEDDINE** ([@warezfr](https://github.com/warezfr)). Hecho con orgullo en Marruecos 🇲🇦. Sitio web: <https://selecto.span.observer>.
 
 ## Licencia
 

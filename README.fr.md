@@ -1,5 +1,7 @@
 <h1 align="center">Selecto AI</h1>
 
+<p align="center"><img src="docs/images/flag-ma.svg" alt="Drapeau du Maroc" height="18"> <sub>Fait avec fierté au Maroc 🇲🇦</sub></p>
+
 <p align="center">
   Une barre d'actions flottante pour Windows : sélectionnez du texte dans n'importe quelle application, puis traduisez-le, corrigez-le, résumez-le, recherchez-le ou convertissez-le avec une IA locale ou en ligne.
 </p>
@@ -167,7 +169,7 @@ Les tickets et les pull requests sont les bienvenus. Lisez d'abord [CONTRIBUTING
 
 ## Auteur
 
-Selecto AI est conçu et maintenu par **EL MAHDI ZINEDDINE** ([@warezfr](https://github.com/warezfr)). Site : <https://selecto.span.observer>.
+Selecto AI est conçu et maintenu par **EL MAHDI ZINEDDINE** ([@warezfr](https://github.com/warezfr)). Fait avec fierté au Maroc 🇲🇦. Site : <https://selecto.span.observer>.
 
 ## Licence
 

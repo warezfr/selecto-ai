@@ -1,5 +1,7 @@
 <h1 align="center">Selecto AI</h1>
 
+<p align="center"><img src="docs/images/flag-ma.svg" alt="Moroccan flag" height="18"> <sub>Made with pride in Morocco 🇲🇦</sub></p>
+
 <p align="center">
   A floating action bar for Windows: select text in any app, then translate, fix, summarize, search or convert it with a local or online AI.
 </p>
@@ -167,7 +169,7 @@ Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) fi
 
 ## Author
 
-Selecto AI is designed and maintained by **EL MAHDI ZINEDDINE** ([@warezfr](https://github.com/warezfr)). Website: <https://selecto.span.observer>.
+Selecto AI is designed and maintained by **EL MAHDI ZINEDDINE** ([@warezfr](https://github.com/warezfr)). Made with pride in Morocco 🇲🇦. Website: <https://selecto.span.observer>.
 
 ## License
 
