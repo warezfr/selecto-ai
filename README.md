@@ -27,6 +27,12 @@
 </p>
 
 <p align="center">
+  <a href="https://youtu.be/sLTfm7OsbPo"><img src="https://img.youtube.com/vi/sLTfm7OsbPo/maxresdefault.jpg" alt="Watch the 1-minute demo on YouTube" width="720"></a>
+  <br>
+  <a href="https://youtu.be/sLTfm7OsbPo"><b>▶ Watch the 1-minute demo</b></a>
+</p>
+
+<p align="center">
   <img src="docs/images/bar.png" alt="The Selecto AI bar above a text selection" width="720">
 </p>
 

@@ -27,6 +27,12 @@
 </p>
 
 <p align="center">
+  <a href="https://youtu.be/sLTfm7OsbPo"><img src="https://img.youtube.com/vi/sLTfm7OsbPo/maxresdefault.jpg" alt="Ver la demostración de 1 minuto en YouTube" width="720"></a>
+  <br>
+  <a href="https://youtu.be/sLTfm7OsbPo"><b>▶ Ver la demo en 1 minuto</b></a>
+</p>
+
+<p align="center">
   <img src="docs/images/bar.png" alt="La barra de Selecto AI sobre un texto seleccionado" width="720">
 </p>
 
